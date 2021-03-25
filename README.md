@@ -7,7 +7,7 @@ All interfaces and definitions regarding Master Data (Athletes, Clubs, StG, LG, 
 - [XML-Schema Definition (Athletes)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Athletes.xsd)
 - [XML-Schema Definition (Clubs)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Clubs.xsd)
 - [Documentation](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Stammdaten.docx)
-- [Documentation (Englisch)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Stammdaten.de.en.docx)
+- [Documentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Stammdaten.de.en.docx)
 
 ## Code lists
 - [Events](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/2020-12-12-disziplinen.xlsx)
@@ -24,8 +24,8 @@ The main API to read and submit Events from and to the German Athletis Events Da
 
 Version 3 of the Events API:
 - [XML-Schema Definition](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Events%20v3.xsd)
-- [Dokumentation](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.docx)
-- [Dokumentation (Englisch)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.de.en.docx)
+- [Documentation](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.docx)
+- [Documentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.de.en.docx)
 
 Legacy Version of the Events API (deprecated):
 - [XML-Schema Definition](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Events.xsd)
