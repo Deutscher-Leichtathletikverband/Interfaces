@@ -1,3 +1,6 @@
+# D R A F T
+
+
 # German Athletics Master Data (DSD)
 API Documentation and Schemas regarding the German Athletics Master Data System (DSD).
 
