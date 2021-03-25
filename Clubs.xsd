@@ -1,0 +1,285 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- Version vom 15.05.2020 erstellt von Udo Laub: Neue Kennung ORG für Vereine -->   
+    <xs:simpleType name="Mode">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="full"/>
+            <xs:enumeration value="delta"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+	<xs:simpleType name="MasterID">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(BA|BY|BE|BB|BR|BS|HH|HE|MV|NI|NO|PF|RH|RL|SL|SN|ST|SH|TH|WE|WÜ)[0-9]{7}" />
+			<xs:minLength value="9" />
+            <xs:maxLength value="9" />
+        </xs:restriction>
+    </xs:simpleType>
+	
+    <xs:simpleType name="StateID">
+      <xs:restriction base="xs:string">
+          <xs:enumeration value="BA"/>
+          <xs:enumeration value="BY"/>
+          <xs:enumeration value="BE"/>
+          <xs:enumeration value="BB"/>
+          <xs:enumeration value="BR"/>
+          <xs:enumeration value="BS"/>
+          <xs:enumeration value="HH"/>
+          <xs:enumeration value="HE"/>
+          <xs:enumeration value="MV"/>
+          <xs:enumeration value="NI"/>
+          <xs:enumeration value="NO"/>
+          <xs:enumeration value="PF"/>
+          <xs:enumeration value="RH"/>
+          <xs:enumeration value="RL"/>
+          <xs:enumeration value="SL"/>
+          <xs:enumeration value="SN"/>
+          <xs:enumeration value="ST"/>
+          <xs:enumeration value="SH"/>
+          <xs:enumeration value="TH"/>
+          <xs:enumeration value="WE"/>
+          <xs:enumeration value="WÜ"/>
+      </xs:restriction>
+    </xs:simpleType>
+	
+	<xs:simpleType name="ClubType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Club"/>
+            <xs:enumeration value="LG"/>
+			<xs:enumeration value="STG"/>
+			<xs:enumeration value="ORG"/>        
+		</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="MemberAgeGroup">
+      <xs:restriction base="xs:string">
+          <xs:enumeration value="SENIORENM"/>
+          <xs:enumeration value="SENIORENW"/>
+          <xs:enumeration value="AKTIVEM"/>
+          <xs:enumeration value="AKTIVEW"/>
+          <xs:enumeration value="U20U18M"/>
+          <xs:enumeration value="U20U18W"/>
+          <xs:enumeration value="U16U14M"/>
+          <xs:enumeration value="U16U14W"/>
+          <xs:enumeration value="AKTIVEU20U18"/>
+          <xs:enumeration value="U16U14"/>
+          <xs:enumeration value="U12"/>
+          <xs:enumeration value="U10"/>
+          <xs:enumeration value="U8"/>
+      </xs:restriction>
+    </xs:simpleType>
+	
+    <xs:simpleType name="String200Data">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="200" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="String50Data">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="50" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="String30Data">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="30" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="String34Data">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="34" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="String20Data">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="20" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="String11Data">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="11" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="String5Data">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="5" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Integer">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d*" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="SQLDate">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="SQLDateTime">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="((19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01]) (0[0-9]|[1][0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9]))|((19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01]))" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="EmailAddress">
+        <xs:restriction base="xs:token">
+            <xs:maxLength value="254"/>
+            <xs:pattern value="([äöüÄÖÜßa-zA-Z0-9._%+-]+@[äöüÄÖÜßa-zA-Z0-9.-]+\.[a-zA-Z]{2,10})"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+  <xs:element name="StateData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Request">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string"  name="Mastersystem"/>
+              <xs:element type="xs:string"  name="Created"/>
+              <xs:element type="xs:string"  name="DateCUStart" maxOccurs="1" minOccurs="0"/>
+              <xs:element type="xs:string"  name="DateCUEnd" maxOccurs="1" minOccurs="0"/>
+			  <xs:element type="Mode"       name="Mode"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Clubs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Club" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="MemberClubs" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="MemberClub" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                                <xs:attribute type="MasterID"                 name="ID"              use="required"/>
+                                <xs:attribute type="String200Data"            name="Name"            use="optional"/>
+                                <xs:attribute type="SQLDate"                  name="MemberDateStart" use="required"/>
+                                <xs:attribute type="SQLDate"                  name="MemberDateEnd"   use="optional"/>
+						        <xs:attribute name="MemberAgeGroups" use="required">
+								   <xs:simpleType>
+                                     <xs:list itemType="MemberAgeGroup"/>
+                                   </xs:simpleType>
+                                </xs:attribute>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="MasterID"   		  name="ID"                use="required"/>
+                  <xs:attribute type="MasterID"           name="DistrictID"        use="optional"/>
+                  <xs:attribute type="MasterID"           name="CountyID"          use="optional"/>
+                  <xs:attribute type="StateID"            name="StateID"           use="required"/>
+                  <xs:attribute type="ClubType"           name="Type"              use="required"/>
+                  <xs:attribute type="String200Data"      name="Name"              use="required"/>
+                  <xs:attribute type="String50Data"       name="City"              use="optional"/>
+                  <xs:attribute type="String30Data"       name="ShortName"         use="optional"/>
+                  <xs:attribute type="String34Data"       name="BankAccountIBAN"   use="optional"/>
+                  <xs:attribute type="String11Data"       name="BankAccountSWIFT"  use="optional"/>
+                  <xs:attribute type="Integer"            name="TotalUsers"        use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactName"       use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactStreet"     use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactAdditional" use="optional"/>
+                  <xs:attribute type="String5Data"        name="ContactZipCode"    use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactCity"       use="optional"/>
+                  <xs:attribute type="String20Data"       name="ContactPhone"      use="optional"/>
+                  <xs:attribute type="EmailAddress"       name="ContactEmail"      use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactWeb"        use="optional"/>
+                  <xs:attribute type="String200Data"      name="InvoiceName"       use="optional"/>
+                  <xs:attribute type="String200Data"      name="InvoiceStreet"     use="optional"/>
+                  <xs:attribute type="String200Data"      name="InvoiceAdditional" use="optional"/>
+                  <xs:attribute type="String5Data"        name="InvoiceZipCode"    use="optional"/>
+                  <xs:attribute type="String200Data"      name="InvoiceCity"       use="optional"/>
+                  <xs:attribute type="SQLDate"            name="ClubDateStart"     use="optional"/>
+                  <xs:attribute type="SQLDate"            name="ClubDateEnd"       use="optional"/>
+                  <xs:attribute type="SQLDateTime"        name="LastUpdated"       use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Counties">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="County" maxOccurs="unbounded" minOccurs="0">
+		        <xs:complexType>
+                  <xs:attribute type="MasterID"   		  name="ID"                use="required"/>
+                  <xs:attribute type="StateID"            name="StateID"           use="required"/>
+                  <xs:attribute type="String200Data"      name="Name"              use="required"/>
+                  <xs:attribute type="xs:string"          name="vatID"             use="optional"/>				  
+                  <xs:attribute type="String34Data"       name="BankAccountIBAN"   use="optional"/>
+                  <xs:attribute type="String11Data"       name="BankAccountSWIFT"  use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactName"       use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactStreet"     use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactAdditional" use="optional"/>
+                  <xs:attribute type="String5Data"        name="ContactZipCode"    use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactCity"       use="optional"/>
+                  <xs:attribute type="String20Data"       name="ContactPhone"      use="optional"/>
+                  <xs:attribute type="EmailAddress"       name="ContactEmail"      use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactWeb"        use="optional"/>
+                  <xs:attribute type="String200Data"      name="InvoiceName"       use="optional"/>
+                  <xs:attribute type="String200Data"      name="InvoiceStreet"     use="optional"/>
+                  <xs:attribute type="String200Data"      name="InvoiceAdditional" use="optional"/>
+                  <xs:attribute type="String5Data"        name="InvoiceZipCode"    use="optional"/>
+                  <xs:attribute type="String200Data"      name="InvoiceCity"       use="optional"/>
+                  <xs:attribute type="SQLDate"            name="CountyDateStart"   use="optional"/>
+                  <xs:attribute type="SQLDate"            name="CountyDateEnd"     use="optional"/>
+                  <xs:attribute type="SQLDateTime"        name="LastUpdated"       use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>		
+	    </xs:element>
+        <xs:element name="Districts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="District" maxOccurs="unbounded" minOccurs="0">
+		        <xs:complexType>
+                  <xs:attribute type="MasterID"   		  name="ID"                use="required"/>
+                  <xs:attribute type="StateID"            name="StateID"           use="required"/>
+                  <xs:attribute type="MasterID"           name="CountyID"          use="optional"/>
+                  <xs:attribute type="String200Data"      name="Name"              use="required"/>
+                  <xs:attribute type="xs:string"          name="vatID"             use="optional"/>				  
+                  <xs:attribute type="String34Data"       name="BankAccountIBAN"   use="optional"/>
+                  <xs:attribute type="String11Data"       name="BankAccountSWIFT"  use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactName"       use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactStreet"     use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactAdditional" use="optional"/>
+                  <xs:attribute type="String5Data"        name="ContactZipCode"    use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactCity"       use="optional"/>
+                  <xs:attribute type="String20Data"       name="ContactPhone"      use="optional"/>
+                  <xs:attribute type="EmailAddress"       name="ContactEmail"      use="optional"/>
+                  <xs:attribute type="String200Data"      name="ContactWeb"        use="optional"/>
+                  <xs:attribute type="String200Data"      name="InvoiceName"       use="optional"/>
+                  <xs:attribute type="String200Data"      name="InvoiceStreet"     use="optional"/>
+                  <xs:attribute type="String200Data"      name="InvoiceAdditional" use="optional"/>
+                  <xs:attribute type="String5Data"        name="InvoiceZipCode"    use="optional"/>
+                  <xs:attribute type="String200Data"      name="InvoiceCity"       use="optional"/>
+                  <xs:attribute type="SQLDate"            name="DistrictDateStart" use="optional"/>
+                  <xs:attribute type="SQLDate"            name="DistrictDateEnd"   use="optional"/>
+                  <xs:attribute type="SQLDateTime"        name="LastUpdated"       use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>				
+		</xs:element>  	  
+ 	  </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
