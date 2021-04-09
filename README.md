@@ -1,6 +1,3 @@
-# D R A F T
-
-
 # DLV Stammdatenbank (DSD)
 Schnittstellendokumentation und Schemas der DLV Stammdatenbank (DSD).
 
