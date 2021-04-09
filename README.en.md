@@ -16,14 +16,14 @@ All interfaces and definitions regarding Master Data (Athletes, Clubs, StG, LG, 
 - [Eventtypes](https://dateien.leichtathletik.de/meta/eventtypes)
 - [Eventfilegroups](https://dateien.leichtathletik.de/meta/eventfilegroups)
 
-## Athletes, Licences API (DLV TrueAthletes App) 
+## API to change personal data and apply for a license (DLV TrueAthletes App) 
 - https://testapi.it4sport.de/api/documentation/athletes
 
-# German Athletics Events (DVD)
+# German Athletics Events Database (DVD)
 API Documentation and Schemas in order to exchange events.
 
 ## Events API
-The main API to read and submit Events from and to the German Athletis Events Database (DVD).
+The main API to read and submit events from and to the German Athletics Events Database (DVD).
 
 Version 3 of the Events API:
 - [XML-Schema Definition](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Events%20v3.xsd)
@@ -35,22 +35,22 @@ Legacy Version of the Events API (deprecated):
 - [Documentation (German)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen.docx)
 
 ## Ded Link API
-API to exchange results between DED and DVD:
+API to exchange result links between DED and DVD:
 - [Documentation (German)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/dvd-dedlink-api.md)
 
 ## Results API
-API to post and exchange results (between DVD and DED):
+API to post and exchange result files between DED and DVD:
 - [Documentation (German)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/dvd-results-api.md)
 
 # German Athletics Results Database (DED)
 Everything regarding Results and Best Lists.
 
-## Best lists
+## Best Lists
 ### Get SB/PB for an Athlete ID:
 Route: https://bestenliste.leichtathletik.de/api/external/athleteprofile/{AthletenGuid}
 - i.e. https://bestenliste.leichtathletik.de/api/external/athleteprofile/71ece101-b7bb-4169-adf1-8b449b0eca6d
  
-### Get Best list for an Agegroup and Discipline (100 rows):
+### Get Best List for an Agegroup and Discipline (100 rows):
 Route: https://bestenliste.leichtathletik.de/api/external/performances/{KlassenCode}/{EventCode}/{Jahr}/{Umgebung}/{Page}
 - i.e. https://bestenliste.leichtathletik.de/api/external/performances/M/LJ/2021/Indoor/1
  
