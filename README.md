@@ -6,11 +6,11 @@ Schnittstellendokumentation und Schemas der DLV Stammdatenbank (DSD).
 
 Alle Schnittstellen und deren Dokumentation bzgl. der DLV Stammdaten (Athleten/Athletinnen, Vereine, StG, LG, Kreise, Bezirke, Landesverbände)
 
-## Stammdaten Schnittstelle
+## Stammdatenschnittstelle
 - [XML-Schema Definition (Athleten/Athletinnen)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Athletes.xsd)
 - [XML-Schema Definition (Vereine)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Clubs.xsd)
 - [Dokumentation (Deutsch)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Stammdaten.docx)
-- [Dockmentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Stammdaten.de.en.docx)
+- [Dokumentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Stammdaten.de.en.docx)
 
 ## Codelisten
 - [Altersklassen](https://dateien.leichtathletik.de/meta/agegroups)
@@ -19,26 +19,26 @@ Alle Schnittstellen und deren Dokumentation bzgl. der DLV Stammdaten (Athleten/A
 - [Veranstaltungstypen](https://dateien.leichtathletik.de/meta/eventtypes)
 - [Veranstaltungsfilegruppen](https://dateien.leichtathletik.de/meta/eventfilegroups)
 
-## Schnittstelle zum Personendaten lesen/ändern und Startrecht beantragen (DLV TrueAthletes App) 
+## Schnittstelle Personendaten lesen/ändern und Startrecht beantragen (DLV TrueAthletes App) 
 - https://testapi.it4sport.de/api/documentation/athletes
 
 # DLV Veranstaltungsdatenbank (DVD)
 Schnittstellendokumentation und Schemas für den Austausch von Veranstaltungen.
 
 ## Veranstaltungsschnittstelle
-Der Standard Schnittstelle zum Lesen und Schreiben von Veranstaltungen in der DLV Veranstaltungsdatenbank (DVD).
+Die Standardschnittstelle zum Lesen und Schreiben von Veranstaltungen von bzw. in die DLV Veranstaltungsdatenbank (DVD).
 
 Version 3 der Veranstaltungsschnittstelle:
 - [XML-Schema Definition](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Events%20v3.xsd)
 - [Dokumentation (Deutsch)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.docx)
-- [Documentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.de.en.docx)
+- [Dokumentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.de.en.docx)
 
 Die ursprüngliche Version der Veranstaltungsschnittstelle (veraltet):
 - [XML-Schema Definition](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Events.xsd)
 - [Dokumentation (Deutsch)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen.docx)
 
 ## Schnittstelle zum Austausch der Ergebnislinks
-Schnittstelle zum Austausch der Ergebnisse zwischen der DED und DVD:
+Schnittstelle zum Austausch der Ergebnislinks (Live-Ergebnisse und Endergebnisse) zwischen der DED und DVD:
 - [Dokumentation (Deutsch)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/dvd-dedlink-api.md)
 
 ## Schnittstelle zum Austausch von Ergebnisdateien
@@ -78,4 +78,4 @@ GET https://ergebnisse.leichtathletik.de/api/Results/v1/germany/byathletelegacy/
 
 ## Englische Version
 ### If you are looking for an english version:
-https://github.com/Deutscher-Leichtathletikverband/Interfaces/edit/main/README.en.md
+- [English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/edit/main/README.en.md)
