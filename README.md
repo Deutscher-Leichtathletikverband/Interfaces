@@ -13,8 +13,8 @@ All interfaces and definitions regarding Master Data (Athletes, Clubs, StG, LG, 
 - [Documentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Stammdaten.de.en.docx)
 
 ## Code lists
-- [Agegroups](https://dateien.leichtathletik.de/meta/agegroups)
-- [Events](https://dateien.leichtathletik.de/meta/disciplines)
+- [Agegroups](https://dateien.leichtathletik.de/meta/agegroups.json)
+- [Disciplines](https://dateien.leichtathletik.de/meta/disciplines)
 - [Eventcategories](https://dateien.leichtathletik.de/meta/eventcategories)
 - [Eventtypes](https://dateien.leichtathletik.de/meta/eventtypes)
 - [Eventfilegroups](https://dateien.leichtathletik.de/meta/eventfilegroups)
