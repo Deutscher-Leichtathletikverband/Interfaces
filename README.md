@@ -14,8 +14,8 @@ All interfaces and definitions regarding Master Data (Athletes, Clubs, StG, LG, 
 
 ## Code lists
 - [Agegroups](https://dateien.leichtathletik.de/meta/agegroups.json)
-- [Disciplines](https://dateien.leichtathletik.de/meta/disciplines)
-- [Eventcategories](https://dateien.leichtathletik.de/meta/eventcategories)
+- [Disciplines](https://dateien.leichtathletik.de/meta/disciplines.JSON)
+- [Eventcategories](https://dateien.leichtathletik.de/meta/eventcategoriesjson)
 - [Eventtypes](https://dateien.leichtathletik.de/meta/eventtypes)
 - [Eventfilegroups](https://dateien.leichtathletik.de/meta/eventfilegroups)
 
