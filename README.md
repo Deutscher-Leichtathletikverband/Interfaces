@@ -75,4 +75,4 @@ GET https://ergebnisse.leichtathletik.de/api/Results/v1/germany/byathletelegacy/
 
 ## Englische Version
 ### If you are looking for an english version:
-https://github.com/Deutscher-Leichtathletikverband/Interfaces/edit/main/README.en.md
+https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/README.en.md
