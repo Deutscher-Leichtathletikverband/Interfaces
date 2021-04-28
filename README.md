@@ -10,8 +10,8 @@ Alle Schnittstellen und deren Dokumentation bzgl. der DLV Stammdaten (Athleten/A
 - [Dokumentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Stammdaten.de.en.docx)
 
 ## Codelisten
-- [Altersklassen](https://dateien.leichtathletik.de/meta/agegroups)
-- [Disziplinen](https://dateien.leichtathletik.de/meta/disciplines)
+- [Altersklassen](https://dateien.leichtathletik.de/meta/agegroups) (JSON)
+- [Disziplinen](https://dateien.leichtathletik.de/meta/disciplines) (JSON)
 - [Veranstaltungskategorien](https://dateien.leichtathletik.de/meta/eventcategories)
 - [Veranstaltungstypen](https://dateien.leichtathletik.de/meta/eventtypes)
 - [Veranstaltungsfilegruppen](https://dateien.leichtathletik.de/meta/eventfilegroups)
