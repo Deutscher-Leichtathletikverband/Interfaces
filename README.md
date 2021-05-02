@@ -16,6 +16,11 @@ Alle Schnittstellen und deren Dokumentation bzgl. der DLV Stammdaten (Athleten/A
 - [Veranstaltungstypen](https://dateien.leichtathletik.de/meta/eventtypes) (JSON)
 - [Veranstaltungsfilegruppen](https://dateien.leichtathletik.de/meta/eventfilegroups) (JSON)
 
+Zusatzinformationen für leichtathletik.de
+- [Altersklassen Web Gruppen](https://dateien.leichtathletik.de/meta/agegroupsweb) (JSON)
+- [Disziplinen Web Gruppen](https://dateien.leichtathletik.de/meta/disciplinesweb) (JSON)
+- [Veranstaltungskategorien Web Gruppen](https://dateien.leichtathletik.de/meta/eventcategoriesweb) (JSON)
+
 ## Schnittstelle Personendaten lesen/ändern und Startrecht beantragen (DLV TrueAthletes App) 
 - https://testapi.it4sport.de/api/documentation/athletes
 
