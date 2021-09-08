@@ -1,5 +1,5 @@
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <!-- Version vom 15.05.2020 erstellt von Udo Laub: Neue Kennung ORG für Vereine -->   
+  <!-- Version vom 09.09.2021 erstellt von Udo Laub: Rechnungs E-Mail Adresse für Vereine aufgenommen -->   
     <xs:simpleType name="Mode">
         <xs:restriction base="xs:string">
             <xs:enumeration value="full"/>
@@ -152,7 +152,7 @@
               <xs:element type="xs:string"  name="Created"/>
               <xs:element type="xs:string"  name="DateCUStart" maxOccurs="1" minOccurs="0"/>
               <xs:element type="xs:string"  name="DateCUEnd" maxOccurs="1" minOccurs="0"/>
-			  <xs:element type="Mode"       name="Mode"/>
+ 	      <xs:element type="Mode"       name="Mode"/>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -171,8 +171,8 @@
                                 <xs:attribute type="String200Data"            name="Name"            use="optional"/>
                                 <xs:attribute type="SQLDate"                  name="MemberDateStart" use="required"/>
                                 <xs:attribute type="SQLDate"                  name="MemberDateEnd"   use="optional"/>
-						        <xs:attribute name="MemberAgeGroups" use="required">
-								   <xs:simpleType>
+			        <xs:attribute name="MemberAgeGroups" use="required">
+				   <xs:simpleType>
                                      <xs:list itemType="MemberAgeGroup"/>
                                    </xs:simpleType>
                                 </xs:attribute>
@@ -182,7 +182,7 @@
                       </xs:complexType>
                     </xs:element>
                   </xs:sequence>
-                  <xs:attribute type="MasterID"   		  name="ID"                use="required"/>
+                  <xs:attribute type="MasterID"   	  name="ID"                use="required"/>
                   <xs:attribute type="MasterID"           name="DistrictID"        use="optional"/>
                   <xs:attribute type="MasterID"           name="CountyID"          use="optional"/>
                   <xs:attribute type="StateID"            name="StateID"           use="required"/>
@@ -206,6 +206,7 @@
                   <xs:attribute type="String200Data"      name="InvoiceAdditional" use="optional"/>
                   <xs:attribute type="String5Data"        name="InvoiceZipCode"    use="optional"/>
                   <xs:attribute type="String200Data"      name="InvoiceCity"       use="optional"/>
+                  <xs:attribute type="EmailAddress"       name="InvoiceEmail"      use="optional"/>
                   <xs:attribute type="SQLDate"            name="ClubDateStart"     use="optional"/>
                   <xs:attribute type="SQLDate"            name="ClubDateEnd"       use="optional"/>
                   <xs:attribute type="SQLDateTime"        name="LastUpdated"       use="required"/>
@@ -218,8 +219,8 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="County" maxOccurs="unbounded" minOccurs="0">
-		        <xs:complexType>
-                  <xs:attribute type="MasterID"   		  name="ID"                use="required"/>
+	        <xs:complexType>
+                  <xs:attribute type="MasterID"   	  name="ID"                use="required"/>
                   <xs:attribute type="StateID"            name="StateID"           use="required"/>
                   <xs:attribute type="String200Data"      name="Name"              use="required"/>
                   <xs:attribute type="xs:string"          name="vatID"             use="optional"/>				  
@@ -238,6 +239,7 @@
                   <xs:attribute type="String200Data"      name="InvoiceAdditional" use="optional"/>
                   <xs:attribute type="String5Data"        name="InvoiceZipCode"    use="optional"/>
                   <xs:attribute type="String200Data"      name="InvoiceCity"       use="optional"/>
+                  <xs:attribute type="EmailAddress"       name="InvoiceEmail"      use="optional"/>				  
                   <xs:attribute type="SQLDate"            name="CountyDateStart"   use="optional"/>
                   <xs:attribute type="SQLDate"            name="CountyDateEnd"     use="optional"/>
                   <xs:attribute type="SQLDateTime"        name="LastUpdated"       use="required"/>
@@ -250,8 +252,8 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="District" maxOccurs="unbounded" minOccurs="0">
-		        <xs:complexType>
-                  <xs:attribute type="MasterID"   		  name="ID"                use="required"/>
+	        <xs:complexType>
+                  <xs:attribute type="MasterID"  	  name="ID"                use="required"/>
                   <xs:attribute type="StateID"            name="StateID"           use="required"/>
                   <xs:attribute type="MasterID"           name="CountyID"          use="optional"/>
                   <xs:attribute type="String200Data"      name="Name"              use="required"/>
@@ -271,6 +273,7 @@
                   <xs:attribute type="String200Data"      name="InvoiceAdditional" use="optional"/>
                   <xs:attribute type="String5Data"        name="InvoiceZipCode"    use="optional"/>
                   <xs:attribute type="String200Data"      name="InvoiceCity"       use="optional"/>
+	          <xs:attribute type="EmailAddress"       name="InvoiceEmail"      use="optional"/>
                   <xs:attribute type="SQLDate"            name="DistrictDateStart" use="optional"/>
                   <xs:attribute type="SQLDate"            name="DistrictDateEnd"   use="optional"/>
                   <xs:attribute type="SQLDateTime"        name="LastUpdated"       use="required"/>
@@ -278,8 +281,9 @@
               </xs:element>
             </xs:sequence>
           </xs:complexType>				
-		</xs:element>  	  
- 	  </xs:sequence>
+	</xs:element>  	  
+      </xs:sequence>
     </xs:complexType>
   </xs:element>
 </xs:schema>
+
