@@ -1,5 +1,5 @@
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <!-- Version vom 14.11.2019 erstellt von Udo Laub -->
+  <!-- Version vom 09.09.2021 erstellt von Udo Laub: Iternationales Startrecht und Name gemäss Reisepass aufgenommen -->
     <xs:simpleType name="Mode">
         <xs:restriction base="xs:string">
             <xs:enumeration value="full"/>
@@ -98,8 +98,8 @@
               <xs:element type="xs:string" name="Created"/>
               <xs:element type="xs:string" name="DateCUStart" maxOccurs="1" minOccurs="0"/>
               <xs:element type="xs:string" name="DateCUEnd" maxOccurs="1" minOccurs="0"/>
-			  <xs:element type="Mode"      name="Mode"/>            
-			</xs:sequence>
+    	      <xs:element type="Mode"      name="Mode"/>            
+	    </xs:sequence>
           </xs:complexType>
         </xs:element>
         <xs:element name="Persons">
@@ -119,6 +119,7 @@
                                   <xs:attribute type="MasterID"           name="LicenseClubID"        use="required"/>
                                   <xs:attribute type="SQLDate"            name="LicenseStart"         use="required"/>
                                   <xs:attribute type="SQLDate"            name="LicenseEnd"           use="optional"/>
+	               	          <xs:attribute type="CountryCode"        name="Nationality"          use="optional"/>						  
                                   <xs:attribute type="SQLDate"            name="LicenseLockStart"     use="optional"/>
                                   <xs:attribute type="SQLDate"            name="LicenseLockEnd"       use="optional"/>
                                   <xs:attribute type="SQLDate"            name="LicenseInactiveStart" use="optional"/>
@@ -136,8 +137,10 @@
                   <xs:attribute type="GUID"               name="PersonID"                  use="required"/>
                   <xs:attribute type="String50Input"      name="FirstName"                 use="required"/>
                   <xs:attribute type="String50Input"      name="LastName"                  use="required"/>
+                  <xs:attribute type="String50Input"      name="LegalFirstName"            use="optional"/>
+                  <xs:attribute type="String50Input"      name="LegalLastName"             use="optional"/>
                   <xs:attribute type="EnumGender"         name="Gender"                    use="required"/>
-				  <xs:attribute type="YearOfBirth"        name="Yearofbirth"               use="required"/>
+		  <xs:attribute type="YearOfBirth"        name="Yearofbirth"               use="required"/>
                   <xs:attribute type="SQLDate"            name="Birthdate"                 use="optional"/>
                   <xs:attribute type="CountryCode"        name="FirstNationality"          use="required"/>
                   <xs:attribute type="CountryCode"        name="SecondNationality"         use="optional"/>
