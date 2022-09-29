@@ -183,6 +183,7 @@
                     </xs:element>
                   </xs:sequence>
                   <xs:attribute type="MasterID"   	  name="ID"                use="required"/>
+	  	  <xs:attribute type="MasterID"   	  name="MainClubID"        use="optional"/>
                   <xs:attribute type="MasterID"           name="DistrictID"        use="optional"/>
                   <xs:attribute type="MasterID"           name="CountyID"          use="optional"/>
                   <xs:attribute type="StateID"            name="StateID"           use="required"/>
