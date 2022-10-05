@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<registration version="1.2" location="Berlin" date="2022-06-17" name="Testveranstaltung" competitionnumber="21L20000000003200">
+    <vendor vendor="LADV" programname="LADV" programversion="&lt;version&gt;" website="https://ladv.de"/>
+    <clubs>
+        <club id="C1" number="1234" guid="12345678-abcd-abcd-abcd-cccccccccc01" type="CLUB" name="TSV Besteck" shortname="TSV Besteck" country="GER" region="WÜ"/>
+        <club id="C2" number="1" type="OTHER" name="Vereinslos" shortname="TSV Besteck" country="GER" region="WÜ"/>
+    </clubs>
+    <athletes>
+        <athlete id="A1" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa01" forename="Martin" lastname="Messer" yearofbirth="2002" sex="M" club="C1" country="GER" licencenumber="12345"/>
+        <athlete id="A2" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa02" forename="Leon" lastname="Löffel" yearofbirth="2002" sex="M" club="C1" country="GER" licencenumber="12346"/>
+        <athlete id="A3" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa03" forename="Theo" lastname="Tortenheber" yearofbirth="2002" sex="M" club="C1" country="GER" licencenumber="12347"/>
+        <athlete id="A4" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa04" forename="Gertrud" lastname="Gabel" yearofbirth="2002" sex="W" club="C1" country="GER" licencenumber="12348"/>
+        <athlete id="A5" forename="Sonst" lastname="Wer" yearofbirth="2002" sex="M" club="C1" country="GER"/>
+    </athletes>
+    <eventdefinitions/>
+    <events/>
+    <runs>
+        <run id="RUN1" disciplinecode="S10K" name="10km Sport Eichenwald Hauptlauf" agecodes="M W M30 W30" distance="10000" trackid="GER-123456789">
+            <performance date="2022-04-22" disciplinecode="S10K" indoor="false" location="Berlin" value="30:42"/>
+            <yearbest date="2022-03-17" disciplinecode="S10K" indoor="false" location="Frankfurt" value="30:12"/>
+            <personalbest date="2020-10-14" disciplinecode="S10K" indoor="false" location="Köln" value="30:02"/>
+            <participant athlete="A1" id="P1"/>
+            <participant athlete="A2" id="P2"/>
+            <participant athlete="A5" id="P3"/>
+            <comment authorname="Geschäftstelle" order="1">Sonderstarterlaubnis durch Bundestrainer</comment>
+        </run>
+        <run id="RUN2" disciplinecode="SL" name="4,6km Hobbylauf" agecodes="M W M30 W30" distance="4700">
+            <participant athlete="A3" id="P4"/>
+            <participant athlete="A4" id="P5"/>
+            <participant athlete="A5" id="P6"/>
+        </run>
+        <run id="RUN3" disciplinecode="ALAUFAUFZEIT" name="30 Minuten Lauf" agecodes="M W M30 W30">
+            <participant athlete="A1" id="P7"/>
+            <participant athlete="A4" id="P8"/>
+            <participant athlete="A5" id="P9"/>
+        </run>
+    </runs>
+</registration>
+

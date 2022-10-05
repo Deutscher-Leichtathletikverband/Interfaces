@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<registration version="1.2" location="Berlin" date="2022-06-17" name="Testveranstaltung" competitionnumber="21L20000000003200">
+    <vendor vendor="LADV" programname="LADV" programversion="&lt;version&gt;" website="https://ladv.de"/>
+    <clubs>
+        <club id="C1" number="1234" guid="12345678-abcd-abcd-abcd-cccccccccc01" type="CLUB" name="TSV Besteck" shortname="TSV Besteck" country="GER" region="WÜ"/>
+    </clubs>
+    <athletes>
+        <athlete id="A1" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa01" forename="Martin" lastname="Messer" yearofbirth="2002" sex="M" club="C1" country="GER" licencenumber="12345"/>
+        <athlete id="A2" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa02" forename="Leon" lastname="Löffel" yearofbirth="2002" sex="M" club="C1" country="GER" licencenumber="12346"/>
+        <athlete id="A3" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa03" forename="Theo" lastname="Tortenheber" yearofbirth="2002" sex="M" club="C1" country="GER" licencenumber="12347"/>
+        <athlete id="A4" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa04" forename="Gertrud" lastname="Gabel" yearofbirth="2002" sex="W" club="C1" country="GER" licencenumber="12348"/>
+    </athletes>
+    <eventdefinitions/>
+    <events>
+        <event id="E1" agecode="M">
+            <standardevent disciplinecode="L100"/>
+        </event>
+        <event id="E2" agecode="M">
+            <standardevent disciplinecode="TWEI"/>
+        </event>
+        <event id="E3" agecode="M">
+            <standardevent disciplinecode="TKUG_7260"/>
+        </event>
+        <event id="E4" agecode="M">
+            <standardevent disciplinecode="THAM_7260"/>
+        </event>
+        <event id="E5" agecode="M">
+            <standardevent disciplinecode="TDIS_2000"/>
+        </event>
+        <event id="E6" agecode="M">
+            <standardevent disciplinecode="H110_1067"/>
+        </event>
+        <event id="E7" agecode="W">
+            <standardevent disciplinecode="M7K"/>
+        </event>
+        <event id="E8" agecode="M">
+            <standardevent disciplinecode="X3X1"/>
+        </event>
+    </events>
+    <individuals>
+        <individual id="I1" event="E1" athlete="A1"/>
+        <individual id="I2" event="E2" athlete="A1"/>
+        <individual id="I3" event="E3" athlete="A1"/>
+        <individual id="I4" event="E4" athlete="A1"/>
+        <individual id="I5" event="E5" athlete="A1"/>
+        <individual id="I6" event="E6" athlete="A1"/>
+        <individual id="I7" event="E7" athlete="A4"/>
+    </individuals>
+    <relays>
+        <relay id="R1" club="C1" event="E8">
+            <participant athlete="A1" id="P1"/>
+            <participant athlete="A2" id="P2"/>
+            <participant athlete="A3" id="P3"/>
+        </relay>
+    </relays>
+</registration>
+

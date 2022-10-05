@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<registration version="1.2" location="Berlin" date="2022-06-17" name="Testveranstaltung" competitionnumber="21L20000000003200">
+    <vendor vendor="LADV" programname="LADV" programversion="&lt;version&gt;" website="https://ladv.de"/>
+    <clubs>
+        <club id="C1" number="1234" guid="12345678-abcd-abcd-abcd-cccccccccc01" type="CLUB" name="TSV Besteck" shortname="TSV Besteck" country="GER" region="WÜ"/>
+        <club id="C2" number="4567" guid="12345678-abcd-abcd-abcd-cccccccccc02" type="CLUB" name="SV Obst und Gemüse" shortname="SV Obst&amp;Gemüse" country="GER" region="WÜ"/>
+    </clubs>
+    <athletes>
+        <athlete id="A1" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa01" forename="Martin" lastname="Messer" yearofbirth="2011" sex="M" club="C1" country="GER" licencenumber="12345"/>
+        <athlete id="A2" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa02" forename="Gertrud" lastname="Gabel" yearofbirth="2011" sex="W" club="C1" country="GER" licencenumber="12346"/>
+        <athlete id="A3" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa03" forename="Adrian" lastname="Apfel" yearofbirth="2011" sex="M" club="C2" country="GER" licencenumber="20001"/>
+        <athlete id="A4" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa04" forename="Betina" lastname="Birne" yearofbirth="2011" sex="W" club="C2" country="GER" licencenumber="20002"/>
+        <athlete id="A5" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa05" forename="Doris" lastname="Dattel" yearofbirth="2012" sex="W" club="C2" country="GER" licencenumber="20003"/>
+        <athlete id="A6" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa06" forename="Einar" lastname="Erbse" yearofbirth="2012" sex="M" club="C2" country="GER" licencenumber="20004"/>
+    </athletes>
+    <eventdefinitions/>
+    <events>
+        <event id="E1" agecode="TU12">
+            <standardevent disciplinecode="KKILA"/>
+        </event>
+    </events>
+    <kilas>
+        <kila id="K1" name="Neckar Sprinter" club="C1" event="E1">
+            <participant athlete="A1" id="P1"/>
+            <participant athlete="A2" id="P2"/>
+            <participant athlete="A3" id="P3"/>
+            <participant athlete="A4" id="P4"/>
+            <participant athlete="A5" id="P5"/>
+            <participant athlete="A6" id="P6"/>
+        </kila>
+    </kilas>
+</registration>
+

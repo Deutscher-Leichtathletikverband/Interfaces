@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<registration version="1.2" location="Berlin" date="2022-06-17" name="Testveranstaltung" competitionnumber="21L20000000003200">
+    <vendor vendor="LADV" programname="LADV" programversion="&lt;version&gt;" website="https://ladv.de"/>
+    <clubs>
+        <club id="C1" number="1234" guid="12345678-abcd-abcd-abcd-cccccccccc01" type="CLUB" name="TSV Besteck" shortname="TSV Besteck" country="GER" region="WÜ"/>
+    </clubs>
+    <athletes>
+        <athlete id="A1" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa01" forename="Martin" lastname="Messer" yearofbirth="2000" sex="M" club="C1" country="GER" licencenumber="12345"/>
+        <athlete id="A2" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa02" forename="Gerd" lastname="Gabel" yearofbirth="1999" sex="M" club="C1" country="GER" licencenumber="12346"/>
+        <athlete id="A3" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa03" forename="Leander" lastname="Löffel" yearofbirth="1999" sex="M" club="C1" country="GER" licencenumber="12346"/>
+    </athletes>
+    <eventdefinitions>
+        <eventdefinition id="ED1" name="2x100m Staffel" shortname="2x100m" eventtype="RELAY" formattype="TIME" precision="SECOND_100TH" vendorcode="RELAY:2x100"/>
+    </eventdefinitions>
+    <events>
+        <event id="E1" agecode="M">
+            <customevent eventdefinition="ED1"/>
+        </event>
+    </events>
+    <relays>
+        <relay id="R1" club="C1" event="E1" lateregistration="true" notranked="true">
+            <participant athlete="A1" id="P1"/>
+            <participant athlete="A2" id="P2"/>
+            <participant athlete="A3" id="P3"/>
+        </relay>
+    </relays>
+</registration>
+

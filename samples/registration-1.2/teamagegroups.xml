@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<registration version="1.2" location="Berlin" date="2022-06-17" name="Testveranstaltung" competitionnumber="21L20000000003200">
+    <vendor vendor="LADV" programname="LADV" programversion="&lt;version&gt;" website="https://ladv.de"/>
+    <clubs>
+        <club id="C1" number="1234" guid="12345678-abcd-abcd-abcd-cccccccccc01" type="CLUB" name="TSV Musterverein" shortname="TSV Musterverein" country="GER" region="WÜ"/>
+    </clubs>
+    <athletes>
+        <athlete id="A1" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa01" forename="Martin" lastname="Messer" yearofbirth="2011" sex="M" club="C1" country="GER" licencenumber="12345"/>
+        <athlete id="A2" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa02" forename="Gertrud" lastname="Gabel" yearofbirth="2011" sex="W" club="C1" country="GER" licencenumber="12346"/>
+    </athletes>
+    <eventdefinitions/>
+    <events>
+        <event id="E1" agecode="T11">
+            <standardevent disciplinecode="TWEZ"/>
+        </event>
+        <event id="E2" agecode="TU12">
+            <standardevent disciplinecode="XPEN"/>
+        </event>
+    </events>
+    <individuals>
+        <individual id="I1" event="E1" athlete="A1"/>
+        <individual id="I2" event="E1" athlete="A2"/>
+        <individual id="I3" event="E1" athlete="A1"/>
+        <individual id="I4" event="E1" athlete="A2"/>
+    </individuals>
+    <relays>
+        <relay id="R1" club="C1" event="E2">
+            <participant athlete="A1" id="P1"/>
+            <participant athlete="A2" id="P2"/>
+        </relay>
+    </relays>
+</registration>
+

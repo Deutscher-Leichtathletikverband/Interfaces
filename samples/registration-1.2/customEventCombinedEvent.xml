@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<registration version="1.2" location="Berlin" date="2022-06-17" name="Testveranstaltung" competitionnumber="21L20000000003200">
+    <vendor vendor="LADV" programname="LADV" programversion="&lt;version&gt;" website="https://ladv.de"/>
+    <clubs>
+        <club id="C1" number="1234" guid="12345678-abcd-abcd-abcd-cccccccccc01" type="CLUB" name="TSV Besteck" shortname="TSV Besteck" country="GER" region="WÜ"/>
+    </clubs>
+    <athletes>
+        <athlete id="A1" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa01" forename="Martin" lastname="Messer" yearofbirth="2000" sex="M" club="C1" country="GER" licencenumber="12345"/>
+        <athlete id="A2" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa02" forename="Gerd" lastname="Gabel" yearofbirth="1999" sex="M" club="C1" country="GER" licencenumber="12346"/>
+        <athlete id="A3" guid="12345678-abcd-abcd-abcd-aaaaaaaaaa03" forename="Leander" lastname="Löffel" yearofbirth="1999" sex="M" club="C1" country="GER" licencenumber="12346"/>
+    </athletes>
+    <eventdefinitions>
+        <eventdefinition id="ED1" name="Sprint 3-Kampf (60m/80m/100m)" shortname="Sprint 3-Kampf" eventtype="COMBINEDEVENT" formattype="POINTS" precision="POINTS_FULL"/>
+    </eventdefinitions>
+    <events>
+        <event id="E1" agecode="M">
+            <customevent eventdefinition="ED1"/>
+        </event>
+    </events>
+    <individuals>
+        <individual id="I1" event="E1" athlete="A1"/>
+        <individual id="I2" event="E1" athlete="A2"/>
+        <individual id="I3" event="E1" athlete="A3"/>
+    </individuals>
+</registration>
+

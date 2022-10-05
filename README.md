@@ -28,6 +28,15 @@ Zusatzinformationen für leichtathletik.de
 - Disziplinen Web Gruppen: [Endpunkt (JSON)](https://dateien.leichtathletik.de/meta/disciplinesweb) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_disciplinesweb)
 - Veranstaltungskategorien Web Gruppen: [Endpunkt (JSON)](https://dateien.leichtathletik.de/meta/eventcategoriesweb) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_eventcategoriesweb)
 
+## Meldungen Datenformat
+
+Das Meldungen-Datenformat dient zum Austausch von Meldungen zwischen Meldeprogrammen und Wettkampfprogrammen.
+
+- [Dokumentation Datenformat Meldungen 1.2 (PDF)](docs/Registration-Format-1.2.pdf)
+- [XML-Schema Datei (XSD)](xsd/registration-1.2.xsd)
+- [Beispieldateien](samples/registration-1.2)
+- [Änderungsübersicht](https://github.com/Deutscher-Leichtathletikverband/Interfaces/issues/4)
+
 ## Schnittstelle Personendaten lesen/ändern und Startrecht beantragen (DLV TrueAthletes App) 
 - https://testapi.it4sport.de/api/documentation/athletes
 

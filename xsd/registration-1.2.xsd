@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="registration" type="registration"/>
+
+  <xs:complexType name="registration">
+    <xs:sequence>
+      <xs:element name="vendor" type="Vendor"/>
+      <xs:element name="clubs" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="club" type="club" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="athletes" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="athlete" type="athlete" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eventdefinitions" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="eventdefinition" type="EventDefinition" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="events" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="event" type="event" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="individuals" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="individual" type="individual" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="relays" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="relay" type="relay" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="kilas" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="kila" type="kila" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="runs" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="run" type="run" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="version" type="xs:float" use="required"/>
+    <xs:attribute name="location" type="xs:string" use="required"/>
+    <xs:attribute name="date" type="xs:string" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="competitionnumber" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="Vendor">
+    <xs:sequence/>
+    <xs:attribute name="vendor" type="xs:string" use="required"/>
+    <xs:attribute name="programname" type="xs:string" use="required"/>
+    <xs:attribute name="programversion" type="xs:string" use="required"/>
+    <xs:attribute name="website" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="club">
+    <xs:sequence/>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="number" type="xs:int" use="required"/>
+    <xs:attribute name="guid" type="xs:string"/>
+    <xs:attribute name="type" type="clubType" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="shortname" type="xs:string" use="required"/>
+    <xs:attribute name="country" type="xs:string" use="required"/>
+    <xs:attribute name="region" type="xs:string"/>
+    <xs:attribute name="property" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="athlete">
+    <xs:sequence/>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="bib" type="xs:int"/>
+    <xs:attribute name="guid" type="xs:string"/>
+    <xs:attribute name="forename" type="xs:string" use="required"/>
+    <xs:attribute name="lastname" type="xs:string" use="required"/>
+    <xs:attribute name="yearofbirth" type="xs:int" use="required"/>
+    <xs:attribute name="sex" type="sex" use="required"/>
+    <xs:attribute name="club" type="xs:IDREF" use="required"/>
+    <xs:attribute name="country" type="xs:string"/>
+    <xs:attribute name="property" type="xs:string"/>
+    <xs:attribute name="licencenumber" type="xs:int"/>
+    <xs:attribute name="waid" type="xs:int"/>
+  </xs:complexType>
+
+  <xs:complexType name="EventDefinition">
+    <xs:sequence/>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="shortname" type="xs:string" use="required"/>
+    <xs:attribute name="eventtype" type="EventType" use="required"/>
+    <xs:attribute name="formattype" type="FormatType" use="required"/>
+    <xs:attribute name="precision" type="Precision" use="required"/>
+    <xs:attribute name="vendorcode" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="event">
+    <xs:sequence>
+      <xs:choice minOccurs="0">
+        <xs:element name="standardevent" type="StandardEvent"/>
+        <xs:element name="customevent" type="CustomEvent"/>
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="agecode" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="StandardEvent">
+    <xs:sequence/>
+    <xs:attribute name="disciplinecode" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="CustomEvent">
+    <xs:sequence/>
+    <xs:attribute name="eventdefinition" type="xs:IDREF" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="individual">
+    <xs:sequence>
+      <xs:element name="performance" type="performance" minOccurs="0"/>
+      <xs:element name="yearbest" type="performance" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="personalbest" type="performance" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="comment" type="comment" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="event" type="xs:IDREF" use="required"/>
+    <xs:attribute name="athlete" type="xs:IDREF" use="required"/>
+    <xs:attribute name="alliance" type="xs:IDREF"/>
+    <xs:attribute name="lateregistration" type="xs:boolean"/>
+    <xs:attribute name="notranked" type="xs:boolean"/>
+    <xs:attribute name="property" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="performance">
+    <xs:sequence/>
+    <xs:attribute name="date" type="xs:string"/>
+    <xs:attribute name="disciplinecode" type="xs:string"/>
+    <xs:attribute name="handTime" type="xs:boolean"/>
+    <xs:attribute name="indoor" type="xs:boolean" use="required"/>
+    <xs:attribute name="location" type="xs:string"/>
+    <xs:attribute name="notdocumented" type="xs:boolean"/>
+    <xs:attribute name="value" type="xs:string" use="required"/>
+    <xs:attribute name="wind" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="comment">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="authorname" type="xs:string" use="required"/>
+        <xs:attribute name="order" type="xs:int" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="relay">
+    <xs:sequence>
+      <xs:element name="participant" type="participant" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="performance" type="performance" minOccurs="0"/>
+      <xs:element name="yearbest" type="performance" minOccurs="0"/>
+      <xs:element name="personalbest" type="performance" minOccurs="0"/>
+      <xs:element name="comment" type="comment" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="club" type="xs:IDREF" use="required"/>
+    <xs:attribute name="event" type="xs:IDREF" use="required"/>
+    <xs:attribute name="lateregistration" type="xs:boolean"/>
+    <xs:attribute name="notranked" type="xs:boolean"/>
+    <xs:attribute name="property" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="participant">
+    <xs:sequence/>
+    <xs:attribute name="athlete" type="xs:IDREF" use="required"/>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="property" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="kila">
+    <xs:sequence>
+      <xs:element name="participant" type="participant" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="comment" type="comment" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="club" type="xs:IDREF"/>
+    <xs:attribute name="event" type="xs:IDREF" use="required"/>
+    <xs:attribute name="lateregistration" type="xs:boolean"/>
+    <xs:attribute name="notranked" type="xs:boolean"/>
+    <xs:attribute name="property" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="run">
+    <xs:sequence>
+      <xs:element name="performance" type="performance" minOccurs="0"/>
+      <xs:element name="yearbest" type="performance" minOccurs="0"/>
+      <xs:element name="personalbest" type="performance" minOccurs="0"/>
+      <xs:element name="participant" type="participant" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="comment" type="comment" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="disciplinecode" type="xs:string" use="required"/>
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="agecodes">
+      <xs:simpleType>
+        <xs:list itemType="AgeCode"/>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="distance" type="xs:int"/>
+    <xs:attribute name="property" type="xs:string"/>
+    <xs:attribute name="trackid" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:simpleType name="clubType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CLUB"/>
+      <xs:enumeration value="STG"/>
+      <xs:enumeration value="LG"/>
+      <xs:enumeration value="OTHER"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="sex">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="M"/>
+      <xs:enumeration value="W"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="EventType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="INDIVIDUAL"/>
+      <xs:enumeration value="COMBINEDEVENT"/>
+      <xs:enumeration value="INDIVIDUALTEAM"/>
+      <xs:enumeration value="RELAY"/>
+      <xs:enumeration value="COMBINEDEVENTTEAM"/>
+      <xs:enumeration value="TEAMCHAMPIONCHIP"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="FormatType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="POINTS"/>
+      <xs:enumeration value="METRIC"/>
+      <xs:enumeration value="TIME"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Precision">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="METER"/>
+      <xs:enumeration value="CENTIMETER"/>
+      <xs:enumeration value="SECOND_FULL"/>
+      <xs:enumeration value="SECOND_10TH"/>
+      <xs:enumeration value="SECOND_100TH"/>
+      <xs:enumeration value="SECOND_1000TH"/>
+      <xs:enumeration value="POINTS_FULL"/>
+      <xs:enumeration value="POINTS_10TH"/>
+      <xs:enumeration value="POINTS_100TH"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="AgeCode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="M3"/>
+      <xs:enumeration value="M4"/>
+      <xs:enumeration value="M5"/>
+      <xs:enumeration value="M6"/>
+      <xs:enumeration value="M7"/>
+      <xs:enumeration value="M8"/>
+      <xs:enumeration value="M9"/>
+      <xs:enumeration value="M10"/>
+      <xs:enumeration value="M11"/>
+      <xs:enumeration value="M12"/>
+      <xs:enumeration value="M13"/>
+      <xs:enumeration value="M14"/>
+      <xs:enumeration value="M15"/>
+      <xs:enumeration value="MKU6"/>
+      <xs:enumeration value="MKU8"/>
+      <xs:enumeration value="MKU10"/>
+      <xs:enumeration value="MKU12"/>
+      <xs:enumeration value="MJU14"/>
+      <xs:enumeration value="MJU16"/>
+      <xs:enumeration value="MJU18"/>
+      <xs:enumeration value="MJU20"/>
+      <xs:enumeration value="MU23"/>
+      <xs:enumeration value="M"/>
+      <xs:enumeration value="MJEDER"/>
+      <xs:enumeration value="M30"/>
+      <xs:enumeration value="M35"/>
+      <xs:enumeration value="M40"/>
+      <xs:enumeration value="M45"/>
+      <xs:enumeration value="M50"/>
+      <xs:enumeration value="M55"/>
+      <xs:enumeration value="M60"/>
+      <xs:enumeration value="M65"/>
+      <xs:enumeration value="M70"/>
+      <xs:enumeration value="M75"/>
+      <xs:enumeration value="M80"/>
+      <xs:enumeration value="M85"/>
+      <xs:enumeration value="M90"/>
+      <xs:enumeration value="M95"/>
+      <xs:enumeration value="W3"/>
+      <xs:enumeration value="W4"/>
+      <xs:enumeration value="W5"/>
+      <xs:enumeration value="W6"/>
+      <xs:enumeration value="W7"/>
+      <xs:enumeration value="W8"/>
+      <xs:enumeration value="W9"/>
+      <xs:enumeration value="W10"/>
+      <xs:enumeration value="W11"/>
+      <xs:enumeration value="W12"/>
+      <xs:enumeration value="W13"/>
+      <xs:enumeration value="W14"/>
+      <xs:enumeration value="W15"/>
+      <xs:enumeration value="WKU6"/>
+      <xs:enumeration value="WKU8"/>
+      <xs:enumeration value="WKU10"/>
+      <xs:enumeration value="WKU12"/>
+      <xs:enumeration value="WJU14"/>
+      <xs:enumeration value="WJU16"/>
+      <xs:enumeration value="WJU18"/>
+      <xs:enumeration value="WJU20"/>
+      <xs:enumeration value="WU23"/>
+      <xs:enumeration value="W"/>
+      <xs:enumeration value="WJEDER"/>
+      <xs:enumeration value="W30"/>
+      <xs:enumeration value="W35"/>
+      <xs:enumeration value="W40"/>
+      <xs:enumeration value="W45"/>
+      <xs:enumeration value="W50"/>
+      <xs:enumeration value="W55"/>
+      <xs:enumeration value="W60"/>
+      <xs:enumeration value="W65"/>
+      <xs:enumeration value="W70"/>
+      <xs:enumeration value="W75"/>
+      <xs:enumeration value="W80"/>
+      <xs:enumeration value="W85"/>
+      <xs:enumeration value="W90"/>
+      <xs:enumeration value="W95"/>
+      <xs:enumeration value="T6"/>
+      <xs:enumeration value="T7"/>
+      <xs:enumeration value="T8"/>
+      <xs:enumeration value="T9"/>
+      <xs:enumeration value="T10"/>
+      <xs:enumeration value="T11"/>
+      <xs:enumeration value="TU6"/>
+      <xs:enumeration value="TU8"/>
+      <xs:enumeration value="TU10"/>
+      <xs:enumeration value="TU12"/>
+      <xs:enumeration value="X12"/>
+      <xs:enumeration value="X13"/>
+      <xs:enumeration value="X14"/>
+      <xs:enumeration value="X15"/>
+      <xs:enumeration value="XJU14"/>
+      <xs:enumeration value="XJU16"/>
+      <xs:enumeration value="XJU18"/>
+      <xs:enumeration value="XJU20"/>
+      <xs:enumeration value="XU23"/>
+      <xs:enumeration value="X"/>
+      <xs:enumeration value="X30"/>
+      <xs:enumeration value="X35"/>
+      <xs:enumeration value="X40"/>
+      <xs:enumeration value="X45"/>
+      <xs:enumeration value="X50"/>
+      <xs:enumeration value="X55"/>
+      <xs:enumeration value="X60"/>
+      <xs:enumeration value="X65"/>
+      <xs:enumeration value="X70"/>
+      <xs:enumeration value="X75"/>
+      <xs:enumeration value="X80"/>
+      <xs:enumeration value="X85"/>
+      <xs:enumeration value="X90"/>
+      <xs:enumeration value="X95"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+

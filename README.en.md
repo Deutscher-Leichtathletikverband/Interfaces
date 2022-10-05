@@ -28,6 +28,15 @@ Additional information for leichtathletik.de
 - Discipline web groups: [Endpoint (JSON)](https://dateien.leichtathletik.de/meta/disciplinesweb) | [documentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_disciplinesweb)
 - Eventcategories web groups: [Endpoint (JSON)](https://dateien.leichtathletik.de/meta/eventcategoriesweb) | [documentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_eventcategoriesweb)
 
+## Registration Dataformat
+
+The registration dataformat is used to transport event registrations.
+
+- [Documentation Registration Dataformat 1.2 (PDF)](docs/Registration-Format-1.2.pdf)
+- [XML-Schema File (XSD)](xsd/registration-1.2.xsd)
+- [Samples](samples/registration-1.2)
+- [Change Overview](https://github.com/Deutscher-Leichtathletikverband/Interfaces/issues/4)
+
 ## API to change personal data and apply for a license (DLV TrueAthletes App) 
 - https://testapi.it4sport.de/api/documentation/athletes
 
