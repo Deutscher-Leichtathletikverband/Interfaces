@@ -93,7 +93,7 @@ Die Formatierung der Leistungen ist identisch zum Meldungen XML-Format.
 Zusätzlich zum abruf im `format2021` gibt es noch ein "kompaktes"-Format das nur die wesentlichen Informationen zu einer
 Veranstaltung enthält. Für Abrufe die nur eine Veranstaltungsliste benötigen und nicht alle Details verarbeiten ist
 dieser abruf ideal. Abruf ist über `Format=format2021compact` bereits möglich. Das XSD ist unter
-[Events-format2021compact.xsd](Events-format2021compact.xsd) abrufbar.
+[Events-format2021compact.xsd](xsd/Events-format2021compact.xsd) abrufbar.
 
 ### API / Datenformat Meta-Daten updates
 

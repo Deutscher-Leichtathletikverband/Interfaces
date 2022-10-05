@@ -47,19 +47,15 @@ API Documentation and Schemas in order to exchange events.
 The main API to read and submit events from and to the German Athletics Events Database (DVD).
 
 Current Events API (format 2021):
-- XML-Schema Definition: [Format 2021](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/Events-format2021.xsd) | [Format 2021 compact](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/Events-format2021compact.xsd)
+- XML-Schema Definition: [Format 2021](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2021.xsd) | [Format 2021 compact](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2021compact.xsd)
 - [Overview changes](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/Format2021-updates.md)
 - Dokumentation (Deutsch) [update folgt]
 - Dokumentation (English) [update folgt]
 
-Version 3 of the Events API (deprecated):
-- [XML-Schema Definition](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Events%20v3.xsd)
-- [Documentation (German)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.docx)
-- [Documentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.de.en.docx)
-
-Legacy Version of the Events API (deprecated):
-- [XML-Schema Definition](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Events.xsd)
-- [Documentation (German)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen.docx)
+Version 3 of the Events API (deprecated/no longer supported):
+- [XML-Schema Definition](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/xsd/Events%20v3.xsd)
+- [Documentation (German)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/docs/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.docx)
+- [Documentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/docs/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.de.en.docx)
 
 ## Ded Link API
 API to exchange result links between DED and DVD:

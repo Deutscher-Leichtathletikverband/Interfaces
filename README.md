@@ -47,19 +47,15 @@ Schnittstellendokumentation und Schemas für den Austausch von Veranstaltungen.
 Die Standardschnittstelle zum Lesen und Schreiben von Veranstaltungen von bzw. in die DLV Veranstaltungsdatenbank (DVD).
 
 Aktuelle Veranstaltungsschnittstelle (Format 2021):
-- XML-Schema Definition: [Format 2021](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/Events-format2021.xsd) | [Format 2021 compact](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/Events-format2021compact.xsd)
+- XML-Schema Definition: [Format 2021](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2021.xsd) | [Format 2021 compact](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2021compact.xsd)
 - [Übersicht Änderungen gegenüber Version 3](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/Format2021-updates.md)
 - Dokumentation (Deutsch) [update folgt]
 - Dokumentation (English) [update folgt]
 
-Version 3 der Veranstaltungsschnittstelle (veraltet):
-- [XML-Schema Definition](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Events%20v3.xsd)
-- [Dokumentation (Deutsch)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.docx)
-- [Dokumentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.de.en.docx)
-
-Die ursprüngliche Version der Veranstaltungsschnittstelle (veraltet):
-- [XML-Schema Definition](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Events.xsd)
-- [Dokumentation (Deutsch)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Veranstaltungen.docx)
+Version 3 der Veranstaltungsschnittstelle (veraltet/wird nicht mehr unterstützt):
+- [XML-Schema Definition](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/xsd/Events%20v3.xsd)
+- [Dokumentation (Deutsch)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/docs/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.docx)
+- [Dokumentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/docs/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.de.en.docx)
 
 ## Schnittstelle zum Austausch der Ergebnislinks
 Schnittstelle zum Austausch der Ergebnislinks (Live-Ergebnisse und Endergebnisse) zwischen der DED und DVD:
