@@ -10,11 +10,23 @@ All interfaces and definitions regarding Master Data (Athletes, Clubs, StG, LG, 
 - [Documentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Stammdaten.de.en.docx)
 
 ## Code lists
-- [Agegroups](https://dateien.leichtathletik.de/meta/agegroups)
-- [Disciplines](https://dateien.leichtathletik.de/meta/disciplines)
-- [Eventcategories](https://dateien.leichtathletik.de/meta/eventcategories)
-- [Eventtypes](https://dateien.leichtathletik.de/meta/eventtypes)
-- [Eventfilegroups](https://dateien.leichtathletik.de/meta/eventfilegroups)
+
+[Open API documentation](https://dateien.leichtathletik.de/meta/openapidoc)
+
+- Agegroups: [Endpoint (JSON)](https://dateien.leichtathletik.de/meta/agegroups) | [documentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_agegroups)
+- Disciplines: [Endpoint (JSON)](https://dateien.leichtathletik.de/meta/disciplines) | [documentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_disciplines)
+- Disciplineblocks (NEW): [Endpoint (JSON)](https://dateien.leichtathletik.de/meta/disciplineblocks) | [documentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_disciplineblocks)
+- Disciplinegroups (NEW): [Endpoint (JSON)](https://dateien.leichtathletik.de/meta/disciplinegroups) | [documentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_disciplinegroups)
+- Disciplinmatrix: [Endpoint (JSON)](https://dateien.leichtathletik.de/meta/agegroupsanddisciplines) | [documentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_agegroupsanddisciplines)
+- Eventcategories: [Endpoint (JSON)](https://dateien.leichtathletik.de/meta/eventcategories) | [documentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_eventcategories)
+- Eventtypes: [Endpoint (JSON)](https://dateien.leichtathletik.de/meta/eventtypes) | [documentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_eventtypes)
+- Eventfilegroups: [Endpoint (JSON)](https://dateien.leichtathletik.de/meta/eventfilegroups) | [documentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_eventfilegroups)
+
+Additional information for leichtathletik.de
+
+- Agegroup web groups: [Endpoint (JSON)](https://dateien.leichtathletik.de/meta/agegroupsweb) | [documentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_agegroupsweb)
+- Discipline web groups: [Endpoint (JSON)](https://dateien.leichtathletik.de/meta/disciplinesweb) | [documentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_disciplinesweb)
+- Eventcategories web groups: [Endpoint (JSON)](https://dateien.leichtathletik.de/meta/eventcategoriesweb) | [documentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_eventcategoriesweb)
 
 ## API to change personal data and apply for a license (DLV TrueAthletes App) 
 - https://testapi.it4sport.de/api/documentation/athletes

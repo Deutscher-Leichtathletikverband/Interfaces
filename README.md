@@ -10,16 +10,23 @@ Alle Schnittstellen und deren Dokumentation bzgl. der DLV Stammdaten (Athleten/A
 - [Dokumentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Stammdaten.de.en.docx)
 
 ## Codelisten
-- [Altersklassen](https://dateien.leichtathletik.de/meta/agegroups) (JSON)
-- [Disziplinen](https://dateien.leichtathletik.de/meta/disciplines) (JSON)
-- [Veranstaltungskategorien](https://dateien.leichtathletik.de/meta/eventcategories) (JSON)
-- [Veranstaltungstypen](https://dateien.leichtathletik.de/meta/eventtypes) (JSON)
-- [Veranstaltungsfilegruppen](https://dateien.leichtathletik.de/meta/eventfilegroups) (JSON)
+
+Die Codelisten sind öffentlich. [Open API Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc)
+
+- Altersklassen: [Endpunkt (JSON)](https://dateien.leichtathletik.de/meta/agegroups) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_agegroups)
+- Disziplinen: [Endpunkt (JSON)](https://dateien.leichtathletik.de/meta/disciplines) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_disciplines)
+- Disziplinblöcke (NEU): [Endpunkt (JSON)](https://dateien.leichtathletik.de/meta/disciplineblocks) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_disciplineblocks)
+- Disziplingruppen (NEU): [Endpunkt (JSON)](https://dateien.leichtathletik.de/meta/disciplinegroups) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_disciplinegroups)
+- Disziplinmatrix: [Endpunkt (JSON)](https://dateien.leichtathletik.de/meta/agegroupsanddisciplines) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_agegroupsanddisciplines)
+- Veranstaltungskategorien: [Endpunkt (JSON)](https://dateien.leichtathletik.de/meta/eventcategories) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_eventcategories)
+- Veranstaltungstypen: [Endpunkt (JSON)](https://dateien.leichtathletik.de/meta/eventtypes) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_eventtypes)
+- Veranstaltungsfilegruppen: [Endpunkt (JSON)](https://dateien.leichtathletik.de/meta/eventfilegroups) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_eventfilegroups)
 
 Zusatzinformationen für leichtathletik.de
-- [Altersklassen Web Gruppen](https://dateien.leichtathletik.de/meta/agegroupsweb) (JSON)
-- [Disziplinen Web Gruppen](https://dateien.leichtathletik.de/meta/disciplinesweb) (JSON)
-- [Veranstaltungskategorien Web Gruppen](https://dateien.leichtathletik.de/meta/eventcategoriesweb) (JSON)
+
+- Altersklassen Web Gruppen: [Endpunkt (JSON)](https://dateien.leichtathletik.de/meta/agegroupsweb) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_agegroupsweb)
+- Disziplinen Web Gruppen: [Endpunkt (JSON)](https://dateien.leichtathletik.de/meta/disciplinesweb) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_disciplinesweb)
+- Veranstaltungskategorien Web Gruppen: [Endpunkt (JSON)](https://dateien.leichtathletik.de/meta/eventcategoriesweb) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/meta/get_meta_eventcategoriesweb)
 
 ## Schnittstelle Personendaten lesen/ändern und Startrecht beantragen (DLV TrueAthletes App) 
 - https://testapi.it4sport.de/api/documentation/athletes
