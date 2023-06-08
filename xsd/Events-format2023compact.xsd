@@ -8,7 +8,7 @@
 
     <xs:simpleType name="FormatVersion">
         <xs:restriction base="xs:string">
-            <xs:pattern value="format2021compact" />
+            <xs:pattern value="format2023compact" />
         </xs:restriction>
     </xs:simpleType>
 
