@@ -1,0 +1,351 @@
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Version X vom XX.XX.2021 erstellt von Udo Laub - encoding UTF-8 -->
+    <xs:simpleType name="EventID">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{2}[LVDBKIO][0-9X]{11,14}" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="FileType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="F"/>
+            <xs:enumeration value="L"/>
+            <xs:enumeration value="T"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="TimeHHMM">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="((0[0-9]|[1][0-9]|2[0-3]):([0-5][0-9]))" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="FormatVersion">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="format2021" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="EnumSalutation">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value=""/>
+            <xs:enumeration value="Herr"/>
+            <xs:enumeration value="Frau"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ApprovalType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="NONE"/>
+            <xs:enumeration value="OPEN"/>
+            <xs:enumeration value="APPROVED"/>
+            <xs:enumeration value="REJECTED"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="EnumType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="STADIA"/>
+            <xs:enumeration value="NONSTADIA"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="CountryCode">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{3}" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="String200Input">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2" />
+            <xs:maxLength value="200" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="String200Data">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="200" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="String300Data">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="300" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="StringLong">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="2000" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="String30Data">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="30" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="String20Data">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="20" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="SQLDateTime">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="((19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01]) (0[0-9]|[1][0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9]))|((19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01]))" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="SQLDate">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="EmailAddress">
+        <xs:restriction base="xs:token">
+            <xs:maxLength value="100"/>
+            <xs:pattern value="[ßäöüÄÖÜa-zA-Z0-9._%+-]+@[ßäöüÄÖÜa-zA-Z0-9.-]+\.[a-zA-Z]{2,9}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="GPS">
+        <xs:attribute type="String200Data" name="Lat" use="required"/>
+        <xs:attribute type="String200Data" name="Lng" use="required"/>
+    </xs:complexType>
+
+    <xs:simpleType name="GUID">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="OrganizationEntity">
+        <xs:attribute type="GUID" name="guid"/>
+        <xs:attribute type="MasterID" name="code" use="required"/>
+        <xs:attribute type="xs:string" name="name"/>
+    </xs:complexType>
+
+    <xs:simpleType name="MasterID">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(BA|BY|BE|BB|BR|BS|HH|HE|MV|NI|NO|PF|RH|RL|SL|SN|ST|SH|TH|WE|WÜ)[0-9]{7}"/>
+            <xs:minLength value="9"/>
+            <xs:maxLength value="9"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="StateIDEnum">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="BA"/>
+            <xs:enumeration value="BY"/>
+            <xs:enumeration value="BE"/>
+            <xs:enumeration value="BB"/>
+            <xs:enumeration value="BR"/>
+            <xs:enumeration value="BS"/>
+            <xs:enumeration value="HH"/>
+            <xs:enumeration value="HE"/>
+            <xs:enumeration value="MV"/>
+            <xs:enumeration value="NI"/>
+            <xs:enumeration value="NO"/>
+            <xs:enumeration value="PF"/>
+            <xs:enumeration value="RH"/>
+            <xs:enumeration value="RL"/>
+            <xs:enumeration value="SL"/>
+            <xs:enumeration value="SN"/>
+            <xs:enumeration value="ST"/>
+            <xs:enumeration value="SH"/>
+            <xs:enumeration value="TH"/>
+            <xs:enumeration value="WE"/>
+            <xs:enumeration value="WÜ"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="Property">
+        <xs:attribute type="String30Data" name="key" use="required"/>
+        <xs:attribute type="String200Data" name="value" use="required"/>
+    </xs:complexType>
+
+    <xs:element name="Events">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Event" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="SQLDate"           name="DateStart"/>
+                            <xs:element type="SQLDate"           name="DateEnd" minOccurs="0"/>
+                            <xs:element type="TimeHHMM"          name="Time" minOccurs="0"/>
+                            <xs:element type="SQLDateTime"       name="ClosingDate" minOccurs="0"/>
+                            <xs:element type="String300Data"     name="SignOnUrl" minOccurs="0"/>
+                            <xs:element type="CountryCode"       name="CountryCode"/>
+                            <xs:element type="StateIDEnum"       name="StateID" minOccurs="0"/>
+                            <xs:element type="OrganizationEntity" name="County" minOccurs="0"/>
+                            <xs:element type="OrganizationEntity" name="District" minOccurs="0"/>
+                            <xs:element type="OrganizationEntity" name="Club" minOccurs="0"/>
+                            <xs:element type="xs:boolean"        name="FirstTime" minOccurs="0"/>
+                            <xs:element type="xs:boolean"        name="ApplyTaxes" minOccurs="0"/>
+
+                            <xs:element name="Organizer">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="EnumSalutation"     name="Salutation" minOccurs="0" />
+                                        <xs:element type="String200Data"      name="FirstName" minOccurs="0" />
+                                        <xs:element type="String200Data"      name="LastName" minOccurs="0" />
+                                        <xs:element type="String200Data"      name="Street" minOccurs="0" />
+                                        <xs:element type="String200Data"      name="Additional" minOccurs="0" />
+                                        <xs:element type="String30Data"       name="ZipCode" minOccurs="0" />
+                                        <xs:element type="String200Data"      name="City" minOccurs="0" />
+                                        <xs:element type="String20Data"       name="Phone" minOccurs="0" />
+                                        <xs:element type="String20Data"       name="Mobile" minOccurs="0" />
+                                        <xs:element type="String20Data"       name="Fax" minOccurs="0" />
+                                        <xs:element type="EmailAddress"       name="Email" minOccurs="0" />
+                                        <xs:element type="String300Data"          name="Web" minOccurs="0" />
+                                        <xs:element type="xs:string"          name="AdditionalInformation" minOccurs="0" />
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:boolean" name="HidePersonalData"/>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="Comp">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="String200Data" name="StartPlace" minOccurs="0"/>
+                                        <xs:element type="String200Data" name="Street" minOccurs="0"/>
+                                        <xs:element type="String30Data"  name="ZipCode" minOccurs="0" />
+                                        <xs:element type="String200Data" name="City" />
+                                        <xs:element type="GPS" name="GPS" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="Drive" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="String200Data" name="Street" minOccurs="0" />
+                                        <xs:element type="String30Data" name="ZipCode" minOccurs="0" />
+                                        <xs:element type="String200Data" name="City" minOccurs="0" />
+                                        <xs:element type="GPS" name="GPS" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="EventFiles">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="EventFile" maxOccurs="unbounded" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:attribute type="xs:integer"        name="ID" use="required" />
+                                                <xs:attribute type="FileType"          name="Type" use="required" />
+                                                <xs:attribute type="xs:integer"        name="GroupID" use="required" />
+                                                <xs:attribute type="String200Data"     name="Name"/>
+                                                <xs:attribute type="String200Data"     name="Title" use="required" />
+                                                <xs:attribute type="String300Data"        name="Link"/>
+                                                <xs:attribute type="StringLong"        name="Remark"/>
+                                                <xs:attribute type="xs:integer"        name="Sort"/>
+                                                <xs:attribute type="SQLDateTime"       name="Created" use="required" />
+                                                <xs:attribute type="SQLDateTime"       name="Updated" use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="AgeGroups" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="AgeGroup" maxOccurs="unbounded" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Disciplines">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Discipline" maxOccurs="unbounded" minOccurs="0">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute type="xs:string" name="ID" use="required" />
+                                                                        <xs:attribute type="xs:boolean" name="Normed"/>
+                                                                        <xs:attribute type="String200Data" name="DisciplineName"/>
+                                                                        <xs:attribute type="xs:string" name="QualificationPerformance"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute type="xs:string" name="ID" use="required"/>
+                                                <xs:attribute type="xs:string" name="Name"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="Runs" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Run" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="AgeGroups">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="AgeGroup" maxOccurs="unbounded" >
+                                                                    <xs:complexType>
+                                                                        <xs:attribute type="xs:string" name="ID" use="required"/>
+                                                                        <xs:attribute type="xs:string" name="Name"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute type="xs:string" name="ID" use="required" />
+                                                <xs:attribute type="String200Data" name="DisciplineName" use="required" />
+                                                <!-- distance in meter -->
+                                                <xs:attribute type="xs:integer" name="Distance"/>
+                                                <xs:attribute type="xs:boolean" name="MeasurementChecked" use="required" />
+                                                <xs:attribute type="SQLDate" name="MeasurementDate"/>
+                                                <xs:attribute type="xs:string" name="QualificationPerformance"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element type="ApprovalType"       name="StateApproval"/>
+                            <xs:element type="ApprovalType"       name="NationApproval" minOccurs="0"/>
+                            <xs:element type="String200Data"      name="AssociationSupervision" minOccurs="0"/>
+                            <xs:element type="EmailAddress"       name="AssociationSupervisionMail" minOccurs="0"/>
+                            <xs:element type="xs:boolean"         name="EventCancelled" minOccurs="0"/>
+                            <xs:element type="xs:string"          name="FinisherClubLink" minOccurs="0"/>
+                            <xs:element type="xs:string"          name="FinisherClubShowAd" minOccurs="0"/>
+                            <xs:element type="xs:integer"         name="TopEvent" minOccurs="0"/>
+                            <xs:element name="Properties" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Property" type="Property" minOccurs="0" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="EventID"           name="ID" use="required" />
+                        <xs:attribute type="EnumType"          name="Type" use="required" />
+                        <xs:attribute type="xs:integer"        name="EventType" use="required" />
+                        <xs:attribute type="xs:boolean"        name="LicenseOnly"/>
+                        <xs:attribute type="xs:integer"        name="EventCategory" use="required" />
+                        <xs:attribute type="String200Input"    name="Name" use="required" />
+                        <xs:attribute type="SQLDateTime"       name="Created" use="required" />
+                        <xs:attribute type="SQLDateTime"       name="Updated" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute type="FormatVersion" name="version" use="required"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
