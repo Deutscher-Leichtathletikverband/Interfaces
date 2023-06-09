@@ -1,8 +1,8 @@
 <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <!-- Version X vom XX.XX.2021 erstellt von Udo Laub - encoding UTF-8 -->
+    <!-- 01.08.2023 erstellt von Udo Laub - encoding UTF-8 -->
     <xs:simpleType name="EventID">
         <xs:restriction base="xs:string">
-            <xs:pattern value="\d{2}[LVDBKIO][0-9X]{11,14}" />
+            <xs:pattern value="\d{2}[LVDBKIO][0-9X]{14}" />
         </xs:restriction>
     </xs:simpleType>
 
@@ -56,6 +56,12 @@
         </xs:restriction>
     </xs:simpleType>
 
+    <xs:simpleType name="TrackId">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{3}-[0-9]{4}-[0-9]{4}" />
+        </xs:restriction>
+    </xs:simpleType>
+
     <xs:simpleType name="String200Input">
         <xs:restriction base="xs:string">
             <xs:minLength value="2" />
@@ -98,6 +104,13 @@
         </xs:restriction>
     </xs:simpleType>
 
+    <xs:simpleType name="String50Data">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="50" />
+        </xs:restriction>
+    </xs:simpleType>
+
     <xs:simpleType name="SQLDateTime">
         <xs:restriction base="xs:string">
             <xs:pattern value="((19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01]) (0[0-9]|[1][0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9]))|((19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01]))" />
@@ -132,6 +145,18 @@
         <xs:attribute type="GUID" name="guid"/>
         <xs:attribute type="MasterID" name="code" use="required"/>
         <xs:attribute type="xs:string" name="name"/>
+    </xs:complexType>
+
+    <xs:complexType name="WorldRankingMeetingType">
+        <xs:attribute type="xs:boolean" name="state" use="required"/>
+        <xs:attribute type="xs:boolean" name="nation"/>
+        <xs:attribute type="xs:boolean" name="combined"/>
+    </xs:complexType>
+
+    <xs:complexType name="ApprovalElement">
+        <xs:attribute type="ApprovalType" name="state" use="required"/>
+        <xs:attribute type="ApprovalType" name="nation"/>
+        <xs:attribute type="ApprovalType" name="combined"/>
     </xs:complexType>
 
     <xs:simpleType name="MasterID">
@@ -189,6 +214,8 @@
                             <xs:element type="OrganizationEntity" name="County" minOccurs="0"/>
                             <xs:element type="OrganizationEntity" name="District" minOccurs="0"/>
                             <xs:element type="OrganizationEntity" name="Club" minOccurs="0"/>
+                            <xs:element type="MasterID" name="DifferentInvoiceRecipient" minOccurs="0"/>
+
                             <xs:element type="xs:boolean"        name="FirstTime" minOccurs="0"/>
                             <xs:element type="xs:boolean"        name="ApplyTaxes" minOccurs="0"/>
 
@@ -309,20 +336,22 @@
                                                 <xs:attribute type="String200Data" name="DisciplineName" use="required" />
                                                 <!-- distance in meter -->
                                                 <xs:attribute type="xs:integer" name="Distance"/>
-                                                <xs:attribute type="xs:boolean" name="MeasurementChecked" use="required" />
+                                                <xs:attribute type="xs:boolean" name="MeasurementChecked"/>
                                                 <xs:attribute type="SQLDate" name="MeasurementDate"/>
                                                 <xs:attribute type="xs:string" name="QualificationPerformance"/>
+                                                <xs:attribute type="xs:boolean" name="InvalidResults"/>
+                                                <xs:attribute type="TrackId" name="TrackId"/>
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
 
-                            <xs:element type="ApprovalType"       name="StateApproval"/>
-                            <xs:element type="ApprovalType"       name="NationApproval" minOccurs="0"/>
+                            <xs:element type="ApprovalElement" name="Approval" minOccurs="0"/>
                             <xs:element type="String200Data"      name="AssociationSupervision" minOccurs="0"/>
                             <xs:element type="EmailAddress"       name="AssociationSupervisionMail" minOccurs="0"/>
                             <xs:element type="xs:boolean"         name="EventCancelled" minOccurs="0"/>
+                            <xs:element type="WorldRankingMeetingType" name="WorldRankingMeeting" minOccurs="0"/>
                             <xs:element type="xs:string"          name="FinisherClubLink" minOccurs="0"/>
                             <xs:element type="xs:string"          name="FinisherClubShowAd" minOccurs="0"/>
                             <xs:element type="xs:integer"         name="TopEvent" minOccurs="0"/>
@@ -338,8 +367,11 @@
                         <xs:attribute type="EnumType"          name="Type" use="required" />
                         <xs:attribute type="xs:integer"        name="EventType" use="required" />
                         <xs:attribute type="xs:boolean"        name="LicenseOnly"/>
+                        <xs:attribute type="xs:boolean"        name="Charity"/>
+                        <xs:attribute type="String50Data"      name="SourceId"/>
                         <xs:attribute type="xs:integer"        name="EventCategory" use="required" />
                         <xs:attribute type="String200Input"    name="Name" use="required" />
+                        <xs:attribute type="xs:boolean"        name="InvalidResults"/>
                         <xs:attribute type="SQLDateTime"       name="Created" use="required" />
                         <xs:attribute type="SQLDateTime"       name="Updated" use="required" />
                     </xs:complexType>

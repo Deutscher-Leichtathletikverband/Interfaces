@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Events version="format2023">
+    <Event ID="22D07000000000001" Type="NONSTADIA" EventType="11" EventCategory="520" Name="DM Straßengehen" Created="2022-01-19 12:09:09" Updated="2022-11-29 10:36:44">
+        <DateStart>2022-04-30</DateStart>
+        <CountryCode>GER</CountryCode>
+        <StateID>HE</StateID>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Frankfurt</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="6" Type="L" GroupID="9" Title="Vorschau | Premiere bei Titeljagd in Frankfurt" Link="https://www.leichtathletik.de/news/news/detail/76408-premiere-bei-titeljagd-in-frankfurt" Sort="5" Created="2022-04-27 17:36:58" Updated="2022-04-27 17:41:34"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D07000000000001/Ausschreibung.pdf" Title="Ausschreibung (Stand: 09.04.2022)" Sort="1" Created="2022-02-28 16:20:26" Updated="2022-04-09 16:45:58"/>
+            <EventFile ID="3" Type="F" GroupID="4" Name="22D07000000000001/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 28.04.2022)" Sort="1" Created="2022-04-25 09:55:29" Updated="2022-04-28 09:49:12"/>
+            <EventFile ID="4" Type="F" GroupID="5" Name="22D07000000000001/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 27.04.2022)" Sort="1" Created="2022-04-26 16:11:58" Updated="2022-04-27 14:55:37"/>
+            <EventFile ID="7" Type="F" GroupID="8" Name="22D07000000000001/Ergebnisliste.pdf" Title="Ergebnisliste" Sort="1" Created="2022-05-13 11:21:04" Updated="2022-11-29 10:36:44"/>
+        </EventFiles>
+        <AgeGroups/>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+</Events>

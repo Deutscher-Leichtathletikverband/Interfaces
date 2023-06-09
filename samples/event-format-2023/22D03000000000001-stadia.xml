@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Events version="format2023">
+    <Event ID="22D03000000000001" Type="STADIA" EventType="3" EventCategory="220" Name="Deutsche Meisterschaften 2022" Created="2021-12-09 17:15:24" Updated="2022-06-26 20:59:12">
+        <DateStart>2022-06-23</DateStart>
+        <DateEnd>2022-06-26</DateEnd>
+        <CountryCode>GER</CountryCode>
+        <StateID>BE</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer/>
+        <Comp>
+            <StartPlace>Olympiastadion Berlin &amp; Pariser Platz</StartPlace>
+            <City>Berlin</City>
+            <GPS Lat="" Lng=""/>
+        </Comp>
+        <Drive>
+            <GPS Lat="" Lng=""/>
+        </Drive>
+        <EventFiles>
+            <EventFile ID="2" Type="L" GroupID="9" Title="Microsite zur Veranstaltung" Link="https://www.leichtathletik.de/termine/top-events/dm-2022-berlin" Sort="2" Created="2022-03-02 12:25:04" Updated="2022-06-23 14:41:04"/>
+            <EventFile ID="3" Type="L" GroupID="10" Title="Zum Ticket-Vorverkauf" Link="https://www.leichtathletik.de/termine/top-events/dm-2022-berlin/tickets" Sort="1" Created="2022-03-02 12:25:24" Updated="2022-03-02 12:25:24"/>
+            <EventFile ID="6" Type="L" GroupID="3" Title="Zeitplan" Link="https://www.leichtathletik.de/termine/top-events/dm-2022-berlin/zeitplan" Sort="1" Created="2022-06-15 12:32:23" Updated="2022-06-15 12:32:23"/>
+            <EventFile ID="10" Type="L" GroupID="6" Title="Anmeldung Vereins-/Physiozelte (Anmeldeschluss: 22.06.2022, 10 Uhr)" Link="https://docs.google.com/forms/d/1O_BPaYtbHPmTSiVC-iLAOYGPELOAbdQ8aV8qL2RQ3Yc/edit" Sort="1" Created="2022-06-17 17:31:59" Updated="2022-06-20 11:07:29"/>
+            <EventFile ID="11" Type="L" GroupID="9" Title="Vorschau: Die Entscheidungen der Frauen" Link="https://www.leichtathletik.de/news/news/detail/76634-dm-berlin-2022-die-grosse-vorschau-auf-die-entscheidungen-der-frauen" Sort="20" Created="2022-06-21 15:09:22" Updated="2022-06-22 17:06:09"/>
+            <EventFile ID="13" Type="L" GroupID="9" Title="Vorschau: Die Entscheidungen der Männer" Link="https://www.leichtathletik.de/news/news/detail/76635-dm-berlin-2022-die-grosse-vorschau-auf-die-entscheidungen-der-maenner" Sort="21" Created="2022-06-22 15:58:23" Updated="2022-06-22 17:05:56"/>
+            <EventFile ID="14" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://www.leichtathletik.de/termine/top-events/dm-2022-berlin/live-ergebnisse" Sort="1" Created="2022-06-23 11:16:53" Updated="2022-06-23 11:16:53"/>
+            <EventFile ID="15" Type="L" GroupID="7" Title="Live-Zeiten: TV &amp; Streams" Link="https://www.leichtathletik.de/termine/top-events/dm-2022-berlin/tv-zeiten-und-livestreams" Sort="2" Created="2022-06-23 11:17:21" Updated="2022-06-23 11:17:21"/>
+            <EventFile ID="16" Type="L" GroupID="9" Title="Offizielles DLV-Programmheft" Link="https://www.leichtathletik.de/termine/top-events/dm-2022-berlin/offizielles-programmheft" Sort="1" Created="2022-06-23 12:37:44" Updated="2022-06-23 14:41:18"/>
+            <EventFile ID="17" Type="L" GroupID="9" Title="Donnerstag | Sara Gambetta holt sich den ersten deutschen Meistertitel von Berlin" Link="https://www.leichtathletik.de/news/news/detail/76674-sara-gambetta-holt-sich-den-ersten-deutschen-meistertitel-von-berlin" Sort="10" Created="2022-06-23 18:00:05" Updated="2022-06-23 18:00:05"/>
+            <EventFile ID="19" Type="L" GroupID="9" Title="Freitag | David Storl feiert am Brandenburger Tor das zehnte DM-Gold" Link="https://www.leichtathletik.de/news/news/detail/76678-david-storl-feiert-am-brandenburger-tor-das-zehnte-dm-gold" Sort="11" Created="2022-06-24 19:05:46" Updated="2022-06-24 19:05:46"/>
+            <EventFile ID="20" Type="L" GroupID="9" Title="Alle Videos zur Veranstaltung" Link="https://www.leichtathletik.de/tv/veranstaltungen/video-uebersicht/veranstaltung/4149-deutsche-meisterschaften-2022-berlin" Sort="3" Created="2022-06-25 12:26:05" Updated="2022-06-25 12:26:05"/>
+            <EventFile ID="24" Type="L" GroupID="9" Title="Samstag | Gina Lückenkemper verzaubert mit 10,99 Sekunden" Link="https://www.leichtathletik.de/news/news/detail/76682-dm-tag-1-gina-lueckenkemper-verzaubert-mit-1099-sekunden" Sort="12" Created="2022-06-25 21:10:02" Updated="2022-06-26 20:58:35"/>
+            <EventFile ID="26" Type="L" GroupID="9" Title="Sonntag | Hochsprung-Feuerwerk, Weitsprung-Dominanz und Drama auf der Bahn" Link="https://www.leichtathletik.de/news/news/detail/76688-dm-tag-2-hochsprung-feuerwerk-weitsprung-dominanz-und-hochspannung-auf-der-bahn" Sort="13" Created="2022-06-26 20:59:11" Updated="2022-06-26 20:59:11"/>
+            <EventFile ID="4" Type="F" GroupID="1" Name="22D03000000000001/Ausschreibung.pdf" Title="Ausschreibung (Stand: 23.06.2022)" Sort="1" Created="2022-04-13 14:13:24" Updated="2022-06-23 09:45:35"/>
+            <EventFile ID="7" Type="F" GroupID="4" Name="22D03000000000001/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 22.06.2022)" Sort="1" Created="2022-06-17 17:28:14" Updated="2022-06-22 13:10:57"/>
+            <EventFile ID="8" Type="F" GroupID="5" Name="22D03000000000001/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 17.06.2022)" Sort="2" Created="2022-06-17 17:29:00" Updated="2022-06-17 19:18:03"/>
+            <EventFile ID="9" Type="F" GroupID="5" Name="22D03000000000001/Teilnehmerinformation-Kugelstoen.pdf" Title="Teilnehmerinformation Kugelstoßen (Stand: 17.06.2022)" Sort="3" Created="2022-06-17 17:29:29" Updated="2022-06-17 19:18:25"/>
+            <EventFile ID="12" Type="F" GroupID="5" Name="22D03000000000001/Bahnverteilungsschema-Stand-21.06.2022.pdf" Title="Bahnverteilungsschema (Stand: 22.06.2022)" Sort="4" Created="2022-06-21 20:17:17" Updated="2022-06-22 18:22:38"/>
+            <EventFile ID="18" Type="F" GroupID="3" Name="22D03000000000001/Callroomplan.pdf" Title="Callroomplan" Sort="2" Created="2022-06-24 16:34:12" Updated="2022-06-24 16:34:12"/>
+            <EventFile ID="25" Type="F" GroupID="8" Name="22D03000000000001/Ergebnisse.pdf" Title="Ergebnisse" Sort="1" Created="2022-06-26 20:40:00" Updated="2022-06-26 20:40:00"/>
+        </EventFiles>
+        <AgeGroups>
+            <AgeGroup ID="M" Name="Männer">
+                <Disciplines>
+                    <Discipline ID="L100" Normed="true" DisciplineName="100 m"/>
+                    <Discipline ID="L200" Normed="true" DisciplineName="200 m"/>
+                    <Discipline ID="L400" Normed="true" DisciplineName="400 m"/>
+                    <Discipline ID="L800" Normed="true" DisciplineName="800 m"/>
+                    <Discipline ID="L1K5" Normed="true" DisciplineName="1.500 m"/>
+                    <Discipline ID="L5K0" Normed="true" DisciplineName="5.000 m"/>
+                    <Discipline ID="H110_1067" Normed="true" DisciplineName="110 m Hürden 1,067 m"/>
+                    <Discipline ID="H400_0914" Normed="true" DisciplineName="400 m Hürden 0,914 m"/>
+                    <Discipline ID="H3K0_0914" Normed="true" DisciplineName="3.000 m Hindernis 0,914 m"/>
+                    <Discipline ID="X4X1" Normed="true" DisciplineName="4x100 m Staffel"/>
+                    <Discipline ID="THOC" Normed="true" DisciplineName="Hochsprung"/>
+                    <Discipline ID="TSTA" Normed="true" DisciplineName="Stabhochsprung"/>
+                    <Discipline ID="TWEI" Normed="true" DisciplineName="Weitsprung"/>
+                    <Discipline ID="TDRE" Normed="true" DisciplineName="Dreisprung"/>
+                    <Discipline ID="TKUG_7260" Normed="true" DisciplineName="Kugelstoß 7,26 kg"/>
+                    <Discipline ID="TDIS_2000" Normed="true" DisciplineName="Diskuswurf 2 kg"/>
+                    <Discipline ID="THAM_7260" Normed="true" DisciplineName="Hammerwurf 7,26 kg"/>
+                    <Discipline ID="TSPE_0800" Normed="true" DisciplineName="Speerwurf 800 g"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W" Name="Frauen">
+                <Disciplines>
+                    <Discipline ID="L100" Normed="true" DisciplineName="100 m"/>
+                    <Discipline ID="L200" Normed="true" DisciplineName="200 m"/>
+                    <Discipline ID="L400" Normed="true" DisciplineName="400 m"/>
+                    <Discipline ID="L800" Normed="true" DisciplineName="800 m"/>
+                    <Discipline ID="L1K5" Normed="true" DisciplineName="1.500 m"/>
+                    <Discipline ID="L5K0" Normed="true" DisciplineName="5.000 m"/>
+                    <Discipline ID="H100_0838" Normed="true" DisciplineName="100 m Hürden 0,838 m"/>
+                    <Discipline ID="H400_0762" Normed="true" DisciplineName="400 m Hürden 0,762 m"/>
+                    <Discipline ID="H3K0_0762" Normed="true" DisciplineName="3.000 m Hindernis 0,762 m"/>
+                    <Discipline ID="X4X1" Normed="true" DisciplineName="4x100 m Staffel"/>
+                    <Discipline ID="THOC" Normed="true" DisciplineName="Hochsprung"/>
+                    <Discipline ID="TSTA" Normed="true" DisciplineName="Stabhochsprung"/>
+                    <Discipline ID="TWEI" Normed="true" DisciplineName="Weitsprung"/>
+                    <Discipline ID="TDRE" Normed="true" DisciplineName="Dreisprung"/>
+                    <Discipline ID="TKUG_4000" Normed="true" DisciplineName="Kugelstoß 4 kg"/>
+                    <Discipline ID="TDIS_1000" Normed="true" DisciplineName="Diskuswurf 1 kg"/>
+                    <Discipline ID="THAM_4000" Normed="true" DisciplineName="Hammerwurf 4 kg"/>
+                    <Discipline ID="TSPE_0600" Normed="true" DisciplineName="Speerwurf 600 g"/>
+                </Disciplines>
+            </AgeGroup>
+        </AgeGroups>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+</Events>

@@ -1,0 +1,1654 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Events version="format2023">
+    <Event ID="22D15000000000001" Type="STADIA" EventType="4" EventCategory="220" Name="Deutsche Hallenmeisterschaften" Created="2021-05-05 11:23:55" Updated="2022-03-02 20:48:07">
+        <DateStart>2022-02-26</DateStart>
+        <DateEnd>2022-02-27</DateEnd>
+        <CountryCode>GER</CountryCode>
+        <StateID>SN</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Leipzig</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/6334" Sort="-100" Created="2021-05-05 11:23:55" Updated="2022-03-02 20:48:07"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/6334" Sort="-100" Created="2021-05-05 11:23:55" Updated="2022-03-02 20:48:07"/>
+            <EventFile ID="2" Type="L" GroupID="9" Title="Microsite zur Hallen-DM" Link="https://www.leichtathletik.de/termine/top-events/hallen-dm-2022-leipzig" Sort="1" Created="2021-11-23 11:07:37" Updated="2021-11-23 11:07:37"/>
+            <EventFile ID="3" Type="L" GroupID="5" Title="Zum Ticket-Vorverkauf" Link="https://www.leichtathletik.de/termine/top-events/hallen-dm-2022-leipzig/tickets" Sort="1" Created="2021-11-23 11:08:00" Updated="2021-11-23 11:08:00"/>
+            <EventFile ID="6" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://www.leichtathletik.de/termine/top-events/hallen-dm-2022-leipzig/leipzig-2022-live" Sort="1" Created="2022-02-17 19:19:06" Updated="2022-02-17 19:19:06"/>
+            <EventFile ID="8" Type="L" GroupID="7" Title="ARD-Livestream am Samstag" Link="https://www.sportschau.de/leichtathletik/videostream---leichtathletik-hallen-dm-aus-leipzig-ab--uhr--100.html" Sort="2" Created="2022-02-18 15:45:39" Updated="2022-02-18 15:45:39"/>
+            <EventFile ID="9" Type="L" GroupID="7" Title="ARD-Livestream am Sonntag" Link="https://www.sportschau.de/leichtathletik/videostream---leichtathletik-hallen-dm-aus-leipzig-ab--uhr--102.html" Sort="3" Created="2022-02-18 15:45:56" Updated="2022-02-18 15:45:56"/>
+            <EventFile ID="15" Type="L" GroupID="9" Title="Vorschau | Der Ausblick auf die Wettbewerbe der Männer" Link="https://www.leichtathletik.de/news/news/detail/76158-hallen-dm-2022-leipzig-die-grosse-vorschau-auf-die-wettbewerbe-der-maenner" Sort="50" Created="2022-02-24 21:39:19" Updated="2022-02-25 15:48:43"/>
+            <EventFile ID="16" Type="L" GroupID="9" Title="Vorschau | Der Ausblick auf die Wettbewerbe der Frauen" Link="https://www.leichtathletik.de/news/news/detail/76157-hallen-dm-2022-leipzig-die-grosse-vorschau-auf-die-wettbewerbe-der-frauen" Sort="55" Created="2022-02-24 21:40:03" Updated="2022-02-27 18:43:15"/>
+            <EventFile ID="17" Type="L" GroupID="9" Title="Hallen-DM-Programmheft" Link="https://www.leichtathletik.de/termine/top-events/hallen-dm-2022-leipzig/dm-programmheft" Sort="2" Created="2022-02-25 15:49:24" Updated="2022-02-25 15:49:24"/>
+            <EventFile ID="18" Type="L" GroupID="9" Title="Video-Clips aus Leipzig" Link="https://www.leichtathletik.de/tv/veranstaltungen/video-uebersicht/veranstaltung/4144-hallen-dm-2022-leipzig" Sort="3" Created="2022-02-26 19:19:07" Updated="2022-02-26 19:19:07"/>
+            <EventFile ID="20" Type="L" GroupID="9" Title="Tag 1: Lucas Ansah-Peprah und Tatjana Pinto auf dem Sprint-Thron" Link="https://www.leichtathletik.de/news/news/detail/76183-tag-1-der-hallen-dm-lucas-ansah-peprah-und-tatjana-pinto-auf-dem-sprint-thron" Sort="45" Created="2022-02-27 15:24:55" Updated="2022-02-27 18:41:47"/>
+            <EventFile ID="21" Type="L" GroupID="9" Title="Tag 1: Christina Schwanitz wird mit Standing Ovations verabschiedet" Link="https://www.leichtathletik.de/news/news/detail/76181-christina-schwanitz-wird-mit-standing-ovations-verabschiedet" Sort="47" Created="2022-02-27 15:27:13" Updated="2022-02-27 18:42:01"/>
+            <EventFile ID="23" Type="L" GroupID="9" Title="Tag 1: Stimmen vom ersten Tag der Hallen-DM in Leipzig" Link="https://www.leichtathletik.de/news/news/detail/76182-stimmen-vom-ersten-tag-der-hallen-dm-in-leipzig" Sort="46" Created="2022-02-27 18:42:54" Updated="2022-02-27 18:42:54"/>
+            <EventFile ID="24" Type="L" GroupID="9" Title="Tag 2: Malaika Mihambo überragt, Hamburg wird zur Sprinthochburg" Link="https://www.leichtathletik.de/news/news/detail/76191-tag-2-der-hallen-dm-malaika-mihambo-ueberragt-hamburg-wird-zur-sprinthochburg" Sort="48" Created="2022-02-27 18:44:00" Updated="2022-02-27 18:44:00"/>
+            <EventFile ID="25" Type="L" GroupID="9" Title="Tag 2: Stimmen vom zweiten Tag der Hallen-DM in Leipzig" Link="https://www.leichtathletik.de/news/news/detail/76189-stimmen-vom-zweiten-tag-der-hallen-dm-in-leipzig" Sort="49" Created="2022-02-27 18:44:41" Updated="2022-02-27 18:44:41"/>
+            <EventFile ID="4" Type="F" GroupID="1" Name="22D15000000000001/Ausschreibung-Stand-20.01.2022.pdf" Title="Ausschreibung (Stand: 18.02.2022)" Sort="1" Created="2022-01-20 11:19:05" Updated="2022-02-18 12:37:09"/>
+            <EventFile ID="5" Type="F" GroupID="3" Name="22D15000000000001/DM-Halle-2022-Leipzig-Zeitplan.pdf" Title="Zeitplan (Stand: 18.02.2022)" Sort="1" Created="2022-02-04 11:16:27" Updated="2022-02-18 12:38:50"/>
+            <EventFile ID="10" Type="F" GroupID="4" Name="22D15000000000001/2022-DM-Halle-Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 23.02.2022)" Sort="1" Created="2022-02-18 15:55:07" Updated="2022-02-23 16:36:52"/>
+            <EventFile ID="13" Type="F" GroupID="5" Name="22D15000000000001/DM-Halle-2022-Bahnverteilungsschema.pdf" Title="Bahnverteilungsschema (Stand: 19.02.2022)" Sort="4" Created="2022-02-21 10:51:23" Updated="2022-02-21 10:51:53"/>
+            <EventFile ID="14" Type="F" GroupID="5" Name="22D15000000000001/DM-Halle-2022-Teilnehmerinnen-Informationen.pdf" Title="Teilnehmer:innen-Information (Stand: 20.02.2022)" Sort="5" Created="2022-02-21 10:54:07" Updated="2022-02-21 10:54:22"/>
+            <EventFile ID="22" Type="F" GroupID="8" Name="22D15000000000001/Finale-Ergebnisliste.pdf" Title="Finale Ergebnisliste" Sort="1" Created="2022-02-27 18:15:43" Updated="2022-02-27 18:15:43"/>
+        </EventFiles>
+        <AgeGroups/>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D00000000000001" Type="STADIA" EventType="4" EventCategory="220" Name="3. Test DM" Created="2021-11-10 13:22:28" Updated="2021-11-10 13:23:22">
+        <DateStart>2022-01-06</DateStart>
+        <DateEnd>2022-01-09</DateEnd>
+        <CountryCode>GER</CountryCode>
+        <Organizer/>
+        <Comp>
+            <City>Darmstadt</City>
+        </Comp>
+        <Drive/>
+        <EventFiles/>
+        <AgeGroups/>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>0</TopEvent>
+    </Event>
+    <Event ID="22D00000000000002" Type="STADIA" EventType="3" EventCategory="220" Name="4. Test DM Wurf" Created="2021-11-10 13:25:18" Updated="2022-01-12 11:38:37">
+        <DateStart>2022-02-04</DateStart>
+        <DateEnd>2022-02-06</DateEnd>
+        <CountryCode>GER</CountryCode>
+        <Organizer/>
+        <Comp>
+            <City>Frankfurt</City>
+        </Comp>
+        <Drive/>
+        <EventFiles/>
+        <AgeGroups/>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>0</TopEvent>
+    </Event>
+    <Event ID="22D10000000000001" Type="STADIA" EventType="4" EventCategory="220" Name="DM Mehrkampf Halle" Created="2021-11-30 09:07:53" Updated="2022-01-30 19:13:15">
+        <DateStart>2022-01-29</DateStart>
+        <DateEnd>2022-01-30</DateEnd>
+        <CountryCode>GER</CountryCode>
+        <StateID>NO</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Leverkusen</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D10000000000001/890a8dfc-e085-4f4b-a9c0-c114e2d8692e/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2021-11-30 09:07:53" Updated="2022-01-30 19:13:15"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/6217" Sort="-100" Created="2021-11-30 09:07:53" Updated="2022-01-30 19:13:15"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/6217" Sort="-100" Created="2021-11-30 09:07:53" Updated="2022-01-30 19:13:15"/>
+            <EventFile ID="7" Type="L" GroupID="9" Title="Vorschau | Mehrkämpfer eröffnen die Jagd nach nationalen Titeln" Link="https://www.leichtathletik.de/news/news/detail/76032-mehrkaempfer-eroeffnen-die-jagd-nach-nationalen-titeln" Sort="10" Created="2022-01-27 10:35:53" Updated="2022-01-27 10:35:53"/>
+            <EventFile ID="8" Type="L" GroupID="9" Title="Tag 1 | Bittersüße erste Goldmedaille in der U18 und Halbzeit-Führung für Marvin Bollinger" Link="https://www.leichtathletik.de/news/news/detail/76049-bittersuesse-erste-goldmedaille-in-der-u18-und-halbzeit-fuehrung-fuer-marvin-bollinger" Sort="1" Created="2022-01-30 14:49:02" Updated="2022-01-30 14:49:02"/>
+            <EventFile ID="9" Type="L" GroupID="9" Title="Tag 2 | Marcel Meyer neu im 6.000er Club – Fünfkampf-Gold für Laura Voß" Link="https://www.leichtathletik.de/news/news/detail/76054-marcel-meyer-neu-im-6000er-club-fuenfkampf-gold-fuer-laura-voss" Sort="2" Created="2022-01-30 19:13:14" Updated="2022-01-30 19:13:14"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D10000000000001/Ausschreibung.pdf" Title="Ausschreibung (Stand: 20.01.2022)" Sort="1" Created="2021-12-09 20:11:00" Updated="2022-01-20 16:51:25"/>
+            <EventFile ID="3" Type="F" GroupID="5" Name="22D10000000000001/Schnelltest--und-Ablaufhinweise-fr-Athletinnen-und-Betreuerinnen.pdf" Title="Schnelltest- und Ablaufhinweise für Athlet:innen und Betreuer:innen (Stand: 20.01.2022)" Sort="2" Created="2022-01-20 16:11:29" Updated="2022-01-20 16:18:43"/>
+            <EventFile ID="4" Type="F" GroupID="4" Name="22D10000000000001/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 20.01.2022)" Sort="1" Created="2022-01-20 20:11:49" Updated="2022-01-20 20:33:02"/>
+            <EventFile ID="5" Type="F" GroupID="5" Name="22D10000000000001/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 21.01.2022)" Sort="1" Created="2022-01-21 10:55:44" Updated="2022-01-21 11:05:24"/>
+        </EventFiles>
+        <AgeGroups/>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D20000000000001" Type="STADIA" EventType="4" EventCategory="220" Name="DM Jugend Halle (U20)" Created="2021-11-30 09:10:17" Updated="2022-02-20 19:33:28">
+        <DateStart>2022-02-19</DateStart>
+        <DateEnd>2022-02-20</DateEnd>
+        <CountryCode>GER</CountryCode>
+        <StateID>WÜ</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Sindelfingen</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D20000000000001/3479fa3d-5ccc-46c3-b6ea-616738651601/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2021-11-30 09:10:17" Updated="2022-02-20 19:33:28"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/6300" Sort="-100" Created="2021-11-30 09:10:17" Updated="2022-02-20 19:33:28"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/6300" Sort="-100" Created="2021-11-30 09:10:17" Updated="2022-02-20 19:33:28"/>
+            <EventFile ID="6" Type="L" GroupID="7" Title="Livestreams &amp; Live-Ergebnisse" Link="https://www.leichtathletik.de/termine/top-events/jugend-hallen-dm-2022-sindelfingen-live" Sort="1" Created="2022-02-14 11:56:49" Updated="2022-02-14 11:56:49"/>
+            <EventFile ID="8" Type="L" GroupID="9" Title="Die Jugend-Hallen-DM in Sindelfingen im Livestream auf leichtathletik.de" Link="https://www.leichtathletik.de/news/news/detail/76124-die-jugend-hallen-dm-in-sindelfingen-im-livestream-auf-leichtathletikde" Sort="20" Created="2022-02-15 15:37:37" Updated="2022-02-15 15:37:37"/>
+            <EventFile ID="9" Type="L" GroupID="9" Title="Sindelfingen: Nachwuchs-Elite kehrt unter das Hallendach zurück" Link="https://www.leichtathletik.de/news/news/detail/76130-sindelfingen-nachwuchs-elite-kehrt-unter-das-hallendach-zurueck" Sort="19" Created="2022-02-17 16:25:00" Updated="2022-02-17 16:25:00"/>
+            <EventFile ID="10" Type="L" GroupID="9" Title="Jugend-Winterwurf-DM Tag 1: Max Dehning brilliert mit 72,63 Metern" Link="https://www.leichtathletik.de/news/news/detail/76142-tag-1-max-dehning-brilliert-mit-7263-metern" Sort="18" Created="2022-02-19 20:42:26" Updated="2022-02-19 20:42:26"/>
+            <EventFile ID="11" Type="L" GroupID="9" Title="Männliche Jugend Tag 1: Steven Richter und Oliver Koletzko ungefährdet zum Titel" Link="https://www.leichtathletik.de/news/news/detail/76140-maennliche-jugend-tag-1-steven-richter-und-oliver-koletzko-ungefaehrdet-zum-titel" Sort="17" Created="2022-02-19 20:42:54" Updated="2022-02-19 20:42:54"/>
+            <EventFile ID="12" Type="L" GroupID="9" Title="Weibliche Jugend Tag 1: Anna Gräfin Keyserlingk springt an Europas Spitze" Link="https://www.leichtathletik.de/news/news/detail/76139-weibliche-jugend-tag-1-anna-graefin-keyserlingk-springt-an-europas-spitze" Sort="16" Created="2022-02-19 20:43:43" Updated="2022-02-19 20:43:43"/>
+            <EventFile ID="13" Type="L" GroupID="9" Title="Video-Clips aus Sindelfingen" Link="https://www.leichtathletik.de/tv/veranstaltungen/video-uebersicht/veranstaltung/4143-jugend-hallen-dm-2022-sindelfingen" Sort="21" Created="2022-02-19 21:28:57" Updated="2022-02-19 21:28:57"/>
+            <EventFile ID="14" Type="L" GroupID="9" Title="Tag 2: Marius Karges lässt überraschend Favoriten Sosna und Richter hinter sich" Link="https://www.leichtathletik.de/news/news/detail/76144-tag-2-marius-karges-laesst-ueberraschend-favoriten-sosna-und-richter-hinter-sich" Sort="15" Created="2022-02-20 19:32:14" Updated="2022-02-20 19:32:14"/>
+            <EventFile ID="15" Type="L" GroupID="9" Title="Männliche Jugend Tag 2: Maximilian Köhler und Mateusz Lewandowski überraschen" Link="https://www.leichtathletik.de/news/news/detail/76147-maennliche-jugend-tag-2-maximilian-koehler-und-mateusz-lewandowski-ueberraschen" Sort="14" Created="2022-02-20 19:32:48" Updated="2022-02-20 19:33:01"/>
+            <EventFile ID="16" Type="L" GroupID="9" Title="Weibliche Jugend Tag 2: Johanna Göring mit 1,90 Metern die Überfliegerin" Link="https://www.leichtathletik.de/news/news/detail/76145-weibliche-jugend-tag-2-johanna-goering-mit-190-metern-die-ueberfliegerin" Sort="13" Created="2022-02-20 19:33:27" Updated="2022-02-20 19:33:27"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D20000000000001/Ausschreibung.pdf" Title="Ausschreibung (Stand: 12.02.2022)" Sort="1" Created="2022-01-14 12:18:16" Updated="2022-02-12 12:40:39"/>
+            <EventFile ID="3" Type="F" GroupID="5" Name="22D20000000000001/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 12.02.2022)" Sort="1" Created="2022-02-11 10:55:39" Updated="2022-02-12 20:02:10"/>
+            <EventFile ID="4" Type="F" GroupID="4" Name="22D20000000000001/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 11.02.2022)" Sort="1" Created="2022-02-11 11:00:19" Updated="2022-02-15 14:05:40"/>
+            <EventFile ID="5" Type="F" GroupID="5" Name="22D20000000000001/Schnelltest--und-Ablaufhinweise-fr-Athletinnen-und-Betreuerinnen.pdf" Title="Schnelltest- und Ablaufhinweise für Athlet:innen und Betreuer:innen (Stand: 11.02.2022)" Sort="2" Created="2022-02-11 11:29:47" Updated="2022-02-11 11:38:03"/>
+            <EventFile ID="7" Type="F" GroupID="5" Name="22D20000000000001/Bahnverteilungsschema.pdf" Title="Bahnverteilungsschema (Stand: 14.02.2022)" Sort="3" Created="2022-02-14 13:01:14" Updated="2022-02-14 15:39:02"/>
+        </EventFiles>
+        <AgeGroups/>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D09000000000001" Type="NONSTADIA" EventType="8" EventCategory="520" Name="DM Marathon" Created="2021-11-30 09:13:45" Updated="2022-04-13 10:45:34">
+        <DateStart>2022-04-03</DateStart>
+        <CountryCode>GER</CountryCode>
+        <StateID>NI</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Hannover</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D09000000000001/9d0f1013-995b-4b1d-89cd-cf47cdf6b4ab/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2021-11-30 09:13:45" Updated="2022-04-13 10:45:34"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/6477" Sort="-100" Created="2021-11-30 09:13:45" Updated="2022-04-13 10:45:34"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/6477" Sort="-100" Created="2021-11-30 09:13:45" Updated="2022-04-13 10:45:34"/>
+            <EventFile ID="5" Type="L" GroupID="9" Title="Vorschau | Marathon-DM: Titeljagd in Hannover, NDR überträgt live" Link="https://www.leichtathletik.de/news/news/detail/76326-marathon-dm-titeljagd-in-hannover-ndr-uebertraegt-live" Sort="1" Created="2022-03-31 14:43:15" Updated="2022-03-31 14:43:15"/>
+            <EventFile ID="6" Type="L" GroupID="7" Title="Livestream ab ca. 8:45 Uhr" Link="https://www.leichtathletik.de/termine/leichtathletik-im-tv" Sort="1" Created="2022-03-31 14:44:07" Updated="2022-03-31 14:44:07"/>
+            <EventFile ID="7" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://hannover.r.mikatiming.de/2022/" Sort="2" Created="2022-04-02 13:32:10" Updated="2022-04-02 13:32:10"/>
+            <EventFile ID="12" Type="L" GroupID="9" Title="Bericht | Hendrik Pfeiffer und Domenika Mayer triumphieren in Hannover" Link="https://www.leichtathletik.de/news/news/detail/76340-hendrik-pfeiffer-und-domenika-mayer-triumphieren-in-hannover" Sort="2" Created="2022-04-13 10:45:33" Updated="2022-04-13 10:45:33"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D09000000000001/Ausschreibung.pdf" Title="Ausschreibung (Stand: 29.03.2022)" Sort="1" Created="2022-02-26 10:19:34" Updated="2022-03-29 12:55:15"/>
+            <EventFile ID="3" Type="F" GroupID="4" Name="22D09000000000001/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 29.03.2022)" Sort="1" Created="2022-03-24 16:56:13" Updated="2022-03-29 15:46:08"/>
+            <EventFile ID="4" Type="F" GroupID="5" Name="22D09000000000001/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 29.03.2022)" Sort="1" Created="2022-03-29 12:46:39" Updated="2022-03-29 12:47:24"/>
+            <EventFile ID="8" Type="F" GroupID="8" Name="22D09000000000001/ErgebnislisteGesamt.pdf" Title="Ergebnisliste_Gesamt" Sort="1" Created="2022-04-07 12:00:38" Updated="2022-04-07 12:00:38"/>
+            <EventFile ID="9" Type="F" GroupID="8" Name="22D09000000000001/ErgebnislisteAltersklassen.pdf" Title="Ergebnisliste_Altersklassen" Sort="2" Created="2022-04-07 12:01:25" Updated="2022-04-07 12:01:25"/>
+            <EventFile ID="10" Type="F" GroupID="8" Name="22D09000000000001/ErgebnislisteMannschaftswertungenGesamt.pdf" Title="Ergebnisliste_Mannschaftswertungen_Gesamt" Sort="3" Created="2022-04-07 12:01:54" Updated="2022-04-07 12:01:54"/>
+            <EventFile ID="11" Type="F" GroupID="8" Name="22D09000000000001/ErgebnislisteMannschaftswertungenAltersklassen.pdf" Title="Ergebnisliste_Mannschaftswertungen_Altersklassen" Sort="4" Created="2022-04-07 12:02:19" Updated="2022-04-07 12:02:19"/>
+        </EventFiles>
+        <AgeGroups/>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D20000000000002" Type="STADIA" EventType="3" EventCategory="220" Name="DM Langstrecke" Created="2021-11-30 09:15:44" Updated="2022-05-24 13:00:45">
+        <DateStart>2022-05-07</DateStart>
+        <CountryCode>GER</CountryCode>
+        <StateID>WÜ</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Pliezhausen</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D20000000000002/176e43ff-af07-4283-b985-64a4bc4d3714/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2021-11-30 09:15:44" Updated="2022-05-24 13:00:45"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/6764" Sort="-100" Created="2021-11-30 09:15:44" Updated="2022-05-24 13:00:45"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/6764" Sort="-100" Created="2021-11-30 09:15:44" Updated="2022-05-24 13:00:45"/>
+            <EventFile ID="3" Type="L" GroupID="7" Title="Livestream" Link="https://www.leichtathletik.de/termine/top-events/langstrecken-dm-2022-pliezhausen-live" Sort="2" Created="2022-04-27 09:26:35" Updated="2022-04-27 09:26:35"/>
+            <EventFile ID="5" Type="L" GroupID="9" Title="Vorschau | Mit Reh, Dattke, Voigt und Boch: Teilnehmerlisten für Pliezhausen veröffentlicht" Link="https://www.leichtathletik.de/news/news/detail/76417-mit-reh-dattke-voigt-und-boch-teilnehmerlisten-fuer-pliezhausen-veroeffentlicht" Sort="10" Created="2022-04-29 16:41:52" Updated="2022-04-29 16:41:52"/>
+            <EventFile ID="6" Type="L" GroupID="9" Title="Vorschau | Jubiläumsfeier in Pliezhausen: Tradition, große Namen und hochklassige Leistungen" Link="https://www.leichtathletik.de/news/news/detail/76420-jubilaeumsfeier-in-pliezhausen-tradition-grosse-namen-und-hochklassige-leistungen" Sort="9" Created="2022-04-30 00:29:18" Updated="2022-04-30 00:29:18"/>
+            <EventFile ID="8" Type="L" GroupID="9" Title="Vorschau | Pliezhausen im Doppelpack: Auf DM-Titeljagd folgt Sprint-Spektakel mit Olympiasiegerin" Link="https://www.leichtathletik.de/news/news/detail/76442-pliezhausen-im-doppelpack-auf-dm-titeljagd-folgt-sprint-spektakel-mit-olympiasiegerin" Sort="8" Created="2022-05-05 11:39:48" Updated="2022-05-05 11:39:48"/>
+            <EventFile ID="9" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/6764" Sort="1" Created="2022-05-06 16:47:45" Updated="2022-05-06 16:47:45"/>
+            <EventFile ID="10" Type="L" GroupID="9" Title="Bericht | Alina Reh feiert Comeback nach Maß, Simon Boch überzeugt mit Spurtqualitäten" Link="https://www.leichtathletik.de/news/news/detail/76455-alina-reh-feiert-comeback-nach-mass-simon-boch-ueberzeugt-mit-spurtqualitaeten" Sort="7" Created="2022-05-07 23:34:34" Updated="2022-05-07 23:34:34"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D20000000000002/Ausschreibung.pdf" Title="Ausschreibung (Stand: 04.05.2022)" Sort="1" Created="2022-02-26 10:21:01" Updated="2022-05-04 16:27:15"/>
+            <EventFile ID="4" Type="F" GroupID="4" Name="22D20000000000002/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 05.05.2022)" Sort="1" Created="2022-04-28 15:58:21" Updated="2022-05-05 12:41:40"/>
+            <EventFile ID="7" Type="F" GroupID="5" Name="22D20000000000002/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 03.05.2022)" Sort="1" Created="2022-05-03 21:46:34" Updated="2022-05-03 21:47:04"/>
+        </EventFiles>
+        <AgeGroups>
+            <AgeGroup ID="MJU20" Name="männliche Jugend U20">
+                <Disciplines>
+                    <Discipline ID="L5K0" Normed="true" DisciplineName="5.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="MU23" Name="Junioren U23">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M" Name="Männer">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M35" Name="Senioren M35">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M40" Name="Senioren M40">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M45" Name="Senioren M45">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M50" Name="Senioren M50">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M55" Name="Senioren M55">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M60" Name="Senioren M60">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M65" Name="Senioren M65">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M70" Name="Senioren M70">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M75" Name="Senioren M75">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M80" Name="Senioren M80">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M85" Name="Senioren M85">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M90" Name="Senioren M90">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="WJU20" Name="weibliche Jugend U20">
+                <Disciplines>
+                    <Discipline ID="L5K0" Normed="true" DisciplineName="5.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="WU23" Name="Juniorinnen U23">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W" Name="Frauen">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W35" Name="Seniorinnen W35">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W40" Name="Seniorinnen W40">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W45" Name="Seniorinnen W45">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W50" Name="Seniorinnen W50">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W55" Name="Seniorinnen W55">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W60" Name="Seniorinnen W60">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W65" Name="Seniorinnen W65">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W70" Name="Seniorinnen W70">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W75" Name="Seniorinnen W75">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W80" Name="Seniorinnen W80">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W85" Name="Seniorinnen W85">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W90" Name="Seniorinnen W90">
+                <Disciplines>
+                    <Discipline ID="L10K" Normed="true" DisciplineName="10.000 m"/>
+                </Disciplines>
+            </AgeGroup>
+        </AgeGroups>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D05000000000001" Type="STADIA" EventType="3" EventCategory="220" Name="DM Jugend U16" Created="2021-11-30 09:20:31" Updated="2022-07-10 18:19:21">
+        <DateStart>2022-07-09</DateStart>
+        <DateEnd>2022-07-10</DateEnd>
+        <CountryCode>GER</CountryCode>
+        <StateID>BR</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Bremen</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D05000000000001/277efc3f-031c-4f3c-a9e0-b79c055e5fb0/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2021-11-30 09:20:31" Updated="2022-07-10 18:19:21"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/7604" Sort="-100" Created="2021-11-30 09:20:31" Updated="2022-07-10 18:19:21"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/7604" Sort="-100" Created="2021-11-30 09:20:31" Updated="2022-07-10 18:19:21"/>
+            <EventFile ID="3" Type="L" GroupID="6" Title="Vorverkauf Dauerkarte" Link="https://www.ticketmaster.de/event/deutsche-leichtathletik-meisterschaften-u16-dauerkarte-09-10-07-22-tickets/462787" Sort="1" Created="2022-05-16 10:32:41" Updated="2022-05-16 10:32:41"/>
+            <EventFile ID="4" Type="L" GroupID="6" Title="Vorverkauf Tageskarte Samstag" Link="https://www.ticketmaster.de/event/deutsche-leichtathletik-meisterschaften-u16-tageskarte-samstag-tickets/462765" Sort="2" Created="2022-05-16 10:33:19" Updated="2022-05-16 10:33:19"/>
+            <EventFile ID="5" Type="L" GroupID="6" Title="Vorverkauf Tageskarte Sonntag" Link="https://www.ticketmaster.de/event/deutsche-leichtathletik-meisterschaften-u16-tageskarte-sonntag-tickets/462785" Sort="3" Created="2022-05-16 10:34:23" Updated="2022-05-16 10:34:23"/>
+            <EventFile ID="10" Type="L" GroupID="9" Title="Tag 1 | Jakob Kemminer und Konstanze Irlinger führen Reihe starker U16-Leistungen an" Link="https://www.leichtathletik.de/news/news/detail/76782-u16-dm-tag-1-jakob-kemminer-und-konstanze-irlinger-fuehren-reihe-starker-u16-leistungen-an" Sort="1" Created="2022-07-09 20:07:20" Updated="2022-07-09 20:07:20"/>
+            <EventFile ID="11" Type="L" GroupID="9" Title="U16-DM Tag 2 | Medaillensammlung für Kiara Hanisch und den USC Mainz" Link="https://www.leichtathletik.de/news/news/detail/76787-u16-dm-tag-2-medaillensammlung-fuer-kiara-hanisch-und-den-usc-mainz" Sort="2" Created="2022-07-10 18:19:20" Updated="2022-07-10 18:19:20"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D05000000000001/Ausschreibung.pdf" Title="Ausschreibung (Stand: 30.06.2022)" Sort="1" Created="2022-04-08 14:41:13" Updated="2022-07-01 10:15:11"/>
+            <EventFile ID="6" Type="F" GroupID="4" Name="22D05000000000001/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 01.07.2022)" Sort="1" Created="2022-06-30 12:18:34" Updated="2022-07-01 17:08:08"/>
+            <EventFile ID="7" Type="F" GroupID="5" Name="22D05000000000001/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 30.06.2022)" Sort="1" Created="2022-06-30 12:19:31" Updated="2022-06-30 12:26:18"/>
+            <EventFile ID="8" Type="F" GroupID="5" Name="22D05000000000001/Bahnverteilungsschema.pdf" Title="Bahnverteilungsschema" Sort="2" Created="2022-06-30 12:24:03" Updated="2022-06-30 12:24:03"/>
+            <EventFile ID="9" Type="F" GroupID="3" Name="22D05000000000001/Zeitplan-Stand-30.06.2022.pdf" Title="Zeitplan (Stand: 30.06.2022)" Sort="1" Created="2022-06-30 12:29:15" Updated="2022-07-01 10:15:28"/>
+        </EventFiles>
+        <AgeGroups>
+            <AgeGroup ID="M15" Name="Jugend M15">
+                <Disciplines>
+                    <Discipline ID="L100" Normed="true" DisciplineName="100 m"/>
+                    <Discipline ID="L300" Normed="true" DisciplineName="300 m"/>
+                    <Discipline ID="L800" Normed="true" DisciplineName="800 m"/>
+                    <Discipline ID="L3K0" Normed="true" DisciplineName="3.000 m"/>
+                    <Discipline ID="H80_0838" Normed="true" DisciplineName="80 m Hürden 0,838 m"/>
+                    <Discipline ID="H300_0838" Normed="true" DisciplineName="300 m Hürden 0,838 m"/>
+                    <Discipline ID="H1K5_0762" Normed="true" DisciplineName="1.500 m Hindernis 0,762 m"/>
+                    <Discipline ID="GB3" Normed="true" DisciplineName="3.000 m Bahngehen"/>
+                    <Discipline ID="THOC" Normed="true" DisciplineName="Hochsprung"/>
+                    <Discipline ID="TSTA" Normed="true" DisciplineName="Stabhochsprung"/>
+                    <Discipline ID="TWEI" Normed="true" DisciplineName="Weitsprung"/>
+                    <Discipline ID="TDRE" Normed="true" DisciplineName="Dreisprung"/>
+                    <Discipline ID="TKUG_4000" Normed="true" DisciplineName="Kugelstoß 4 kg"/>
+                    <Discipline ID="TDIS_1000" Normed="true" DisciplineName="Diskuswurf 1 kg"/>
+                    <Discipline ID="THAM_4000" Normed="true" DisciplineName="Hammerwurf 4 kg"/>
+                    <Discipline ID="TSPE_0600" Normed="true" DisciplineName="Speerwurf 600 g"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="MJU16" Name="männliche Jugend U16">
+                <Disciplines>
+                    <Discipline ID="X4X1" Normed="true" DisciplineName="4x100 m Staffel"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W15" Name="Jugend W15">
+                <Disciplines>
+                    <Discipline ID="L100" Normed="true" DisciplineName="100 m"/>
+                    <Discipline ID="L300" Normed="true" DisciplineName="300 m"/>
+                    <Discipline ID="L800" Normed="true" DisciplineName="800 m"/>
+                    <Discipline ID="L3K0" Normed="true" DisciplineName="3.000 m"/>
+                    <Discipline ID="H80_0762" Normed="true" DisciplineName="80 m Hürden 0,762 m"/>
+                    <Discipline ID="H300_0762" Normed="true" DisciplineName="300 m Hürden 0,762 m"/>
+                    <Discipline ID="H1K5_0762" Normed="true" DisciplineName="1.500 m Hindernis 0,762 m"/>
+                    <Discipline ID="GB3" Normed="true" DisciplineName="3.000 m Bahngehen"/>
+                    <Discipline ID="THOC" Normed="true" DisciplineName="Hochsprung"/>
+                    <Discipline ID="TSTA" Normed="true" DisciplineName="Stabhochsprung"/>
+                    <Discipline ID="TWEI" Normed="true" DisciplineName="Weitsprung"/>
+                    <Discipline ID="TDRE" Normed="true" DisciplineName="Dreisprung"/>
+                    <Discipline ID="TKUG_3000" Normed="true" DisciplineName="Kugelstoß 3 kg"/>
+                    <Discipline ID="TDIS_0750" Normed="true" DisciplineName="Diskuswurf 0,75 kg"/>
+                    <Discipline ID="THAM_3000" Normed="true" DisciplineName="Hammerwurf 3 kg"/>
+                    <Discipline ID="TSPE_0500" Normed="true" DisciplineName="Speerwurf 500 g"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="WJU16" Name="weibliche Jugend U16">
+                <Disciplines>
+                    <Discipline ID="X4X1" Normed="true" DisciplineName="4x100 m Staffel"/>
+                </Disciplines>
+            </AgeGroup>
+        </AgeGroups>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D20000000000003" Type="STADIA" EventType="3" EventCategory="220" Name="DM Jugend (U20/U18)" Created="2021-11-30 09:22:21" Updated="2022-07-20 23:14:49">
+        <DateStart>2022-07-15</DateStart>
+        <DateEnd>2022-07-17</DateEnd>
+        <CountryCode>GER</CountryCode>
+        <StateID>WÜ</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Ulm</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D20000000000003/528570e6-576b-4b7a-b1db-d26511b46292/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2021-11-30 09:22:21" Updated="2022-07-20 23:14:49"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/7772" Sort="-100" Created="2021-11-30 09:22:21" Updated="2022-07-20 23:14:49"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/7772" Sort="-100" Created="2021-11-30 09:22:21" Updated="2022-07-20 23:14:49"/>
+            <EventFile ID="3" Type="L" GroupID="6" Title="Vorverkauf Dauerkarte" Link="https://www.ticketmaster.de/event/deutsche-leichtathletik-meisterschaften-u18-u20-dauerk-15-17-07-22-tickets/462799" Sort="1" Created="2022-05-16 10:36:21" Updated="2022-05-16 10:36:21"/>
+            <EventFile ID="4" Type="L" GroupID="6" Title="Vorverkauf Tageskarte Freitag" Link="https://www.ticketmaster.de/event/deutsche-leichtathletik-meisterschaften-u18-u20-tageskarte-freitag-tickets/462793" Sort="2" Created="2022-05-16 10:37:23" Updated="2022-05-16 10:37:23"/>
+            <EventFile ID="5" Type="L" GroupID="6" Title="Vorverkauf Tageskarte Samstag" Link="https://www.ticketmaster.de/event/deutsche-leichtathletik-meisterschaften-u18-u20-tageskarte-samstag-tickets/462795" Sort="3" Created="2022-05-16 10:37:51" Updated="2022-05-16 10:37:51"/>
+            <EventFile ID="6" Type="L" GroupID="6" Title="Vorverkauf Tageskarte Sonntag" Link="https://www.ticketmaster.de/event/deutsche-leichtathletik-meisterschaften-u18-u20-tageskarte-sonntag-tickets/462797" Sort="4" Created="2022-05-16 10:38:14" Updated="2022-05-16 10:38:14"/>
+            <EventFile ID="7" Type="L" GroupID="7" Title="Livestreams" Link="https://www.leichtathletik.de/termine/top-events/jugend-dm-2022-ulm-live" Sort="2" Created="2022-07-04 19:04:55" Updated="2022-07-04 19:04:55"/>
+            <EventFile ID="8" Type="L" GroupID="6" Title="Anmeldung Vereins-/Physiozelte (Anmeldeschluss: 13.07.2022 - 18:00 Uhr)" Link="https://forms.gle/epg48tQb7u8NT4fE8" Sort="5" Created="2022-07-08 12:49:18" Updated="2022-07-08 12:49:18"/>
+            <EventFile ID="12" Type="L" GroupID="9" Title="Vorschau | Große Bühne für den Nachwuchs in Ulm" Link="https://www.leichtathletik.de/news/news/detail/76800-grosse-buehne-fuer-den-nachwuchs-in-ulm" Sort="7" Created="2022-07-14 12:23:14" Updated="2022-07-14 12:23:14"/>
+            <EventFile ID="13" Type="L" GroupID="9" Title="Männliche Jugend Tag 1 | 20-Meter-Premiere für Lukas Schober, Frederick Weigel auch auf dem nationalen Thron" Link="https://www.leichtathletik.de/news/news/detail/76809-maennliche-jugend-am-freitag-20-meter-premiere-fuer-lukas-schober-frederick-weigel-auch-auf-dem-nationalen-thron" Sort="6" Created="2022-07-15 23:20:33" Updated="2022-07-15 23:20:33"/>
+            <EventFile ID="14" Type="L" GroupID="9" Title="Weibliche Jugend Tag 1 | Nina Ndubuisi in starker Form, Josie Krone überrascht im Dreisprung" Link="https://www.leichtathletik.de/news/news/detail/76808-weibliche-jugend-tag-1-nina-ndubuisi-in-starker-form-josie-krone-ueberrascht-im-dreisprung" Sort="5" Created="2022-07-15 23:21:02" Updated="2022-07-15 23:21:02"/>
+            <EventFile ID="15" Type="L" GroupID="9" Title="Männliche Jugend Tag 2 | Diskus-Krimi und pfeilschnelle Rennen auf der Bahn" Link="https://www.leichtathletik.de/news/news/detail/76814-maennliche-jugend-tag-2-diskus-krimi-und-pfeilschnelle-rennen-auf-der-bahn" Sort="4" Created="2022-07-16 22:38:38" Updated="2022-07-16 22:38:38"/>
+            <EventFile ID="16" Type="L" GroupID="9" Title="Weibliche Jugend Tag 2 | Chiara Sistermann schwingt sich am höchsten" Link="https://www.leichtathletik.de/news/news/detail/76817-weibliche-jugend-tag-2-chiara-sistermann-schwingt-sich-am-hoechsten" Sort="3" Created="2022-07-16 22:39:48" Updated="2022-07-16 22:39:48"/>
+            <EventFile ID="17" Type="L" GroupID="9" Title="Männliche Jugend Tag 3 | Max Dehnings Speerwurf-Show, Benedikt Wallstein macht das Triple perfekt" Link="https://www.leichtathletik.de/news/news/detail/76823-maennliche-jugend-tag-3-max-dehnings-speerwurf-show-benedikt-wallstein-macht-das-triple-perfekt" Sort="2" Created="2022-07-17 20:35:05" Updated="2022-07-17 20:35:05"/>
+            <EventFile ID="18" Type="L" GroupID="9" Title="Weibliche Jugend Tag 3 | Siebenkämpferinnen dominieren Weitsprung" Link="https://www.leichtathletik.de/news/news/detail/76826-weibliche-jugend-tag-3-siebenkaempferinnen-dominieren-weitsprung" Sort="1" Created="2022-07-17 20:35:46" Updated="2022-07-17 20:35:46"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D20000000000003/Ausschreibung.pdf" Title="Ausschreibung (Stand: 08.07.2022)" Sort="1" Created="2022-04-08 12:31:51" Updated="2022-07-08 12:35:26"/>
+            <EventFile ID="9" Type="F" GroupID="5" Name="22D20000000000003/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 11.07.2022)" Sort="1" Created="2022-07-08 12:54:57" Updated="2022-07-11 18:46:05"/>
+            <EventFile ID="10" Type="F" GroupID="5" Name="22D20000000000003/Bahnverteilungsschema.pdf" Title="Bahnverteilungsschema (Stand: 08.07.2022)" Sort="2" Created="2022-07-08 13:01:10" Updated="2022-07-08 13:11:38"/>
+            <EventFile ID="11" Type="F" GroupID="4" Name="22D20000000000003/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 13.07.2022)" Sort="1" Created="2022-07-08 14:06:15" Updated="2022-07-13 11:19:31"/>
+        </EventFiles>
+        <AgeGroups>
+            <AgeGroup ID="MJU18" Name="männliche Jugend U18">
+                <Disciplines>
+                    <Discipline ID="L100" Normed="true" DisciplineName="100 m"/>
+                    <Discipline ID="L200" Normed="true" DisciplineName="200 m"/>
+                    <Discipline ID="L400" Normed="true" DisciplineName="400 m"/>
+                    <Discipline ID="L800" Normed="true" DisciplineName="800 m"/>
+                    <Discipline ID="L1K5" Normed="true" DisciplineName="1.500 m"/>
+                    <Discipline ID="L3K0" Normed="true" DisciplineName="3.000 m"/>
+                    <Discipline ID="H110_0914" Normed="true" DisciplineName="110 m Hürden 0,914 m"/>
+                    <Discipline ID="H400_0838" Normed="true" DisciplineName="400 m Hürden 0,838 m"/>
+                    <Discipline ID="H2K0_0838" Normed="true" DisciplineName="2.000 m Hindernis 0,838 m"/>
+                    <Discipline ID="X4X1" Normed="true" DisciplineName="4x100 m Staffel"/>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                    <Discipline ID="THOC" Normed="true" DisciplineName="Hochsprung"/>
+                    <Discipline ID="TSTA" Normed="true" DisciplineName="Stabhochsprung"/>
+                    <Discipline ID="TWEI" Normed="true" DisciplineName="Weitsprung"/>
+                    <Discipline ID="TDRE" Normed="true" DisciplineName="Dreisprung"/>
+                    <Discipline ID="TKUG_5000" Normed="true" DisciplineName="Kugelstoß 5 kg"/>
+                    <Discipline ID="TDIS_1500" Normed="true" DisciplineName="Diskuswurf 1,5 kg"/>
+                    <Discipline ID="THAM_5000" Normed="true" DisciplineName="Hammerwurf 5 kg"/>
+                    <Discipline ID="TSPE_0700" Normed="true" DisciplineName="Speerwurf 700 g"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="MJU20" Name="männliche Jugend U20">
+                <Disciplines>
+                    <Discipline ID="L100" Normed="true" DisciplineName="100 m"/>
+                    <Discipline ID="L200" Normed="true" DisciplineName="200 m"/>
+                    <Discipline ID="L400" Normed="true" DisciplineName="400 m"/>
+                    <Discipline ID="L800" Normed="true" DisciplineName="800 m"/>
+                    <Discipline ID="L1K5" Normed="true" DisciplineName="1.500 m"/>
+                    <Discipline ID="L3K0" Normed="true" DisciplineName="3.000 m"/>
+                    <Discipline ID="H110_0991" Normed="true" DisciplineName="110 m Hürden 0,991 m"/>
+                    <Discipline ID="H400_0914" Normed="true" DisciplineName="400 m Hürden 0,914 m"/>
+                    <Discipline ID="H2K0_0914" Normed="true" DisciplineName="2.000 m Hindernis 0,914 m"/>
+                    <Discipline ID="X4X1" Normed="true" DisciplineName="4x100 m Staffel"/>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                    <Discipline ID="THOC" Normed="true" DisciplineName="Hochsprung"/>
+                    <Discipline ID="TSTA" Normed="true" DisciplineName="Stabhochsprung"/>
+                    <Discipline ID="TWEI" Normed="true" DisciplineName="Weitsprung"/>
+                    <Discipline ID="TDRE" Normed="true" DisciplineName="Dreisprung"/>
+                    <Discipline ID="TKUG_6000" Normed="true" DisciplineName="Kugelstoß 6 kg"/>
+                    <Discipline ID="TDIS_1750" Normed="true" DisciplineName="Diskuswurf 1,75 kg"/>
+                    <Discipline ID="THAM_6000" Normed="true" DisciplineName="Hammerwurf 6 kg"/>
+                    <Discipline ID="TSPE_0800" Normed="true" DisciplineName="Speerwurf 800 g"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="WJU18" Name="weibliche Jugend U18">
+                <Disciplines>
+                    <Discipline ID="L100" Normed="true" DisciplineName="100 m"/>
+                    <Discipline ID="L200" Normed="true" DisciplineName="200 m"/>
+                    <Discipline ID="L400" Normed="true" DisciplineName="400 m"/>
+                    <Discipline ID="L800" Normed="true" DisciplineName="800 m"/>
+                    <Discipline ID="L1K5" Normed="true" DisciplineName="1.500 m"/>
+                    <Discipline ID="L3K0" Normed="true" DisciplineName="3.000 m"/>
+                    <Discipline ID="H100_0762" Normed="true" DisciplineName="100 m Hürden 0,762 m"/>
+                    <Discipline ID="H400_0762" Normed="true" DisciplineName="400 m Hürden 0,762 m"/>
+                    <Discipline ID="H2K0_0762" Normed="true" DisciplineName="2.000 m Hindernis 0,762 m"/>
+                    <Discipline ID="X4X1" Normed="true" DisciplineName="4x100 m Staffel"/>
+                    <Discipline ID="GB3" Normed="true" DisciplineName="3.000 m Bahngehen"/>
+                    <Discipline ID="THOC" Normed="true" DisciplineName="Hochsprung"/>
+                    <Discipline ID="TSTA" Normed="true" DisciplineName="Stabhochsprung"/>
+                    <Discipline ID="TWEI" Normed="true" DisciplineName="Weitsprung"/>
+                    <Discipline ID="TDRE" Normed="true" DisciplineName="Dreisprung"/>
+                    <Discipline ID="TKUG_3000" Normed="true" DisciplineName="Kugelstoß 3 kg"/>
+                    <Discipline ID="TDIS_1000" Normed="true" DisciplineName="Diskuswurf 1 kg"/>
+                    <Discipline ID="THAM_3000" Normed="true" DisciplineName="Hammerwurf 3 kg"/>
+                    <Discipline ID="TSPE_0500" Normed="true" DisciplineName="Speerwurf 500 g"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="WJU20" Name="weibliche Jugend U20">
+                <Disciplines>
+                    <Discipline ID="L100" Normed="true" DisciplineName="100 m"/>
+                    <Discipline ID="L200" Normed="true" DisciplineName="200 m"/>
+                    <Discipline ID="L400" Normed="true" DisciplineName="400 m"/>
+                    <Discipline ID="L800" Normed="true" DisciplineName="800 m"/>
+                    <Discipline ID="L1K5" Normed="true" DisciplineName="1.500 m"/>
+                    <Discipline ID="L3K0" Normed="true" DisciplineName="3.000 m"/>
+                    <Discipline ID="H100_0838" Normed="true" DisciplineName="100 m Hürden 0,838 m"/>
+                    <Discipline ID="H400_0762" Normed="true" DisciplineName="400 m Hürden 0,762 m"/>
+                    <Discipline ID="H2K0_0762" Normed="true" DisciplineName="2.000 m Hindernis 0,762 m"/>
+                    <Discipline ID="X4X1" Normed="true" DisciplineName="4x100 m Staffel"/>
+                    <Discipline ID="GB3" Normed="true" DisciplineName="3.000 m Bahngehen"/>
+                    <Discipline ID="THOC" Normed="true" DisciplineName="Hochsprung"/>
+                    <Discipline ID="TSTA" Normed="true" DisciplineName="Stabhochsprung"/>
+                    <Discipline ID="TWEI" Normed="true" DisciplineName="Weitsprung"/>
+                    <Discipline ID="TDRE" Normed="true" DisciplineName="Dreisprung"/>
+                    <Discipline ID="TKUG_4000" Normed="true" DisciplineName="Kugelstoß 4 kg"/>
+                    <Discipline ID="TDIS_1000" Normed="true" DisciplineName="Diskuswurf 1 kg"/>
+                    <Discipline ID="THAM_4000" Normed="true" DisciplineName="Hammerwurf 4 kg"/>
+                    <Discipline ID="TSPE_0600" Normed="true" DisciplineName="Speerwurf 600 g"/>
+                </Disciplines>
+            </AgeGroup>
+        </AgeGroups>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D06000000000001" Type="STADIA" EventType="3" EventCategory="220" Name="Team-DM Jugend" Created="2021-11-30 09:24:50" Updated="2022-09-12 13:57:16">
+        <DateStart>2022-09-11</DateStart>
+        <CountryCode>GER</CountryCode>
+        <StateID>HH</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Hamburg</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D06000000000001/fb03e68b-fabe-4d3b-95b5-2b14385d07c7/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2021-11-30 09:24:50" Updated="2022-09-12 13:57:16"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/8174" Sort="-100" Created="2021-11-30 09:24:50" Updated="2022-09-12 13:57:16"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/8174" Sort="-100" Created="2021-11-30 09:24:50" Updated="2022-09-12 13:57:16"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D06000000000001/Ausschreibung.pdf" Title="Ausschreibung (Stand: 07.09.2022)" Sort="1" Created="2022-03-15 15:40:20" Updated="2022-09-07 14:48:01"/>
+            <EventFile ID="4" Type="F" GroupID="4" Name="22D06000000000001/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 06.09.2022)" Sort="1" Created="2022-09-03 11:07:59" Updated="2022-09-07 18:18:04"/>
+            <EventFile ID="5" Type="F" GroupID="5" Name="22D06000000000001/Bahnverteilungsschema-Stand-07.09.2022.pdf" Title="Bahnverteilungsschema (Stand: 07.09.2022)" Sort="1" Created="2022-09-07 14:48:53" Updated="2022-09-07 14:48:53"/>
+        </EventFiles>
+        <AgeGroups>
+            <AgeGroup ID="MJU16" Name="männliche Jugend U16">
+                <Disciplines>
+                    <Discipline ID="ADMT" Normed="true" DisciplineName="Team DM"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="MJU20" Name="männliche Jugend U20">
+                <Disciplines>
+                    <Discipline ID="ADMT" Normed="true" DisciplineName="Team DM"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="WJU16" Name="weibliche Jugend U16">
+                <Disciplines>
+                    <Discipline ID="ADMT" Normed="true" DisciplineName="Team DM"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="WJU20" Name="weibliche Jugend U20">
+                <Disciplines>
+                    <Discipline ID="ADMT" Normed="true" DisciplineName="Team DM"/>
+                </Disciplines>
+            </AgeGroup>
+        </AgeGroups>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D14000000000001" Type="NONSTADIA" EventType="8" EventCategory="520" Name="DM 10 km Straße" Created="2021-11-30 09:26:31" Updated="2022-11-08 15:40:20">
+        <DateStart>2022-09-18</DateStart>
+        <CountryCode>GER</CountryCode>
+        <StateID>SL</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Saarbrücken</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D14000000000001/609761a8-c5cd-4031-a833-91dc8adb7edf/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2021-11-30 09:26:31" Updated="2022-11-08 15:40:20"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/8392" Sort="-100" Created="2021-11-30 09:26:31" Updated="2022-11-08 15:40:20"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/8392" Sort="-100" Created="2021-11-30 09:26:31" Updated="2022-11-08 15:40:20"/>
+            <EventFile ID="3" Type="L" GroupID="5" Title="Veranstaltungshomepage" Link="http://www.dm.lsg-sb-sulzbachtal.de" Sort="1" Created="2022-08-25 08:52:49" Updated="2022-08-25 08:52:49"/>
+            <EventFile ID="7" Type="L" GroupID="7" Title="Ergebnisse" Link="https://my.meisterchip.de/204933.html" Sort="1" Created="2022-09-16 12:01:17" Updated="2022-09-16 12:01:17"/>
+            <EventFile ID="8" Type="L" GroupID="9" Title="Vorschau | Saarbrücken: Titelträger auf der Straße über zehn Kilometer gesucht" Link="https://www.leichtathletik.de/news/news/detail/77136-saarbruecken-titeltraeger-auf-der-strasse-ueber-zehn-kilometer-gesucht" Sort="3" Created="2022-09-16 18:08:13" Updated="2022-09-16 18:08:13"/>
+            <EventFile ID="9" Type="L" GroupID="9" Title="Bericht | Tom Förster sorgt für große Überraschung, Eva Dieterich und Sara Benfares teilen sich Gold" Link="https://www.leichtathletik.de/news/news/detail/77141-saarbruecken-tom-foerster-sorgt-fuer-grosse-ueberraschung-eva-dieterich-und-sara-benfares-teilen-sich-gold" Sort="2" Created="2022-09-18 16:49:25" Updated="2022-09-18 16:49:25"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D14000000000001/Ausschreibung.pdf" Title="Ausschreibung (Stand: 13.09.2022)" Sort="1" Created="2022-05-30 16:22:12" Updated="2022-09-14 11:48:40"/>
+            <EventFile ID="4" Type="F" GroupID="4" Name="22D14000000000001/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 14.09.2022)" Sort="1" Created="2022-09-10 16:37:16" Updated="2022-09-14 14:45:06"/>
+            <EventFile ID="5" Type="F" GroupID="5" Name="22D14000000000001/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 09.09.2022)" Sort="2" Created="2022-09-12 12:28:36" Updated="2022-09-14 11:30:19"/>
+            <EventFile ID="6" Type="F" GroupID="4" Name="22D14000000000001/Teilnehmerliste-nach-Vereinen-pro-Lauf-Stand-14.09.2022.pdf" Title="Teilnehmerliste nach Vereinen pro Lauf (Stand: 14.09.2022)" Sort="2" Created="2022-09-14 15:04:53" Updated="2022-09-14 15:04:53"/>
+            <EventFile ID="10" Type="F" GroupID="8" Name="22D14000000000001/Ergebnisliste-komplett.pdf" Title="Ergebnisliste komplett" Sort="1" Created="2022-09-19 09:09:59" Updated="2022-09-20 12:25:43"/>
+        </EventFiles>
+        <AgeGroups/>
+        <Runs>
+            <Run ID="S10K" DisciplineName="Männer, M U23, MJ U20/U18, M35-M45" Distance="10000" MeasurementChecked="true" MeasurementDate="2021-12-12">
+                <AgeGroups>
+                    <AgeGroup ID="MJU18" Name="männliche Jugend U18"/>
+                    <AgeGroup ID="MJU20" Name="männliche Jugend U20"/>
+                    <AgeGroup ID="MU23" Name="Junioren U23"/>
+                    <AgeGroup ID="M" Name="Männer"/>
+                    <AgeGroup ID="M30" Name="Senioren M30"/>
+                    <AgeGroup ID="M35" Name="Senioren M35"/>
+                    <AgeGroup ID="M40" Name="Senioren M40"/>
+                    <AgeGroup ID="M45" Name="Senioren M45"/>
+                </AgeGroups>
+            </Run>
+            <Run ID="S10K" DisciplineName="Frauen, W U23, WJ U20/U18, W35-W45" Distance="10000" MeasurementChecked="true" MeasurementDate="2021-12-12">
+                <AgeGroups>
+                    <AgeGroup ID="WJU18" Name="weibliche Jugend U18"/>
+                    <AgeGroup ID="WJU20" Name="weibliche Jugend U20"/>
+                    <AgeGroup ID="WU23" Name="Juniorinnen U23"/>
+                    <AgeGroup ID="W" Name="Frauen"/>
+                    <AgeGroup ID="W30" Name="Seniorinnen W30"/>
+                    <AgeGroup ID="W35" Name="Seniorinnen W35"/>
+                    <AgeGroup ID="W40" Name="Seniorinnen W40"/>
+                    <AgeGroup ID="W45" Name="Seniorinnen W45"/>
+                </AgeGroups>
+            </Run>
+            <Run ID="S10K" DisciplineName="Senioren M 50-M 90, Seniorinnen W 50-W 90" Distance="10000" MeasurementChecked="true" MeasurementDate="2021-12-12">
+                <AgeGroups>
+                    <AgeGroup ID="M50" Name="Senioren M50"/>
+                    <AgeGroup ID="M55" Name="Senioren M55"/>
+                    <AgeGroup ID="M60" Name="Senioren M60"/>
+                    <AgeGroup ID="M65" Name="Senioren M65"/>
+                    <AgeGroup ID="M70" Name="Senioren M70"/>
+                    <AgeGroup ID="M75" Name="Senioren M75"/>
+                    <AgeGroup ID="M80" Name="Senioren M80"/>
+                    <AgeGroup ID="M85" Name="Senioren M85"/>
+                    <AgeGroup ID="M90" Name="Senioren M90"/>
+                    <AgeGroup ID="W50" Name="Seniorinnen W50"/>
+                    <AgeGroup ID="W55" Name="Seniorinnen W55"/>
+                    <AgeGroup ID="W60" Name="Seniorinnen W60"/>
+                    <AgeGroup ID="W65" Name="Seniorinnen W65"/>
+                    <AgeGroup ID="W70" Name="Seniorinnen W70"/>
+                    <AgeGroup ID="W75" Name="Seniorinnen W75"/>
+                    <AgeGroup ID="W80" Name="Seniorinnen W80"/>
+                    <AgeGroup ID="W85" Name="Seniorinnen W85"/>
+                    <AgeGroup ID="W90" Name="Seniorinnen W90"/>
+                </AgeGroups>
+            </Run>
+        </Runs>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D09000000000002" Type="NONSTADIA" EventType="9" EventCategory="520" Name="DM Cross" Created="2021-11-30 09:32:34" Updated="2022-11-26 17:31:29">
+        <DateStart>2022-11-26</DateStart>
+        <CountryCode>GER</CountryCode>
+        <StateID>NI</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Löningen</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="5" Type="L" GroupID="5" Title="Geländeplan" Link="https://www.vfl-loeningen.de/de/die-sparten/leichtathletik/veranstaltungen/dm-cross-2022/streckenplan860/" Sort="2" Created="2022-11-18 13:32:12" Updated="2022-11-18 13:32:12"/>
+            <EventFile ID="6" Type="L" GroupID="5" Title="Siegerehrungszeitplan" Link="https://www.leichtathletik.de/fileadmin/user_upload/03_Termine/00_Dateien/2022_DM_Cross_Siegerehrungszeitplan.pdf" Sort="3" Created="2022-11-18 13:33:34" Updated="2022-11-18 13:33:34"/>
+            <EventFile ID="7" Type="L" GroupID="7" Title="Livestream" Link="https://www.leichtathletik.de/termine/top-events/cross-dm-loeningen-2022-live" Sort="1" Created="2022-11-22 12:49:54" Updated="2022-11-22 12:49:54"/>
+            <EventFile ID="8" Type="L" GroupID="9" Title="Vorschau | Starke Konkurrenz auf der Jagd nach Medaillen und EM-Tickets" Link="https://www.leichtathletik.de/news/news/detail/77388-cross-dm-starke-konkurrenz-auf-der-jagd-nach-medaillen-und-em-tickets" Sort="10" Created="2022-11-24 15:54:04" Updated="2022-11-24 15:54:04"/>
+            <EventFile ID="9" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://my.raceresult.com/220744/Live?lang=de" Sort="2" Created="2022-11-25 16:31:01" Updated="2022-11-25 16:31:01"/>
+            <EventFile ID="10" Type="L" GroupID="8" Title="offizielle Ergebnisse" Link="https://my.raceresult.com/220744/results?lang=de" Sort="1" Created="2022-11-25 16:33:12" Updated="2022-11-25 16:33:12"/>
+            <EventFile ID="12" Type="L" GroupID="8" Title="Ergebnisliste Rahmenwettbewerbe" Link="https://ladv.de/ergebnis/datei/69707" Sort="6" Created="2022-11-26 17:07:53" Updated="2022-11-26 17:07:53"/>
+            <EventFile ID="13" Type="L" GroupID="9" Title="Bericht | Samuel Fitwi verteidigt Titel, Alina Reh besiegt namhafte Konkurrenz" Link="https://www.leichtathletik.de/news/news/detail/77392-cross-dm-2022-samuel-fitwi-verteidigt-titel-alina-reh-besiegt-namhafte-konkurrenz" Sort="9" Created="2022-11-26 17:31:29" Updated="2022-11-26 17:31:29"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D09000000000002/Ausschreibung.pdf" Title="Ausschreibung (Stand: 18.11.2022)" Sort="1" Created="2022-09-16 11:40:38" Updated="2022-11-18 13:30:52"/>
+            <EventFile ID="3" Type="F" GroupID="4" Name="22D09000000000002/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 22.11.2022)" Sort="1" Created="2022-11-16 15:54:46" Updated="2022-11-23 09:47:05"/>
+            <EventFile ID="4" Type="F" GroupID="5" Name="22D09000000000002/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 18.11.2022)" Sort="1" Created="2022-11-18 13:30:20" Updated="2022-11-21 16:33:30"/>
+            <EventFile ID="11" Type="F" GroupID="8" Name="22D09000000000002/Gesamtergebnisliste.pdf" Title="Gesamtergebnisliste" Sort="2" Created="2022-11-26 16:50:44" Updated="2022-11-26 16:50:44"/>
+        </EventFiles>
+        <AgeGroups/>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D03000000000001" Type="STADIA" EventType="3" EventCategory="220" Name="Deutsche Meisterschaften 2022" Created="2021-12-09 17:15:24" Updated="2022-06-26 20:59:12">
+        <DateStart>2022-06-23</DateStart>
+        <DateEnd>2022-06-26</DateEnd>
+        <CountryCode>GER</CountryCode>
+        <StateID>BE</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer/>
+        <Comp>
+            <StartPlace>Olympiastadion Berlin &amp; Pariser Platz</StartPlace>
+            <City>Berlin</City>
+            <GPS Lat="" Lng=""/>
+        </Comp>
+        <Drive>
+            <GPS Lat="" Lng=""/>
+        </Drive>
+        <EventFiles>
+            <EventFile ID="2" Type="L" GroupID="9" Title="Microsite zur Veranstaltung" Link="https://www.leichtathletik.de/termine/top-events/dm-2022-berlin" Sort="2" Created="2022-03-02 12:25:04" Updated="2022-06-23 14:41:04"/>
+            <EventFile ID="3" Type="L" GroupID="10" Title="Zum Ticket-Vorverkauf" Link="https://www.leichtathletik.de/termine/top-events/dm-2022-berlin/tickets" Sort="1" Created="2022-03-02 12:25:24" Updated="2022-03-02 12:25:24"/>
+            <EventFile ID="6" Type="L" GroupID="3" Title="Zeitplan" Link="https://www.leichtathletik.de/termine/top-events/dm-2022-berlin/zeitplan" Sort="1" Created="2022-06-15 12:32:23" Updated="2022-06-15 12:32:23"/>
+            <EventFile ID="10" Type="L" GroupID="6" Title="Anmeldung Vereins-/Physiozelte (Anmeldeschluss: 22.06.2022, 10 Uhr)" Link="https://docs.google.com/forms/d/1O_BPaYtbHPmTSiVC-iLAOYGPELOAbdQ8aV8qL2RQ3Yc/edit" Sort="1" Created="2022-06-17 17:31:59" Updated="2022-06-20 11:07:29"/>
+            <EventFile ID="11" Type="L" GroupID="9" Title="Vorschau: Die Entscheidungen der Frauen" Link="https://www.leichtathletik.de/news/news/detail/76634-dm-berlin-2022-die-grosse-vorschau-auf-die-entscheidungen-der-frauen" Sort="20" Created="2022-06-21 15:09:22" Updated="2022-06-22 17:06:09"/>
+            <EventFile ID="13" Type="L" GroupID="9" Title="Vorschau: Die Entscheidungen der Männer" Link="https://www.leichtathletik.de/news/news/detail/76635-dm-berlin-2022-die-grosse-vorschau-auf-die-entscheidungen-der-maenner" Sort="21" Created="2022-06-22 15:58:23" Updated="2022-06-22 17:05:56"/>
+            <EventFile ID="14" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://www.leichtathletik.de/termine/top-events/dm-2022-berlin/live-ergebnisse" Sort="1" Created="2022-06-23 11:16:53" Updated="2022-06-23 11:16:53"/>
+            <EventFile ID="15" Type="L" GroupID="7" Title="Live-Zeiten: TV &amp; Streams" Link="https://www.leichtathletik.de/termine/top-events/dm-2022-berlin/tv-zeiten-und-livestreams" Sort="2" Created="2022-06-23 11:17:21" Updated="2022-06-23 11:17:21"/>
+            <EventFile ID="16" Type="L" GroupID="9" Title="Offizielles DLV-Programmheft" Link="https://www.leichtathletik.de/termine/top-events/dm-2022-berlin/offizielles-programmheft" Sort="1" Created="2022-06-23 12:37:44" Updated="2022-06-23 14:41:18"/>
+            <EventFile ID="17" Type="L" GroupID="9" Title="Donnerstag | Sara Gambetta holt sich den ersten deutschen Meistertitel von Berlin" Link="https://www.leichtathletik.de/news/news/detail/76674-sara-gambetta-holt-sich-den-ersten-deutschen-meistertitel-von-berlin" Sort="10" Created="2022-06-23 18:00:05" Updated="2022-06-23 18:00:05"/>
+            <EventFile ID="19" Type="L" GroupID="9" Title="Freitag | David Storl feiert am Brandenburger Tor das zehnte DM-Gold" Link="https://www.leichtathletik.de/news/news/detail/76678-david-storl-feiert-am-brandenburger-tor-das-zehnte-dm-gold" Sort="11" Created="2022-06-24 19:05:46" Updated="2022-06-24 19:05:46"/>
+            <EventFile ID="20" Type="L" GroupID="9" Title="Alle Videos zur Veranstaltung" Link="https://www.leichtathletik.de/tv/veranstaltungen/video-uebersicht/veranstaltung/4149-deutsche-meisterschaften-2022-berlin" Sort="3" Created="2022-06-25 12:26:05" Updated="2022-06-25 12:26:05"/>
+            <EventFile ID="24" Type="L" GroupID="9" Title="Samstag | Gina Lückenkemper verzaubert mit 10,99 Sekunden" Link="https://www.leichtathletik.de/news/news/detail/76682-dm-tag-1-gina-lueckenkemper-verzaubert-mit-1099-sekunden" Sort="12" Created="2022-06-25 21:10:02" Updated="2022-06-26 20:58:35"/>
+            <EventFile ID="26" Type="L" GroupID="9" Title="Sonntag | Hochsprung-Feuerwerk, Weitsprung-Dominanz und Drama auf der Bahn" Link="https://www.leichtathletik.de/news/news/detail/76688-dm-tag-2-hochsprung-feuerwerk-weitsprung-dominanz-und-hochspannung-auf-der-bahn" Sort="13" Created="2022-06-26 20:59:11" Updated="2022-06-26 20:59:11"/>
+            <EventFile ID="4" Type="F" GroupID="1" Name="22D03000000000001/Ausschreibung.pdf" Title="Ausschreibung (Stand: 23.06.2022)" Sort="1" Created="2022-04-13 14:13:24" Updated="2022-06-23 09:45:35"/>
+            <EventFile ID="7" Type="F" GroupID="4" Name="22D03000000000001/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 22.06.2022)" Sort="1" Created="2022-06-17 17:28:14" Updated="2022-06-22 13:10:57"/>
+            <EventFile ID="8" Type="F" GroupID="5" Name="22D03000000000001/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 17.06.2022)" Sort="2" Created="2022-06-17 17:29:00" Updated="2022-06-17 19:18:03"/>
+            <EventFile ID="9" Type="F" GroupID="5" Name="22D03000000000001/Teilnehmerinformation-Kugelstoen.pdf" Title="Teilnehmerinformation Kugelstoßen (Stand: 17.06.2022)" Sort="3" Created="2022-06-17 17:29:29" Updated="2022-06-17 19:18:25"/>
+            <EventFile ID="12" Type="F" GroupID="5" Name="22D03000000000001/Bahnverteilungsschema-Stand-21.06.2022.pdf" Title="Bahnverteilungsschema (Stand: 22.06.2022)" Sort="4" Created="2022-06-21 20:17:17" Updated="2022-06-22 18:22:38"/>
+            <EventFile ID="18" Type="F" GroupID="3" Name="22D03000000000001/Callroomplan.pdf" Title="Callroomplan" Sort="2" Created="2022-06-24 16:34:12" Updated="2022-06-24 16:34:12"/>
+            <EventFile ID="25" Type="F" GroupID="8" Name="22D03000000000001/Ergebnisse.pdf" Title="Ergebnisse" Sort="1" Created="2022-06-26 20:40:00" Updated="2022-06-26 20:40:00"/>
+        </EventFiles>
+        <AgeGroups>
+            <AgeGroup ID="M" Name="Männer">
+                <Disciplines>
+                    <Discipline ID="L100" Normed="true" DisciplineName="100 m"/>
+                    <Discipline ID="L200" Normed="true" DisciplineName="200 m"/>
+                    <Discipline ID="L400" Normed="true" DisciplineName="400 m"/>
+                    <Discipline ID="L800" Normed="true" DisciplineName="800 m"/>
+                    <Discipline ID="L1K5" Normed="true" DisciplineName="1.500 m"/>
+                    <Discipline ID="L5K0" Normed="true" DisciplineName="5.000 m"/>
+                    <Discipline ID="H110_1067" Normed="true" DisciplineName="110 m Hürden 1,067 m"/>
+                    <Discipline ID="H400_0914" Normed="true" DisciplineName="400 m Hürden 0,914 m"/>
+                    <Discipline ID="H3K0_0914" Normed="true" DisciplineName="3.000 m Hindernis 0,914 m"/>
+                    <Discipline ID="X4X1" Normed="true" DisciplineName="4x100 m Staffel"/>
+                    <Discipline ID="THOC" Normed="true" DisciplineName="Hochsprung"/>
+                    <Discipline ID="TSTA" Normed="true" DisciplineName="Stabhochsprung"/>
+                    <Discipline ID="TWEI" Normed="true" DisciplineName="Weitsprung"/>
+                    <Discipline ID="TDRE" Normed="true" DisciplineName="Dreisprung"/>
+                    <Discipline ID="TKUG_7260" Normed="true" DisciplineName="Kugelstoß 7,26 kg"/>
+                    <Discipline ID="TDIS_2000" Normed="true" DisciplineName="Diskuswurf 2 kg"/>
+                    <Discipline ID="THAM_7260" Normed="true" DisciplineName="Hammerwurf 7,26 kg"/>
+                    <Discipline ID="TSPE_0800" Normed="true" DisciplineName="Speerwurf 800 g"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W" Name="Frauen">
+                <Disciplines>
+                    <Discipline ID="L100" Normed="true" DisciplineName="100 m"/>
+                    <Discipline ID="L200" Normed="true" DisciplineName="200 m"/>
+                    <Discipline ID="L400" Normed="true" DisciplineName="400 m"/>
+                    <Discipline ID="L800" Normed="true" DisciplineName="800 m"/>
+                    <Discipline ID="L1K5" Normed="true" DisciplineName="1.500 m"/>
+                    <Discipline ID="L5K0" Normed="true" DisciplineName="5.000 m"/>
+                    <Discipline ID="H100_0838" Normed="true" DisciplineName="100 m Hürden 0,838 m"/>
+                    <Discipline ID="H400_0762" Normed="true" DisciplineName="400 m Hürden 0,762 m"/>
+                    <Discipline ID="H3K0_0762" Normed="true" DisciplineName="3.000 m Hindernis 0,762 m"/>
+                    <Discipline ID="X4X1" Normed="true" DisciplineName="4x100 m Staffel"/>
+                    <Discipline ID="THOC" Normed="true" DisciplineName="Hochsprung"/>
+                    <Discipline ID="TSTA" Normed="true" DisciplineName="Stabhochsprung"/>
+                    <Discipline ID="TWEI" Normed="true" DisciplineName="Weitsprung"/>
+                    <Discipline ID="TDRE" Normed="true" DisciplineName="Dreisprung"/>
+                    <Discipline ID="TKUG_4000" Normed="true" DisciplineName="Kugelstoß 4 kg"/>
+                    <Discipline ID="TDIS_1000" Normed="true" DisciplineName="Diskuswurf 1 kg"/>
+                    <Discipline ID="THAM_4000" Normed="true" DisciplineName="Hammerwurf 4 kg"/>
+                    <Discipline ID="TSPE_0600" Normed="true" DisciplineName="Speerwurf 600 g"/>
+                </Disciplines>
+            </AgeGroup>
+        </AgeGroups>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D07000000000001" Type="NONSTADIA" EventType="11" EventCategory="520" Name="DM Straßengehen" Created="2022-01-19 12:09:09" Updated="2022-11-29 10:36:44">
+        <DateStart>2022-04-30</DateStart>
+        <CountryCode>GER</CountryCode>
+        <StateID>HE</StateID>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Frankfurt</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="6" Type="L" GroupID="9" Title="Vorschau | Premiere bei Titeljagd in Frankfurt" Link="https://www.leichtathletik.de/news/news/detail/76408-premiere-bei-titeljagd-in-frankfurt" Sort="5" Created="2022-04-27 17:36:58" Updated="2022-04-27 17:41:34"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D07000000000001/Ausschreibung.pdf" Title="Ausschreibung (Stand: 09.04.2022)" Sort="1" Created="2022-02-28 16:20:26" Updated="2022-04-09 16:45:58"/>
+            <EventFile ID="3" Type="F" GroupID="4" Name="22D07000000000001/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 28.04.2022)" Sort="1" Created="2022-04-25 09:55:29" Updated="2022-04-28 09:49:12"/>
+            <EventFile ID="4" Type="F" GroupID="5" Name="22D07000000000001/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 27.04.2022)" Sort="1" Created="2022-04-26 16:11:58" Updated="2022-04-27 14:55:37"/>
+            <EventFile ID="7" Type="F" GroupID="8" Name="22D07000000000001/Ergebnisliste.pdf" Title="Ergebnisliste" Sort="1" Created="2022-05-13 11:21:04" Updated="2022-11-29 10:36:44"/>
+        </EventFiles>
+        <AgeGroups/>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D12000000000001" Type="STADIA" EventType="3" EventCategory="220" Name="DM Langstaffeln M/F, U23, U20" Created="2022-01-19 12:11:39" Updated="2022-05-31 12:28:44">
+        <DateStart>2022-05-29</DateStart>
+        <CountryCode>GER</CountryCode>
+        <StateID>RH</StateID>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <StartPlace>Stadion des TSV Schott Mainz</StartPlace>
+            <Street>Karlsbader Str. 23</Street>
+            <ZipCode>55122</ZipCode>
+            <City>Mainz</City>
+            <GPS Lat="" Lng=""/>
+        </Comp>
+        <Drive>
+            <GPS Lat="" Lng=""/>
+        </Drive>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D12000000000001/67d4dd21-9594-4e2e-bc03-753d67767664/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2022-01-19 12:11:39" Updated="2022-05-31 12:28:44"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/7184" Sort="-100" Created="2022-01-19 12:11:39" Updated="2022-05-31 12:28:44"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/7184" Sort="-100" Created="2022-01-19 12:11:39" Updated="2022-05-31 12:28:44"/>
+            <EventFile ID="7" Type="L" GroupID="9" Title="Vorschau | Langstaffel-DM mit Mixed-Rennen feiert in Mainz Premiere" Link="https://www.leichtathletik.de/news/news/detail/76528-langstaffel-dm-mit-mixed-rennen-feiert-in-mainz-premiere" Sort="3" Created="2022-05-27 16:05:54" Updated="2022-05-31 12:28:43"/>
+            <EventFile ID="8" Type="L" GroupID="9" Title="Bericht | VfL Sindelfingen holt erstes Mixed-Gold bei Premiere der Langstaffel-DM" Link="https://www.leichtathletik.de/news/news/detail/76554-vfl-sindelfingen-holt-erstes-mixed-gold-bei-premiere-der-langstaffel-dm" Sort="2" Created="2022-05-31 12:28:21" Updated="2022-05-31 12:28:38"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D12000000000001/Ausschreibung-Stand-15.02.2022.pdf" Title="Ausschreibung (Stand: 20.05.2022)" Sort="1" Created="2022-02-15 14:35:17" Updated="2022-05-20 12:13:35"/>
+            <EventFile ID="3" Type="F" GroupID="5" Name="22D12000000000001/Bahnverteilungsschema-Stand-13.05.2022.pdf" Title="Bahnverteilungsschema (Stand: 13.05.2022)" Sort="1" Created="2022-05-13 16:37:44" Updated="2022-05-13 16:37:44"/>
+            <EventFile ID="4" Type="F" GroupID="4" Name="22D12000000000001/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 19.05.2022)" Sort="1" Created="2022-05-20 11:58:42" Updated="2022-05-20 12:15:59"/>
+            <EventFile ID="5" Type="F" GroupID="5" Name="22D12000000000001/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 20.05.2022)" Sort="2" Created="2022-05-20 11:59:29" Updated="2022-05-20 12:16:26"/>
+            <EventFile ID="6" Type="F" GroupID="5" Name="22D12000000000001/Lageplan.pdf" Title="Lageplan" Sort="3" Created="2022-05-20 12:33:39" Updated="2022-05-20 12:33:39"/>
+        </EventFiles>
+        <AgeGroups>
+            <AgeGroup ID="MJU20" Name="männliche Jugend U20">
+                <Disciplines>
+                    <Discipline ID="X4X4" Normed="true" DisciplineName="4x400 m Staffel"/>
+                    <Discipline ID="X3X1" Normed="true" DisciplineName="3x1.000 m Staffel"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="MU23" Name="Junioren U23">
+                <Disciplines>
+                    <Discipline ID="X4X4" Normed="true" DisciplineName="4x400 m Staffel"/>
+                    <Discipline ID="X3X1" Normed="true" DisciplineName="3x1.000 m Staffel"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M" Name="Männer">
+                <Disciplines>
+                    <Discipline ID="X4X4" Normed="true" DisciplineName="4x400 m Staffel"/>
+                    <Discipline ID="X3X1" Normed="true" DisciplineName="3x1.000 m Staffel"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="WJU20" Name="weibliche Jugend U20">
+                <Disciplines>
+                    <Discipline ID="X4X4" Normed="true" DisciplineName="4x400 m Staffel"/>
+                    <Discipline ID="X3X8" Normed="true" DisciplineName="3x800 m Staffel"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="WU23" Name="Juniorinnen U23">
+                <Disciplines>
+                    <Discipline ID="X4X4" Normed="true" DisciplineName="4x400 m Staffel"/>
+                    <Discipline ID="X3X8" Normed="true" DisciplineName="3x800 m Staffel"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W" Name="Frauen">
+                <Disciplines>
+                    <Discipline ID="X4X4" Normed="true" DisciplineName="4x400 m Staffel"/>
+                    <Discipline ID="X3X8" Normed="true" DisciplineName="3x800 m Staffel"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="X" Name="Männer/Frauen gemischt">
+                <Disciplines>
+                    <Discipline ID="X4X4" Normed="true" DisciplineName="4x400 m Staffel"/>
+                </Disciplines>
+            </AgeGroup>
+        </AgeGroups>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D19000000000001" Type="STADIA" EventType="3" EventCategory="220" Name="DM U23" Created="2022-01-19 12:13:41" Updated="2022-07-25 14:20:40">
+        <DateStart>2022-07-23</DateStart>
+        <DateEnd>2022-07-24</DateEnd>
+        <CountryCode>GER</CountryCode>
+        <StateID>WE</StateID>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <StartPlace>Lohrheidestadion</StartPlace>
+            <Street>Lohrheidestraße 82</Street>
+            <ZipCode>44866</ZipCode>
+            <City>Bochum-Wattenscheid</City>
+            <GPS Lat="" Lng=""/>
+        </Comp>
+        <Drive>
+            <GPS Lat="" Lng=""/>
+        </Drive>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D19000000000001/ac0de1d2-3fae-4424-9098-c2e66d8e3cc9/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2022-01-19 12:13:41" Updated="2022-07-25 14:20:40"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/7754" Sort="-100" Created="2022-01-19 12:13:41" Updated="2022-07-25 14:20:40"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/7754" Sort="-100" Created="2022-01-19 12:13:41" Updated="2022-07-25 14:20:40"/>
+            <EventFile ID="3" Type="L" GroupID="6" Title="Vorverkauf Dauerkarte" Link="https://www.ticketmaster.de/event/deutsche-leichtathletik-meisterschaften-u23-dauerkarte-23-24-07-22-tickets/462805" Sort="1" Created="2022-05-16 10:39:02" Updated="2022-05-16 10:39:02"/>
+            <EventFile ID="4" Type="L" GroupID="6" Title="Vorverkauf Tageskarte Samstag" Link="https://www.ticketmaster.de/event/deutsche-leichtathletik-meisterschaften-u23-tageskarte-samstag-tickets/462801" Sort="2" Created="2022-05-16 10:39:24" Updated="2022-05-16 10:39:24"/>
+            <EventFile ID="5" Type="L" GroupID="6" Title="Vorverkauf Tageskarte Sonntag" Link="https://www.ticketmaster.de/event/deutsche-leichtathletik-meisterschaften-u23-tageskarte-sonntag-tickets/462803" Sort="3" Created="2022-05-16 10:39:54" Updated="2022-05-16 10:39:54"/>
+            <EventFile ID="6" Type="L" GroupID="7" Title="Livestreams" Link="https://www.leichtathletik.de/termine/top-events/u23-dm-2022-wattenscheid-live" Sort="2" Created="2022-07-05 15:23:30" Updated="2022-07-05 15:23:30"/>
+            <EventFile ID="10" Type="L" GroupID="6" Title="Anmeldung Vereins-/Physiozelte" Link="https://forms.gle/5a8caXi15h4srgiq7" Sort="4" Created="2022-07-18 18:16:13" Updated="2022-07-18 18:16:13"/>
+            <EventFile ID="12" Type="L" GroupID="9" Title="Bericht Männer Tag 1 | Robin Ganter auf dem 100-Meter-Thron, Steven Richter überrascht" Link="https://www.leichtathletik.de/news/news/detail/76865-tag-1-maenner-robin-ganter-auf-dem-100-meter-thron-steven-richter-ueberrascht" Sort="1" Created="2022-07-24 10:50:22" Updated="2022-07-24 10:50:22"/>
+            <EventFile ID="13" Type="L" GroupID="9" Title="Bericht Frauen Tag 1 | Talea Prepens holt Sprint-Titel, Samantha Borutta meldet sich zurück" Link="https://www.leichtathletik.de/news/news/detail/76864-tag-1-frauen-talea-prepens-holt-sprint-titel-samantha-borutta-meldet-sich-zurueck" Sort="2" Created="2022-07-24 10:51:10" Updated="2022-07-24 10:51:10"/>
+            <EventFile ID="14" Type="L" GroupID="9" Title="Bericht Frauen Tag 2 | Talea Prepens mit Sprint-Double, Schäfer überrascht" Link="https://www.leichtathletik.de/news/news/detail/76876-tag-2-frauen-prepens-mit-sprint-double-schaefer-ueberrascht" Sort="4" Created="2022-07-24 18:30:11" Updated="2022-07-24 18:30:11"/>
+            <EventFile ID="15" Type="L" GroupID="9" Title="Bericht Männer Tag 2 | Robin Ganter krönt sich zum Sprintkönig" Link="https://www.leichtathletik.de/news/news/detail/76875-tag-2-maenner-robin-ganter-kroent-sich-zum-sprintkoenig" Sort="3" Created="2022-07-24 18:30:42" Updated="2022-07-24 18:30:42"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D19000000000001/Ausschreibung.pdf" Title="Ausschreibung (Stand: 18.07.2022)" Sort="1" Created="2022-04-11 15:56:35" Updated="2022-07-18 18:24:20"/>
+            <EventFile ID="7" Type="F" GroupID="3" Name="22D19000000000001/Zeitplan-Stand-13.07.2022.pdf" Title="Zeitplan (Stand: 13.07.2022)" Sort="1" Created="2022-07-13 12:29:53" Updated="2022-07-13 12:29:53"/>
+            <EventFile ID="8" Type="F" GroupID="5" Name="22D19000000000001/Teilnehmerinformation-Stand-13.07.2022.pdf" Title="Teilnehmerinformation (Stand: 18.07.2022)" Sort="1" Created="2022-07-13 13:38:07" Updated="2022-07-18 18:24:40"/>
+            <EventFile ID="9" Type="F" GroupID="4" Name="22D19000000000001/Teilnehmerliste-Stand-13.07.2022.pdf" Title="Teilnehmerliste (Stand: 13.07.2022)" Sort="1" Created="2022-07-13 13:39:17" Updated="2022-07-13 13:39:17"/>
+            <EventFile ID="11" Type="F" GroupID="5" Name="22D19000000000001/Bahnverteilungsschema-Stand-09.06.2022.pdf" Title="Bahnverteilungsschema (Stand: 09.06.2022)" Sort="2" Created="2022-07-19 08:45:09" Updated="2022-07-19 08:45:09"/>
+        </EventFiles>
+        <AgeGroups>
+            <AgeGroup ID="MU23" Name="Junioren U23">
+                <Disciplines>
+                    <Discipline ID="L100" Normed="true" DisciplineName="100 m"/>
+                    <Discipline ID="L200" Normed="true" DisciplineName="200 m"/>
+                    <Discipline ID="L400" Normed="true" DisciplineName="400 m"/>
+                    <Discipline ID="L800" Normed="true" DisciplineName="800 m"/>
+                    <Discipline ID="L1K5" Normed="true" DisciplineName="1.500 m"/>
+                    <Discipline ID="L5K0" Normed="true" DisciplineName="5.000 m"/>
+                    <Discipline ID="H110_1067" Normed="true" DisciplineName="110 m Hürden 1,067 m"/>
+                    <Discipline ID="H400_0914" Normed="true" DisciplineName="400 m Hürden 0,914 m"/>
+                    <Discipline ID="H3K0_0914" Normed="true" DisciplineName="3.000 m Hindernis 0,914 m"/>
+                    <Discipline ID="X4X1" Normed="true" DisciplineName="4x100 m Staffel"/>
+                    <Discipline ID="THOC" Normed="true" DisciplineName="Hochsprung"/>
+                    <Discipline ID="TSTA" Normed="true" DisciplineName="Stabhochsprung"/>
+                    <Discipline ID="TWEI" Normed="true" DisciplineName="Weitsprung"/>
+                    <Discipline ID="TDRE" Normed="true" DisciplineName="Dreisprung"/>
+                    <Discipline ID="TKUG_7260" Normed="true" DisciplineName="Kugelstoß 7,26 kg"/>
+                    <Discipline ID="TDIS_2000" Normed="true" DisciplineName="Diskuswurf 2 kg"/>
+                    <Discipline ID="THAM_7260" Normed="true" DisciplineName="Hammerwurf 7,26 kg"/>
+                    <Discipline ID="TSPE_0800" Normed="true" DisciplineName="Speerwurf 800 g"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="WU23" Name="Juniorinnen U23">
+                <Disciplines>
+                    <Discipline ID="L100" Normed="true" DisciplineName="100 m"/>
+                    <Discipline ID="L200" Normed="true" DisciplineName="200 m"/>
+                    <Discipline ID="L400" Normed="true" DisciplineName="400 m"/>
+                    <Discipline ID="L800" Normed="true" DisciplineName="800 m"/>
+                    <Discipline ID="L1K5" Normed="true" DisciplineName="1.500 m"/>
+                    <Discipline ID="L5K0" Normed="true" DisciplineName="5.000 m"/>
+                    <Discipline ID="H100_0838" Normed="true" DisciplineName="100 m Hürden 0,838 m"/>
+                    <Discipline ID="H400_0762" Normed="true" DisciplineName="400 m Hürden 0,762 m"/>
+                    <Discipline ID="H3K0_0762" Normed="true" DisciplineName="3.000 m Hindernis 0,762 m"/>
+                    <Discipline ID="X4X1" Normed="true" DisciplineName="4x100 m Staffel"/>
+                    <Discipline ID="THOC" Normed="true" DisciplineName="Hochsprung"/>
+                    <Discipline ID="TSTA" Normed="true" DisciplineName="Stabhochsprung"/>
+                    <Discipline ID="TWEI" Normed="true" DisciplineName="Weitsprung"/>
+                    <Discipline ID="TDRE" Normed="true" DisciplineName="Dreisprung"/>
+                    <Discipline ID="TKUG_4000" Normed="true" DisciplineName="Kugelstoß 4 kg"/>
+                    <Discipline ID="TDIS_1000" Normed="true" DisciplineName="Diskuswurf 1 kg"/>
+                    <Discipline ID="THAM_4000" Normed="true" DisciplineName="Hammerwurf 4 kg"/>
+                    <Discipline ID="TSPE_0600" Normed="true" DisciplineName="Speerwurf 600 g"/>
+                </Disciplines>
+            </AgeGroup>
+        </AgeGroups>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D18000000000001" Type="STADIA" EventType="3" EventCategory="220" Name="DM Senioren Winterwurf" Created="2022-02-24 09:15:47" Updated="2022-03-26 16:32:04">
+        <DateStart>2022-03-25</DateStart>
+        <DateEnd>2022-03-26</DateEnd>
+        <CountryCode>GER</CountryCode>
+        <StateID>TH</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Erfurt</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D18000000000001/9a259e92-b163-4024-a621-35c5326c48b2/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2022-02-24 09:15:47" Updated="2022-03-26 16:32:04"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/6412" Sort="-100" Created="2022-02-24 09:15:47" Updated="2022-03-26 16:32:04"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/6412" Sort="-100" Created="2022-02-24 09:15:47" Updated="2022-03-26 16:32:04"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D18000000000001/Ausschreibung.pdf" Title="Ausschreibung (Stand: 18.03.2022)" Sort="1" Created="2022-02-24 09:20:57" Updated="2022-03-18 10:46:46"/>
+            <EventFile ID="3" Type="F" GroupID="3" Name="22D18000000000001/Zeitplan.pdf" Title="Zeitplan (Stand: 18.03.2022)" Sort="1" Created="2022-03-18 10:48:08" Updated="2022-03-18 11:17:20"/>
+            <EventFile ID="4" Type="F" GroupID="5" Name="22D18000000000001/Lageplan.jpg" Title="Lageplan" Sort="1" Created="2022-03-18 11:00:00" Updated="2022-03-18 11:00:00"/>
+            <EventFile ID="5" Type="F" GroupID="4" Name="22D18000000000001/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 21.03.2022)" Sort="1" Created="2022-03-18 13:14:28" Updated="2022-03-21 14:06:07"/>
+            <EventFile ID="6" Type="F" GroupID="5" Name="22D18000000000001/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 21.03.2022)" Sort="2" Created="2022-03-18 14:58:40" Updated="2022-03-21 15:45:30"/>
+        </EventFiles>
+        <AgeGroups/>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D15000000000002" Type="STADIA" EventType="3" EventCategory="220" Name="DM Bahngehen" Created="2022-03-01 13:33:40" Updated="2022-12-09 11:42:38">
+        <DateStart>2022-09-10</DateStart>
+        <CountryCode>GER</CountryCode>
+        <StateID>SN</StateID>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Neukieritzsch</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D15000000000002/2bdc1bb1-3b79-479f-be74-4d0ccba5f310/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2022-03-01 13:33:40" Updated="2022-12-09 11:42:38"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/8171" Sort="-100" Created="2022-03-01 13:33:40" Updated="2022-12-09 11:42:38"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/8171" Sort="-100" Created="2022-03-01 13:33:40" Updated="2022-12-09 11:42:38"/>
+            <EventFile ID="5" Type="L" GroupID="9" Title="Hagen Pohle mit starker Zeit zum Titel" Link="https://www.leichtathletik.de/news/news/detail/77115-hagen-pohle-mit-starker-zeit-zum-titel" Sort="1" Created="2022-09-10 22:18:35" Updated="2022-09-10 22:18:35"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D15000000000002/Ausschreibung.pdf" Title="Ausschreibung (Stand: 08.09.2022)" Sort="1" Created="2022-07-05 13:52:12" Updated="2022-09-08 13:37:48"/>
+            <EventFile ID="3" Type="F" GroupID="5" Name="22D15000000000002/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 02.09.2022)" Sort="1" Created="2022-09-02 13:30:40" Updated="2022-09-02 13:33:09"/>
+            <EventFile ID="4" Type="F" GroupID="4" Name="22D15000000000002/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 02.09.2022)" Sort="1" Created="2022-09-02 13:31:40" Updated="2022-09-02 13:34:07"/>
+            <EventFile ID="6" Type="F" GroupID="8" Name="22D15000000000002/offizielle-Ergebnisse.pdf" Title="offizielle Ergebnisse" Sort="1" Created="2022-12-09 11:42:38" Updated="2022-12-09 11:42:38"/>
+        </EventFiles>
+        <AgeGroups>
+            <AgeGroup ID="MU23" Name="Junioren U23">
+                <Disciplines>
+                    <Discipline ID="GB10" Normed="true" DisciplineName="10.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M" Name="Männer">
+                <Disciplines>
+                    <Discipline ID="GB10" Normed="true" DisciplineName="10.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M35" Name="Senioren M35">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M40" Name="Senioren M40">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M45" Name="Senioren M45">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M50" Name="Senioren M50">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M55" Name="Senioren M55">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M60" Name="Senioren M60">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M65" Name="Senioren M65">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M70" Name="Senioren M70">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M75" Name="Senioren M75">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M80" Name="Senioren M80">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M85" Name="Senioren M85">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M90" Name="Senioren M90">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="WU23" Name="Juniorinnen U23">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W" Name="Frauen">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W35" Name="Seniorinnen W35">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W40" Name="Seniorinnen W40">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W45" Name="Seniorinnen W45">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W50" Name="Seniorinnen W50">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W55" Name="Seniorinnen W55">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W60" Name="Seniorinnen W60">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W65" Name="Seniorinnen W65">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W70" Name="Seniorinnen W70">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W75" Name="Seniorinnen W75">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W80" Name="Seniorinnen W80">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W85" Name="Seniorinnen W85">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W90" Name="Seniorinnen W90">
+                <Disciplines>
+                    <Discipline ID="GB5" Normed="true" DisciplineName="5.000 m Bahngehen"/>
+                </Disciplines>
+            </AgeGroup>
+        </AgeGroups>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D19000000000002" Type="STADIA" EventType="3" EventCategory="220" Name="Team DM Senioren" Created="2022-04-13 13:24:04" Updated="2022-09-24 15:31:52">
+        <DateStart>2022-09-10</DateStart>
+        <CountryCode>GER</CountryCode>
+        <StateID>WE</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Lage</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D19000000000002/2a9e6e04-be70-49f1-9e78-948a00539439/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2022-04-13 13:24:04" Updated="2022-09-24 15:31:52"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/8057" Sort="-100" Created="2022-04-13 13:24:04" Updated="2022-09-24 15:31:52"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/8057" Sort="-100" Created="2022-04-13 13:24:04" Updated="2022-09-24 15:31:52"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D19000000000002/Ausschreibung.pdf" Title="Ausschreibung (Stand: 07.09.2022)" Sort="1" Created="2022-04-13 13:26:23" Updated="2022-09-09 11:39:02"/>
+            <EventFile ID="4" Type="F" GroupID="4" Name="22D19000000000002/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 31.08.2022)" Sort="1" Created="2022-08-31 15:42:20" Updated="2022-08-31 15:42:55"/>
+            <EventFile ID="5" Type="F" GroupID="5" Name="22D19000000000002/Bahnverteilungsschema-Stand-07.09.2022.pdf" Title="Bahnverteilungsschema (Stand: 07.09.2022)" Sort="1" Created="2022-09-07 14:30:29" Updated="2022-09-07 14:30:29"/>
+        </EventFiles>
+        <AgeGroups/>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D20000000000004" Type="NONSTADIA" EventType="8" EventCategory="520" Name="DM Halbmarathon" Created="2022-05-30 13:17:06" Updated="2022-10-04 11:04:25">
+        <DateStart>2022-09-25</DateStart>
+        <CountryCode>GER</CountryCode>
+        <StateID>WÜ</StateID>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Ulm</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D20000000000004/fded6b70-0dbc-42af-b7a8-6a71bf405537/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2022-05-30 13:17:06" Updated="2022-10-04 11:04:25"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/8467" Sort="-100" Created="2022-05-30 13:17:06" Updated="2022-10-04 11:04:25"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/8467" Sort="-100" Created="2022-05-30 13:17:06" Updated="2022-10-04 11:04:25"/>
+            <EventFile ID="3" Type="L" GroupID="4" Title="Teilnehmerliste" Link="https://www.abavent.de/anmeldeservice/107/2169/teilnehmerlisten?pk_campaign=btn&amp;pk_kwd=tln#2_979FFB" Sort="1" Created="2022-09-20 15:02:38" Updated="2022-09-20 15:02:38"/>
+            <EventFile ID="5" Type="L" GroupID="9" Title="Vorschau | Halbmarathon-DM: Ulm als Schauplatz der Titeljagd" Link="https://www.leichtathletik.de/news/news/detail/halbmarathon-dm-ulm-als-schauplatz-der-titeljagd" Sort="2" Created="2022-09-23 11:55:40" Updated="2022-09-23 11:55:40"/>
+            <EventFile ID="6" Type="L" GroupID="8" Title="Ergebnisse" Link="http://einsteinmarathon.de/ergebnisse-2/ergebnisse-2022/" Sort="1" Created="2022-09-23 11:56:52" Updated="2022-09-23 11:56:52"/>
+            <EventFile ID="7" Type="L" GroupID="9" Title="Bericht | Laura Hottenrott und Konstantin Wedel laufen in Ulm zum Titel" Link="https://www.leichtathletik.de/news/news/detail/77168-laura-hottenrott-und-konstantin-wedel-laufen-in-ulm-zum-titel" Sort="1" Created="2022-09-25 12:30:09" Updated="2022-09-25 12:30:09"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D20000000000004/Ausschreibung.pdf" Title="Ausschreibung (Stand: 15.09.2022)" Sort="1" Created="2022-05-30 15:55:59" Updated="2022-09-15 11:27:23"/>
+            <EventFile ID="4" Type="F" GroupID="5" Name="22D20000000000004/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 20.09.2022)" Sort="1" Created="2022-09-20 15:19:22" Updated="2022-09-21 14:49:54"/>
+            <EventFile ID="8" Type="F" GroupID="8" Name="22D20000000000004/Ergebnisliste-komplett.pdf" Title="Ergebnisliste komplett" Sort="2" Created="2022-09-27 10:40:09" Updated="2022-09-27 10:40:09"/>
+        </EventFiles>
+        <AgeGroups/>
+        <Runs>
+            <Run ID="SHAL" DisciplineName="Halbmarathon" Distance="21098" MeasurementChecked="true" MeasurementDate="2021-09-05">
+                <AgeGroups>
+                    <AgeGroup ID="MU23" Name="Junioren U23"/>
+                    <AgeGroup ID="M" Name="Männer"/>
+                    <AgeGroup ID="M35" Name="Senioren M35"/>
+                    <AgeGroup ID="M40" Name="Senioren M40"/>
+                    <AgeGroup ID="M45" Name="Senioren M45"/>
+                    <AgeGroup ID="M50" Name="Senioren M50"/>
+                    <AgeGroup ID="M55" Name="Senioren M55"/>
+                    <AgeGroup ID="M60" Name="Senioren M60"/>
+                    <AgeGroup ID="M65" Name="Senioren M65"/>
+                    <AgeGroup ID="M70" Name="Senioren M70"/>
+                    <AgeGroup ID="M75" Name="Senioren M75"/>
+                    <AgeGroup ID="M80" Name="Senioren M80"/>
+                    <AgeGroup ID="M85" Name="Senioren M85"/>
+                    <AgeGroup ID="M90" Name="Senioren M90"/>
+                    <AgeGroup ID="WU23" Name="Juniorinnen U23"/>
+                    <AgeGroup ID="W" Name="Frauen"/>
+                    <AgeGroup ID="W35" Name="Seniorinnen W35"/>
+                    <AgeGroup ID="W40" Name="Seniorinnen W40"/>
+                    <AgeGroup ID="W45" Name="Seniorinnen W45"/>
+                    <AgeGroup ID="W50" Name="Seniorinnen W50"/>
+                    <AgeGroup ID="W55" Name="Seniorinnen W55"/>
+                    <AgeGroup ID="W60" Name="Seniorinnen W60"/>
+                    <AgeGroup ID="W65" Name="Seniorinnen W65"/>
+                    <AgeGroup ID="W70" Name="Seniorinnen W70"/>
+                    <AgeGroup ID="W75" Name="Seniorinnen W75"/>
+                    <AgeGroup ID="W80" Name="Seniorinnen W80"/>
+                    <AgeGroup ID="W85" Name="Seniorinnen W85"/>
+                    <AgeGroup ID="W90" Name="Seniorinnen W90"/>
+                </AgeGroups>
+            </Run>
+        </Runs>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D02000000000001" Type="STADIA" EventType="3" EventCategory="220" Name="DM Senioren" Created="2022-05-31 13:01:05" Updated="2022-09-22 20:08:00">
+        <DateStart>2022-09-17</DateStart>
+        <DateEnd>2022-09-18</DateEnd>
+        <CountryCode>GER</CountryCode>
+        <StateID>BY</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>dmsenioren@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Erding</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D02000000000001/05c6d9a5-8337-4c3c-be58-a1ea30356fdc/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2022-05-31 13:01:05" Updated="2022-09-22 20:08:00"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/8177" Sort="-100" Created="2022-05-31 13:01:05" Updated="2022-09-22 20:08:00"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/8177" Sort="-100" Created="2022-05-31 13:01:05" Updated="2022-09-22 20:08:00"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D02000000000001/Ausschreibung.pdf" Title="Ausschreibung (Stand:09.09.2022)" Sort="1" Created="2022-06-15 14:05:48" Updated="2022-09-09 17:21:23"/>
+            <EventFile ID="3" Type="F" GroupID="3" Name="22D02000000000001/Zeitplan.pdf" Title="Zeitplan (Stand: 09.09.2022)" Sort="1" Created="2022-06-15 14:06:19" Updated="2022-09-09 17:21:40"/>
+            <EventFile ID="4" Type="F" GroupID="4" Name="22D02000000000001/Teilnehmerliste-Stand-09.09.2022.pdf" Title="Teilnehmerliste (Stand: 09.09.2022)" Sort="1" Created="2022-09-09 17:22:08" Updated="2022-09-09 17:22:08"/>
+            <EventFile ID="5" Type="F" GroupID="5" Name="22D02000000000001/Teilnehmerinfomation-Stand-09.09.2022.pdf" Title="Teilnehmerinfomation (Stand: 09.09.2022)" Sort="1" Created="2022-09-09 17:22:37" Updated="2022-09-09 17:22:37"/>
+            <EventFile ID="6" Type="F" GroupID="5" Name="22D02000000000001/Lageplan-Stand-09.09.2022.pdf" Title="Lageplan (Stand: 09.09.2022)" Sort="2" Created="2022-09-09 17:23:06" Updated="2022-09-09 17:23:06"/>
+        </EventFiles>
+        <AgeGroups/>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D16000000000001" Type="STADIA" EventType="3" EventCategory="220" Name="DM Mehrkampf U18/U16" Created="2022-06-30 08:57:03" Updated="2022-08-28 18:52:12">
+        <DateStart>2022-08-26</DateStart>
+        <DateEnd>2022-08-28</DateEnd>
+        <CountryCode>GER</CountryCode>
+        <StateID>ST</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <StartPlace>Leichtathletikstadion</StartPlace>
+            <Street>Robert-Koch-Straße</Street>
+            <ZipCode>06110</ZipCode>
+            <City>Halle/Saale</City>
+            <GPS Lat="" Lng=""/>
+        </Comp>
+        <Drive>
+            <GPS Lat="" Lng=""/>
+        </Drive>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D16000000000001/1478ef31-d74c-4b74-999f-c42fe354639c/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2022-06-30 08:57:03" Updated="2022-08-28 18:52:12"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/8006" Sort="-100" Created="2022-06-30 08:57:03" Updated="2022-08-28 18:52:12"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/8006" Sort="-100" Created="2022-06-30 08:57:03" Updated="2022-08-28 18:52:12"/>
+            <EventFile ID="7" Type="L" GroupID="9" Title="Vorschau | Kampf um DM-Titel bei Mehrkampf-Doppelschlag in Halle und Bernhausen" Link="https://www.leichtathletik.de/news/news/detail/77051-kampf-um-dm-titel-bei-mehrkampf-doppelschlag-in-halle-und-bernhausen" Sort="5" Created="2022-08-26 09:45:00" Updated="2022-08-26 09:45:00"/>
+            <EventFile ID="8" Type="L" GroupID="9" Title="Amadeus Gräber mit toller Bestleistung Deutscher U18-Meister" Link="https://www.leichtathletik.de/news/news/detail/77065-amadeus-graeber-mit-toller-bestleistung-deutscher-u18-meister" Sort="1" Created="2022-08-27 22:01:03" Updated="2022-08-27 22:01:03"/>
+            <EventFile ID="9" Type="L" GroupID="9" Title="Pia Meßing steigert sich auf 5.810 Punkte, USC-Talente hamstern Medaillen" Link="https://www.leichtathletik.de/news/news/detail/77069-pia-messing-steigert-sich-auf-5810-punkte-usc-talente-als-medaillenhamster" Sort="2" Created="2022-08-28 18:52:11" Updated="2022-08-28 18:52:11"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D16000000000001/Ausschreibung.pdf" Title="Ausschreibung (Stand: 19.08.2022)" Sort="1" Created="2022-07-08 13:23:55" Updated="2022-08-19 10:19:57"/>
+            <EventFile ID="3" Type="F" GroupID="5" Name="22D16000000000001/Information-DM-Mehrkampf-U16-U18.pdf" Title="Information DM Mehrkampf U16, U18" Sort="1" Created="2022-08-02 11:19:26" Updated="2022-08-02 11:19:26"/>
+            <EventFile ID="5" Type="F" GroupID="4" Name="22D16000000000001/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 19.08.2022)" Sort="1" Created="2022-08-19 09:52:14" Updated="2022-08-19 09:53:15"/>
+            <EventFile ID="6" Type="F" GroupID="5" Name="22D16000000000001/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 19.08.2022)" Sort="2" Created="2022-08-19 15:23:37" Updated="2022-08-24 12:38:40"/>
+        </EventFiles>
+        <AgeGroups>
+            <AgeGroup ID="M14" Name="Jugend M14">
+                <Disciplines>
+                    <Discipline ID="M9K" Normed="true" DisciplineName="9-Kampf"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M15" Name="Jugend M15">
+                <Disciplines>
+                    <Discipline ID="M9K" Normed="true" DisciplineName="9-Kampf"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="MJU18" Name="männliche Jugend U18">
+                <Disciplines>
+                    <Discipline ID="M10K" Normed="true" DisciplineName="10-Kampf"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W14" Name="Jugend W14">
+                <Disciplines>
+                    <Discipline ID="M7K" Normed="true" DisciplineName="7-Kampf"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W15" Name="Jugend W15">
+                <Disciplines>
+                    <Discipline ID="M7K" Normed="true" DisciplineName="7-Kampf"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="WJU18" Name="weibliche Jugend U18">
+                <Disciplines>
+                    <Discipline ID="M7K" Normed="true" DisciplineName="7-Kampf"/>
+                </Disciplines>
+            </AgeGroup>
+        </AgeGroups>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D20000000000005" Type="STADIA" EventType="3" EventCategory="220" Name="DM Mehrkampf M/W, U23, U20" Created="2022-06-30 09:05:29" Updated="2022-08-28 20:34:34">
+        <DateStart>2022-08-27</DateStart>
+        <DateEnd>2022-08-28</DateEnd>
+        <CountryCode>GER</CountryCode>
+        <StateID>WÜ</StateID>
+        <FirstTime>false</FirstTime>
+        <ApplyTaxes>false</ApplyTaxes>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <StartPlace>Fleinsbachstadion</StartPlace>
+            <Street>Dombasler Straße 8</Street>
+            <ZipCode>70794</ZipCode>
+            <City>Bernhausen-Filderstadt</City>
+            <GPS Lat="" Lng=""/>
+        </Comp>
+        <Drive>
+            <GPS Lat="" Lng=""/>
+        </Drive>
+        <EventFiles>
+            <EventFile ID="-50" Type="F" GroupID="8" Name="22D20000000000005/5cc44794-f46f-40b9-97f6-2821f894869e/Ergebnisliste.pdf" Title="Ergebnisliste (pdf)" Sort="-50" Created="2022-06-30 09:05:29" Updated="2022-08-28 20:34:34"/>
+            <EventFile ID="-100" Type="L" GroupID="7" Title="Live-Ergebnisse" Link="https://ergebnisse.leichtathletik.de/Competitions/Details/8013" Sort="-100" Created="2022-06-30 09:05:29" Updated="2022-08-28 20:34:34"/>
+            <EventFile ID="-100" Type="L" GroupID="8" Title="Ergebnisübersicht" Link="https://ergebnisse.leichtathletik.de/Competitions/Resultoverview/8013" Sort="-100" Created="2022-06-30 09:05:29" Updated="2022-08-28 20:34:34"/>
+            <EventFile ID="6" Type="L" GroupID="9" Title="Vorschau | Kampf um DM-Titel bei Mehrkampf-Doppelschlag in Halle und Bernhausen" Link="https://www.leichtathletik.de/news/news/detail/77051-kampf-um-dm-titel-bei-mehrkampf-doppelschlag-in-halle-und-bernhausen" Sort="5" Created="2022-08-26 09:45:23" Updated="2022-08-26 09:45:23"/>
+            <EventFile ID="7" Type="L" GroupID="9" Title="Aktive/U23 Tag 1 | Nico Beckers und Manuel Eitel überzeugen, enges Siebenkampf-Duell" Link="https://www.leichtathletik.de/news/news/detail/77064-aktiveu23-tag-1-nico-beckers-und-manuel-eitel-ueberzeugen-enges-siebenkampf-duell" Sort="3" Created="2022-08-27 21:59:10" Updated="2022-08-27 21:59:10"/>
+            <EventFile ID="8" Type="L" GroupID="9" Title="U20 Tag 1 | Lia Flotow und Fred Isaac Fleurisson übernachten auf dem Spitzenrang" Link="https://www.leichtathletik.de/news/news/detail/77063-u20-tag-1-lia-flotow-und-fred-isaac-fleurisson-uebernachten-auf-dem-spitzenrang" Sort="4" Created="2022-08-27 21:59:39" Updated="2022-08-27 21:59:39"/>
+            <EventFile ID="9" Type="L" GroupID="9" Title="Aktive/U23 Tag 2 | Eitels großer Wurf beim Comeback, Rösing siegt im Siebenkampf-Krimi" Link="https://www.leichtathletik.de/news/news/detail/77071-aktiveu23-tag-2-bestleistung-fuer-eitel-beim-comeback-roesing-siegt-im-siebenkampf-krimi" Sort="1" Created="2022-08-28 20:34:03" Updated="2022-08-28 20:34:03"/>
+            <EventFile ID="10" Type="L" GroupID="9" Title="U20 Tag 2 | Anna Neubert und Roman Jocher triumphieren im Fleinsbachstadion" Link="https://www.leichtathletik.de/news/news/detail/77070-u20-tag-2-anna-neubert-und-roman-jocher-triumphieren-im-fleinsbachstadion" Sort="2" Created="2022-08-28 20:34:33" Updated="2022-08-28 20:34:33"/>
+            <EventFile ID="2" Type="F" GroupID="1" Name="22D20000000000005/Ausschreibung-Stand-08.07.2022.pdf" Title="Ausschreibung (Stand: 25.08.2022)" Sort="1" Created="2022-07-08 14:44:55" Updated="2022-08-25 09:50:15"/>
+            <EventFile ID="3" Type="F" GroupID="4" Name="22D20000000000005/Teilnehmerliste-Stand-19.08.2022.pdf" Title="Teilnehmerliste (Stand: 23.08.2022)" Sort="1" Created="2022-08-19 09:32:09" Updated="2022-08-23 12:01:27"/>
+            <EventFile ID="4" Type="F" GroupID="5" Name="22D20000000000005/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 19.08.2022)" Sort="1" Created="2022-08-22 11:20:09" Updated="2022-08-22 11:21:27"/>
+            <EventFile ID="5" Type="F" GroupID="3" Name="22D20000000000005/bersichtszeitplan.pdf" Title="Übersichtszeitplan" Sort="1" Created="2022-08-25 09:51:17" Updated="2022-08-25 09:51:17"/>
+        </EventFiles>
+        <AgeGroups>
+            <AgeGroup ID="MJU20" Name="männliche Jugend U20">
+                <Disciplines>
+                    <Discipline ID="M10K" Normed="true" DisciplineName="10-Kampf"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="MU23" Name="Junioren U23">
+                <Disciplines>
+                    <Discipline ID="M10K" Normed="true" DisciplineName="10-Kampf"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="M" Name="Männer">
+                <Disciplines>
+                    <Discipline ID="M10K" Normed="true" DisciplineName="10-Kampf"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="WJU20" Name="weibliche Jugend U20">
+                <Disciplines>
+                    <Discipline ID="M7K" Normed="true" DisciplineName="7-Kampf"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="WU23" Name="Juniorinnen U23">
+                <Disciplines>
+                    <Discipline ID="M7K" Normed="true" DisciplineName="7-Kampf"/>
+                </Disciplines>
+            </AgeGroup>
+            <AgeGroup ID="W" Name="Frauen">
+                <Disciplines>
+                    <Discipline ID="M7K" Normed="true" DisciplineName="7-Kampf"/>
+                </Disciplines>
+            </AgeGroup>
+        </AgeGroups>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+    <Event ID="22D02000000000002" Type="NONSTADIA" EventType="10" EventCategory="520" Name="DM Berglauf" Created="2022-08-02 12:19:07" Updated="2022-10-04 09:33:24">
+        <DateStart>2022-10-02</DateStart>
+        <CountryCode>GER</CountryCode>
+        <StateID>BY</StateID>
+        <Organizer>
+            <FirstName>Deutscher Leichtathletik-Verband</FirstName>
+            <Street>Alsfelder Straße 27</Street>
+            <ZipCode>64289</ZipCode>
+            <City>Darmstadt</City>
+            <Email>wettkampforganisation@leichtathletik.de</Email>
+            <Web>https://www.leichtathletik.de</Web>
+        </Organizer>
+        <Comp>
+            <City>Schönau am Königssee</City>
+        </Comp>
+        <Drive/>
+        <EventFiles>
+            <EventFile ID="4" Type="L" GroupID="7" Title="Ergebnisse" Link="http://my.raceresult.com/214480/" Sort="1" Created="2022-09-22 14:57:18" Updated="2022-09-22 14:57:18"/>
+            <EventFile ID="9" Type="L" GroupID="9" Title="Vorschau | Berglauf-Asse kämpfen auf anspruchsvollem Terrain am Königssee um Meisterehren" Link="https://www.leichtathletik.de/news/news/detail/77182-berglauf-asse-kaempfen-auf-anspruchsvollem-terrain-am-koenigssee-um-meisterehren" Sort="5" Created="2022-09-30 13:55:46" Updated="2022-09-30 13:55:46"/>
+            <EventFile ID="10" Type="L" GroupID="9" Title="Bericht | Julius Ott überrascht die Favoriten, Laura Hottenrott verteidigt ihren Titel" Link="https://www.leichtathletik.de/news/news/detail/77191-julius-ott-ueberrascht-die-favoriten-laura-hottenrott-verteidigt-ihren-titel" Sort="1" Created="2022-10-02 13:12:22" Updated="2022-10-02 13:12:22"/>
+            <EventFile ID="2" Type="F" GroupID="5" Name="22D02000000000002/Streckenprofil.pdf" Title="Streckenprofil" Sort="3" Created="2022-08-19 13:35:23" Updated="2022-09-23 09:27:02"/>
+            <EventFile ID="3" Type="F" GroupID="1" Name="22D02000000000002/Ausschreibung.pdf" Title="Ausschreibung (07.09.2022)" Sort="1" Created="2022-08-19 13:45:25" Updated="2022-09-07 15:07:18"/>
+            <EventFile ID="5" Type="F" GroupID="5" Name="22D02000000000002/Teilnehmerinformation.pdf" Title="Teilnehmerinformation (Stand: 23.09.2022)" Sort="1" Created="2022-09-23 09:27:30" Updated="2022-09-23 09:30:20"/>
+            <EventFile ID="6" Type="F" GroupID="5" Name="22D02000000000002/Allgemeine-Hinweise-des-Ausrichters.pdf" Title="Allgemeine Hinweise des Ausrichters" Sort="2" Created="2022-09-23 09:28:10" Updated="2022-09-23 09:28:10"/>
+            <EventFile ID="7" Type="F" GroupID="5" Name="22D02000000000002/Anfahrtsskizze-Duschen.pdf" Title="Anfahrtsskizze Duschen" Sort="4" Created="2022-09-23 09:29:05" Updated="2022-09-23 09:29:05"/>
+            <EventFile ID="8" Type="F" GroupID="4" Name="22D02000000000002/Teilnehmerliste.pdf" Title="Teilnehmerliste (Stand: 22.09.2022)" Sort="1" Created="2022-09-23 09:29:34" Updated="2022-09-23 09:29:56"/>
+            <EventFile ID="11" Type="F" GroupID="8" Name="22D02000000000002/Ergebnisliste-komplett.pdf" Title="Ergebnisliste komplett" Sort="1" Created="2022-10-04 09:33:23" Updated="2022-10-04 09:33:23"/>
+        </EventFiles>
+        <AgeGroups/>
+        <Runs>
+            <Run ID="SBRG" DisciplineName="8,4 km Berglauf" Distance="8400" MeasurementChecked="false">
+                <AgeGroups>
+                    <AgeGroup ID="MJU20" Name="männliche Jugend U20"/>
+                    <AgeGroup ID="M" Name="Männer"/>
+                    <AgeGroup ID="M30" Name="Senioren M30"/>
+                    <AgeGroup ID="M35" Name="Senioren M35"/>
+                    <AgeGroup ID="M40" Name="Senioren M40"/>
+                    <AgeGroup ID="M45" Name="Senioren M45"/>
+                    <AgeGroup ID="M50" Name="Senioren M50"/>
+                    <AgeGroup ID="M55" Name="Senioren M55"/>
+                    <AgeGroup ID="M60" Name="Senioren M60"/>
+                    <AgeGroup ID="M65" Name="Senioren M65"/>
+                    <AgeGroup ID="M70" Name="Senioren M70"/>
+                    <AgeGroup ID="M75" Name="Senioren M75"/>
+                    <AgeGroup ID="WJU20" Name="weibliche Jugend U20"/>
+                    <AgeGroup ID="W" Name="Frauen"/>
+                    <AgeGroup ID="W30" Name="Seniorinnen W30"/>
+                    <AgeGroup ID="W35" Name="Seniorinnen W35"/>
+                    <AgeGroup ID="W40" Name="Seniorinnen W40"/>
+                    <AgeGroup ID="W45" Name="Seniorinnen W45"/>
+                    <AgeGroup ID="W50" Name="Seniorinnen W50"/>
+                    <AgeGroup ID="W55" Name="Seniorinnen W55"/>
+                    <AgeGroup ID="W60" Name="Seniorinnen W60"/>
+                    <AgeGroup ID="W65" Name="Seniorinnen W65"/>
+                    <AgeGroup ID="W70" Name="Seniorinnen W70"/>
+                    <AgeGroup ID="W75" Name="Seniorinnen W75"/>
+                </AgeGroups>
+            </Run>
+        </Runs>
+        <Approval State="NONE" Nation="APPROVED" Combined="APPROVED"/>
+        <EventCancelled>false</EventCancelled>
+        <WorldRankingMeeting State="false"/>
+        <TopEvent>1</TopEvent>
+    </Event>
+</Events>

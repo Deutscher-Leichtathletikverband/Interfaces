@@ -1,14 +1,14 @@
 <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <!-- Version X vom XX.XX.2021 erstellt von Udo Laub - encoding UTF-8 -->
+    <!-- 01.08.2023 erstellt von Udo Laub - encoding UTF-8 -->
     <xs:simpleType name="EventID">
         <xs:restriction base="xs:string">
-            <xs:pattern value="\d{2}[LVDBKIO][0-9X]{11,14}" />
+            <xs:pattern value="\d{2}[LVDBKIO][0-9X]{14}" />
         </xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="FormatVersion">
         <xs:restriction base="xs:string">
-            <xs:pattern value="format2023compact" />
+            <xs:pattern value="format2023list" />
         </xs:restriction>
     </xs:simpleType>
 
@@ -102,9 +102,9 @@
                         <xs:attribute type="SQLDate" name="DateEnd"/>
                         <xs:attribute type="StateIDEnum" name="StateID"/>
                         <xs:attribute type="String200Data" name="City"/>
-                        <xs:attribute type="ApprovalType" name="StateApproval" use="required"/>
-                        <xs:attribute type="ApprovalType" name="NationApproval" use="required"/>
+                        <xs:attribute type="ApprovalType" name="Approval" use="required"/>
                         <xs:attribute type="xs:boolean" name="EventCancelled" use="required"/>
+                        <xs:attribute type="xs:boolean" name="WorldRankingMeeting" use="required"/>
                         <xs:attribute type="SQLDateTime" name="Created" use="required"/>
                         <xs:attribute type="SQLDateTime" name="Updated" use="required"/>
                     </xs:complexType>
