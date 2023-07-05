@@ -59,7 +59,7 @@ Version 3 der Veranstaltungsschnittstelle (veraltet/wird nicht mehr unterstützt
 
 ## Vermessene Strecken
 - Liste der vermessenen Strecken: [Endpunkt (JSON)](https://dateien.leichtathletik.de/tracks) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/tracks/get_tracks)
-- Vermessene Strecke mittels id: [Endpunkt (JSON)](https://dateien.leichtathletik.de/tracks/{id}) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/tracks/get_tracks__id_) 
+- Vermessene Strecke mittels id: https://dateien.leichtathletik.de/tracks/{id} | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/tracks/get_tracks__id_) 
 
 ## Schnittstelle zum Austausch der Ergebnislinks
 Schnittstelle zum Austausch der Ergebnislinks (Live-Ergebnisse und Endergebnisse) zwischen der DED und DVD:
