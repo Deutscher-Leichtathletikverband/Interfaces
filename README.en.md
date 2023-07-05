@@ -58,8 +58,8 @@ Version 3 of the Events API (deprecated/no longer supported):
 - [Documentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/docs/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.de.en.docx)
 
 ## Officially measured running routes
-- List of measured running routes: Endpunkt (JSON) | Documentation
-- Running route by id: https://dateien.leichtathletik.de/tracks/{id} | Documentation
+- List of measured running routes: [Endpunkt (JSON)](https://dateien.leichtathletik.de/tracks) | [Documentation](https://dateien.leichtathletik.de/meta/openapidoc#/tracks/get_tracks)
+- Running route by id: https://dateien.leichtathletik.de/tracks/{id} | | [Documentation](https://dateien.leichtathletik.de/meta/openapidoc#/tracks/get_tracks__id_) 
 
 ## Ded Link API
 API to exchange result links between DED and DVD:
