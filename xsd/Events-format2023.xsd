@@ -76,10 +76,10 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="String300Data">
+    <xs:simpleType name="String2000Data">
         <xs:restriction base="xs:string">
             <xs:minLength value="0" />
-            <xs:maxLength value="300" />
+            <xs:maxLength value="2000" />
         </xs:restriction>
     </xs:simpleType>
 
@@ -148,15 +148,15 @@
     </xs:complexType>
 
     <xs:complexType name="WorldRankingMeetingType">
-        <xs:attribute type="xs:boolean" name="state" use="required"/>
-        <xs:attribute type="xs:boolean" name="nation"/>
-        <xs:attribute type="xs:boolean" name="combined"/>
+        <xs:attribute type="xs:boolean" name="State" use="required"/>
+        <xs:attribute type="xs:boolean" name="Nation"/>
+        <xs:attribute type="xs:boolean" name="Combined"/>
     </xs:complexType>
 
     <xs:complexType name="ApprovalElement">
-        <xs:attribute type="ApprovalType" name="state" use="required"/>
-        <xs:attribute type="ApprovalType" name="nation"/>
-        <xs:attribute type="ApprovalType" name="combined"/>
+        <xs:attribute type="ApprovalType" name="State" use="required"/>
+        <xs:attribute type="ApprovalType" name="Nation"/>
+        <xs:attribute type="ApprovalType" name="Combined"/>
     </xs:complexType>
 
     <xs:simpleType name="MasterID">
@@ -208,7 +208,7 @@
                             <xs:element type="SQLDate"           name="DateEnd" minOccurs="0"/>
                             <xs:element type="TimeHHMM"          name="Time" minOccurs="0"/>
                             <xs:element type="SQLDateTime"       name="ClosingDate" minOccurs="0"/>
-                            <xs:element type="String300Data"     name="SignOnUrl" minOccurs="0"/>
+                            <xs:element type="String2000Data"     name="SignOnUrl" minOccurs="0"/>
                             <xs:element type="CountryCode"       name="CountryCode"/>
                             <xs:element type="StateIDEnum"       name="StateID" minOccurs="0"/>
                             <xs:element type="OrganizationEntity" name="County" minOccurs="0"/>
@@ -233,7 +233,7 @@
                                         <xs:element type="String20Data"       name="Mobile" minOccurs="0" />
                                         <xs:element type="String20Data"       name="Fax" minOccurs="0" />
                                         <xs:element type="EmailAddress"       name="Email" minOccurs="0" />
-                                        <xs:element type="String300Data"          name="Web" minOccurs="0" />
+                                        <xs:element type="String2000Data"          name="Web" minOccurs="0" />
                                         <xs:element type="xs:string"          name="AdditionalInformation" minOccurs="0" />
                                     </xs:sequence>
                                     <xs:attribute type="xs:boolean" name="HidePersonalData"/>
@@ -273,7 +273,7 @@
                                                 <xs:attribute type="xs:integer"        name="GroupID" use="required" />
                                                 <xs:attribute type="String200Data"     name="Name"/>
                                                 <xs:attribute type="String200Data"     name="Title" use="required" />
-                                                <xs:attribute type="String300Data"        name="Link"/>
+                                                <xs:attribute type="String2000Data"        name="Link"/>
                                                 <xs:attribute type="StringLong"        name="Remark"/>
                                                 <xs:attribute type="xs:integer"        name="Sort"/>
                                                 <xs:attribute type="SQLDateTime"       name="Created" use="required" />
