@@ -46,16 +46,15 @@ Schnittstellendokumentation und Schemas für den Austausch von Veranstaltungen.
 ## Veranstaltungsschnittstelle
 Die Standardschnittstelle zum Lesen und Schreiben von Veranstaltungen von bzw. in die DLV Veranstaltungsdatenbank (DVD).
 
+Aktuelle Veranstaltungsschnittstelle (Format 2023):
+- XML-Schema Definition: [Format 2021](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2023.xsd) | [Format 2023 list](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2023list.xsd)
+- [Beispieldateien](https://github.com/Deutscher-Leichtathletikverband/Interfaces/tree/main/samples/event-format-2023)
+- [Übersicht Änderungen](https://github.com/Deutscher-Leichtathletikverband/Interfaces/pull/7)
+- Dokumentation (English) [update folgt]
+
 Aktuelle Veranstaltungsschnittstelle (Format 2021):
 - XML-Schema Definition: [Format 2021](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2021.xsd) | [Format 2021 compact](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2021compact.xsd)
 - [Übersicht Änderungen gegenüber Version 3](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/Format2021-updates.md)
-- Dokumentation (Deutsch) [update folgt]
-- Dokumentation (English) [update folgt]
-
-Version 3 der Veranstaltungsschnittstelle (veraltet/wird nicht mehr unterstützt):
-- [XML-Schema Definition](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/xsd/Events%20v3.xsd)
-- [Dokumentation (Deutsch)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/docs/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.docx)
-- [Dokumentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/docs/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.de.en.docx)
 
 ## Vermessene Strecken
 - Liste der vermessenen Strecken: [Endpunkt (JSON)](https://dateien.leichtathletik.de/tracks) | [Dokumentation](https://dateien.leichtathletik.de/meta/openapidoc#/tracks/get_tracks)
