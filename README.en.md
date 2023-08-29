@@ -46,16 +46,15 @@ API Documentation and Schemas in order to exchange events.
 ## Events API
 The main API to read and submit events from and to the German Athletics Events Database (DVD).
 
-Current Events API (format 2021):
+Current Events API (format 2023):
+- XML-Schema definition: [Format 2023](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2023.xsd) | [Format 2023 list](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2023list.xsd)
+- [Overview changes](https://github.com/Deutscher-Leichtathletikverband/Interfaces/pull/7)
+- [sample files](https://github.com/Deutscher-Leichtathletikverband/Interfaces/tree/main/samples/event-format-2023)
+- Dokumentation (English) [update will follow]
+
+Events API (format 2021):
 - XML-Schema Definition: [Format 2021](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2021.xsd) | [Format 2021 compact](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2021compact.xsd)
 - [Overview changes](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/Format2021-updates.md)
-- Dokumentation (Deutsch) [update folgt]
-- Dokumentation (English) [update folgt]
-
-Version 3 of the Events API (deprecated/no longer supported):
-- [XML-Schema Definition](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/xsd/Events%20v3.xsd)
-- [Documentation (German)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/docs/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.docx)
-- [Documentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/docs/Schnittstellenbeschreibung%20DLV%20Veranstaltungen%20Version%203.de.en.docx)
 
 ## Officially measured running routes
 - List of measured running routes: [Endpunkt (JSON)](https://dateien.leichtathletik.de/tracks) | [Documentation](https://dateien.leichtathletik.de/meta/openapidoc#/tracks/get_tracks)
