@@ -1,4 +1,4 @@
-y<# DLV Stammdatenbank (DSD)
+# DLV Stammdatenbank (DSD)
 Schnittstellendokumentation und Schemas der DLV Stammdatenbank (DSD).
 
 Alle Schnittstellen und deren Dokumentation bzgl. der DLV Stammdaten (Athleten/Athletinnen, Vereine, StG, LG, Kreise, Bezirke, Landesverbände)
