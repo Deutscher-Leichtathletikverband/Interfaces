@@ -50,6 +50,7 @@ Aktuelle Veranstaltungsschnittstelle (Format 2023):
 - XML-Schema Definition: [Format 2023](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2023.xsd) | [Format 2023 list](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2023list.xsd)
 - [Beispieldateien](https://github.com/Deutscher-Leichtathletikverband/Interfaces/tree/main/samples/event-format-2023)
 - [Übersicht Änderungen](https://github.com/Deutscher-Leichtathletikverband/Interfaces/pull/7)
+- [Dokumentation (Englisch)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/DVD-Documentation-Update-2023.docx)
 - [Dokumentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/DVD-Documentation-Update-2023.docx)
 
 Aktuelle Veranstaltungsschnittstelle (Format 2021):
