@@ -47,7 +47,7 @@ Schnittstellendokumentation und Schemas für den Austausch von Veranstaltungen.
 Die Standardschnittstelle zum Lesen und Schreiben von Veranstaltungen von bzw. in die DLV Veranstaltungsdatenbank (DVD).
 
 Aktuelle Veranstaltungsschnittstelle (Format 2023):
-- XML-Schema Definition: [Format 2021](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2023.xsd) | [Format 2023 list](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2023list.xsd)
+- XML-Schema Definition: [Format 2023](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2023.xsd) | [Format 2023 list](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/xsd/Events-format2023list.xsd)
 - [Beispieldateien](https://github.com/Deutscher-Leichtathletikverband/Interfaces/tree/main/samples/event-format-2023)
 - [Übersicht Änderungen](https://github.com/Deutscher-Leichtathletikverband/Interfaces/pull/7)
 - Dokumentation (English) [update folgt]
