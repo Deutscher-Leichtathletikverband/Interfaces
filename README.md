@@ -38,7 +38,7 @@ Das Meldungen-Datenformat dient zum Austausch von Meldungen zwischen Meldeprogra
 - [Änderungsübersicht](https://github.com/Deutscher-Leichtathletikverband/Interfaces/issues/4)
 
 ## Schnittstelle Personendaten lesen/ändern und Startrecht beantragen (DLV TrueAthletes App) 
-- https://testapi.it4sport.de/api/documentation/athletes
+- [https://testapi.it4sport.de/api/documentation/athletes](https://api.it4sport.de/api/documentation/athletes#/athletes/searchAthletes)
 
 # DLV Veranstaltungsdatenbank (DVD)
 Schnittstellendokumentation und Schemas für den Austausch von Veranstaltungen.
