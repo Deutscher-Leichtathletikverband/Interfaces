@@ -38,7 +38,7 @@ The registration dataformat is used to transport event registrations.
 - [Change Overview](https://github.com/Deutscher-Leichtathletikverband/Interfaces/issues/4)
 
 ## API to change personal data and apply for a license (DLV TrueAthletes App) 
-- https://testapi.it4sport.de/api/documentation/athletes
+- [https://testapi.it4sport.de/api/documentation/athletes](https://api.it4sport.de/api/documentation/athletes#/athletes/searchAthletes)
 
 # German Athletics Events Database (DVD)
 API Documentation and Schemas in order to exchange events.
