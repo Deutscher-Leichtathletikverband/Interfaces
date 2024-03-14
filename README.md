@@ -7,7 +7,7 @@ Alle Schnittstellen und deren Dokumentation bzgl. der DLV Stammdaten (Athleten/A
 - [XML-Schema Definition (Athleten/Athletinnen)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Athletes.xsd)
 - [XML-Schema Definition (Vereine)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Clubs.xsd)
 - [Dokumentation (Deutsch)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Stammdaten.docx)
-- [Dokumentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Stammdaten.de.en.docx)
+- [Dokumentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/Schnittstellenbeschreibung%20DLV%20Stammdaten.de.en.pdf)
 
 ## Codelisten
 
