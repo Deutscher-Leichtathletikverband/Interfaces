@@ -7,7 +7,7 @@ All interfaces and definitions regarding Master Data (Athletes, Clubs, StG, LG, 
 - [XML-Schema Definition (Athletes)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Athletes.xsd)
 - [XML-Schema Definition (Clubs)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Clubs.xsd)
 - [Documentation (German)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Stammdaten.docx)
-- [Documentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/master/Schnittstellenbeschreibung%20DLV%20Stammdaten.de.en.docx)
+- [Documentation (English)](https://github.com/Deutscher-Leichtathletikverband/Interfaces/blob/main/Schnittstellenbeschreibung%20DLV%20Stammdaten.de.en.pdf)
 
 ## Code lists
 
